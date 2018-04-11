@@ -1,123 +1,77 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
-  <head>
+    <head>
       <title>TaskMaster </title>
-
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
-      <meta name="author" content="">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
       <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
       <link href="./css/init.css" rel="stylesheet">
-  </head>
+      <link href="css/imageSlider.css" rel="stylesheet">
+      <link href="css/form.css" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
 
   <body>
-    <div class="main-content navbar-fixed">
-      <nav class="black">
-          <div class="nav-wrapper container">
-              <a href="#" class="brand-logo">TASKMASTER</a>
-              <ul id="nav-mobile" class="right hide-on-med-and-down section table-of-contents">
-                  <li><a href="index.html">HOME</a></li>
-                  <li><a href="#intro">INTRODUCTION</a></li>
-                  <li><a href="#why">WHY TASKMASTER?</a></li>
-              </ul>
-          </div>
-      </nav>
-    </div>
-    <div class="slider slider-adjustment">
-        <ul class="slides">
-            <li>
-                <div class="carousel-item">
-                <img src="./img/bgImg1.jpg" class="responsive-img">
-                <div class="caption center-align">
-                    <h3>A one stop solution to keep your goals on track.</h3>
-                    <h5 class=" pacifico light grey-text text-lighten-3">Created by Team TaskMaster.</h5>
-                    <div class="section"></div>
-                    <a href="#!" class="btn btn-large waves-effect waves-light card-panel hoverable">GET STARTED</a>
-                </div>
+<div class="main-content">
+  <nav class="black">
+      <div class="nav-wrapper container">
+          <a href="#" class="brand-logo">TASKMASTER</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="sass.html">HOME</a></li>
+              <li><a href="badges.html">INTRODUCTION</a></li>
+              <li><a href="collapsible.html">WHY TASKMASTER?</a></li>
+          </ul>
+      </div>
+  </nav>
+</div>
 
-                </div>
-            </li>
-            <li>
-                <div class="carousel-item">
-                    <img src="./img/bgImg2.jpg">
-                    <div class="caption center-align">
-                        <h3>A one stop solution to keep your goals on track.
-                        </h3>
-                        <h5 class=" pacifico light grey-text text-lighten-3">Created by Team TaskMaster.</h5>
-                        <div class="section"></div>
-                        <a href="#!" class="btn btn-large waves-effect waves-light hoverable">GET STARTED</a>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="carousel-item">
-                    <img src="./img/bgImg3.jpg">
-                    <div class="caption center-align">
-                        <h3>A one stop solution to keep your goals on track.
-                        </h3>
-                        <h5 class=" pacifico light grey-text text-lighten-3">Created by Team TaskMaster.</h5>
-                        <div class="section"></div>
-                        <a href="#!" class="btn btn-large waves-effect waves-light hoverable">GET STARTED</a>
-                    </div>
-                </div>
-            </li>
-        </ul>
+<div id="imageslider">
+    <div class="mtext">
+        <p>A One Stop Solution to Keep your goals on track</p>
+        <p>Created By Team Task Master</p>
+        <img src="img/arrow.svg" id="arrowImg">
     </div>
-    <section id="intro" class="center-align card-panel hoverable section scrollspy">
-      <div class="container">
-        <div class="row">
-          <div class="col m12">
-            <h2>Introduction</h2>
-            <p class="flow-text">TaskManager is a one place solution for all your TO-D0 Lists and goals in one place.Give color to your goals, attach files,set priorities and do much more . Our website also has an alarm popup feature that will remind you that your time is up to complete a goal.
-            </p>
-            <p class="flow-text">This app will help you to take stock of your situation , keep distractions away and focus more on your goals.</p>
+</div>
+
+
+   <h2>Contact Us</h2>     
+<div class="centeri">
+    <div class="centerit">
+  <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <input  id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div></div>
+            
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
           </div>
+          <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea" data-length="120"></textarea>
+                  <label for="textarea1">Data</label>
+                </div>
+              </div>
+          
+  
+        </form>
+        <button type="submit" id="c"><span>Submit</span></button>
         </div>
       </div>
-    </section>
-    <section id="why" class="center-align card-panel hoverable section scrollspy">
-       <div class="container">
-         <div class="row">
-           <div class="col m12">
-            <h2>Why TaskMaster?</h2>
-             <p class="flow-text">In this digital age, where almost everything is going for digitisation why use traditional TO-DO sticky notes to write down your goals? Our goals are imprinted in our minds if we can visualise them . We have a photo attachment feature exclusively for that purpose. Algorithms are changing everyday so that people spend more time on their phones. Let's together conquer our goals with Taskmaster.
-            </p>
-           </div>
-         </div>
-       </div>
-    </section>
-    <footer class="page-footer black">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="teal-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="teal-text">Links</h5>
-                <ul>
-                  <li><a class="teal-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="teal-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="teal-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="teal-text text-lighten-3" href="#!">Link 4</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container">
-            Copyright © 2014 TaskMaster
-            <a class="teal-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
-          </div>
-        </footer>
+    
+    <script type="text/javascript" src="js/formanimate.js"></script>  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
     <script src="./js/init.js"></script>
-</body>
+    <script type="text/javascript" src="js/slider.js"></script>
+    
+
+  </body>
 </html>

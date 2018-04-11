@@ -78,4 +78,7 @@ Anyone can contribute to our open source project so feel free to do it. But make
 5. While making any Pull Request for UI make sure you attach one screenshot showing the final result or the bug which you have solved.
 6. While creating any issue make sure you mention all the procedure required to generate that bug/error and have one brief description about that bug.
 
-   -Drafted with <3 by Rituraj and Priyabrata on behalf of the Entire TaskMaster Team.
+   -The TaskMaster Team .
+
+<h2>Though we have both Bootstrap and Materialize, try and contribute in Materialize :) It won't take much time to learn</h2>
+Depending on response , we will fix A framework anytime soon. :D

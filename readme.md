@@ -30,6 +30,27 @@
   - Prioritising your goals button.(Don't know , backend, frontend or both)
   - Using different colors for different priority of goals.(Don't know , backend, frontend or both)
 
+<h1> In detail Features</h1>
+<b>HOMEPAGE</b> - This page contains three sections viz. Home, Introduction & Why TaskMaster? on the navigation bar and clicking any one of them would enable a smooth scrolling down the home page. These three sections fit into the first page of the web app! As stated in the mockup pdf there should be a ‘Tick’ in the Home which on clicked starts an animation explaining TaskMaster. Below this, a button entitled ‘Get Started’ enables a user to visit the Login/Sign-up page. Lastly, on the footer various media links Quora, LinkedIn can be provided. 
+Other modifications are open-ended and suggestions are needed for improving UI/UX!
+
+<b>LOGIN / SIGNUP PAGE</b> - This page contains the login (for the existing users) or sign-up (for the new users) option. This form uses Gmail account for both the purposes! There is also a button to share about this app on facebook. It includes a live background with video or canvas elements. 
+<b>USER ACCOUNT PAGE</b> - This page basically would be divided into three columns with a lot of interactivity. The leftmost column will include the list of upcoming goal along with deadlines. The rightmost column includes the list of prioritizing goal which can be displayed as a pop-up to the browser whenever a user opens up his/her browser. The middle column consists of a section for creating the goal itself with several buttons as follows - 
+ 
+    Calendar Tool - This tool will set the date on which the remainder will come up as a popup.
+
+    Alarm Popup - This tool will set the required alarm (if any) & the time of the alarm.
+
+     Goal Priority - This tool will set the priority of the goal by assigning it a number which automatically updates the list in the        rightmost column.
+
+     Flash Button - This tool enables a pop-up of prioritizing goal whenever a user opens up his/her browser.
+
+     Add Media - This tool enables a user to add any media files like images, music, videos attached with the goal when creating it!
+
+     Create Goal - This tool will finally create the goal and the page would be updated.
+     
+ Only the first page would include a Contact Us attachment which can be accessed by clicking on it as shown in the mockup pdf.
+
 
 <h1>New to this? Maybe this can help.</h1> 
   
@@ -39,3 +60,6 @@
     
  
    - REFER TO THE PDF FOR A ROUGH IDEA ON THE PROJECT.
+   
+   
+   -Drafted with <3 by Rituraj and Priyabrata on behalf of the Entire TaskMaster Team.

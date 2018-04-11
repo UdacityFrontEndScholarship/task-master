@@ -1,0 +1,51 @@
+.text-groups {
+    position: relative;
+    margin-bottom: 2.5rem;
+  }
+  
+  .placeholder {
+    position: absolute;
+    top: 0;
+    padding: 5px 0 0 -50px;
+    margin-left: -260px;
+    transition: all 200ms;
+    opacity: 0.5;
+  }
+  
+  .form-control:focus + .placeholder,
+  .form-control:valid + .placeholder {
+    font-size: 17px;
+    transform: translate3d(0, -100%, 0);
+    opacity: 1;
+    color: red;
+    border: none;
+    }
+
+  .black:focus
+  {
+    background-color: black;
+  }
+  
+  .form-control
+  {
+    border: none;
+      background-color: black;
+      border-bottom: 1px solid white;
+      
+  }
+  
+  #hs
+  {
+     margin-top: 70px;
+  }
+
+  .cb
+  {
+      border:none;
+      padding: 5px;
+      padding-left: 7px;
+      text-align:center;
+      background-color: black;
+      color: red;
+      cursor: pointer;
+  }

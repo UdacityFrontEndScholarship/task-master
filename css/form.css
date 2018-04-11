@@ -1,0 +1,29 @@
+.centerit
+{   
+    
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+      
+}
+
+h2
+{
+    text-align: center;
+}
+button
+{
+    width:5em;
+    height: 25px;
+    border: 1px solid black;
+    padding-left: 41px ;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    padding-right: 85px;
+    color: red;
+    background-color:white;
+
+}
+
+
+

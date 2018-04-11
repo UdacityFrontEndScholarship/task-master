@@ -66,5 +66,16 @@ Other modifications are open-ended and suggestions are needed for improving UI/U
  
    - REFER TO THE PDF FOR A ROUGH IDEA ON THE PROJECT.
    
-   
+# Best practices for contributition
+
+Anyone can contribute to our open source project so feel free to do it. But make sure that you follow best practices which we have:
+
+1. Make sure that git commit message is meaningful and easy to understand
+2. Each PR must solve one issue mentioned in our issues page. In case if your PR is solving any bug and that bug is not mentioned in issues page, then open one issue explaning about the bug and then make PR with reference to that issue.
+3. While solving any issue you must make one comment saying that you are working on this issue so that we can avoid any conflicts between 2 work.
+4. While making any PR make sure you reference your issue id (#1, #2 etc) in commit message or title.
+4. Make sure you squash your commit if there are more than 2 commits in your Pull Request. In case of difficulties feel free to ask for any assistance.
+5. While making any Pull Request for UI make sure you attach one screenshot showing the final result or the bug which you have solved.
+6. While creating any issue make sure you mention all the procedure required to generate that bug/error and have one brief description about that bug.
+
    -Drafted with <3 by Rituraj and Priyabrata on behalf of the Entire TaskMaster Team.

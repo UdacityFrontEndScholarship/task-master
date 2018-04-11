@@ -31,10 +31,14 @@
   - Using different colors for different priority of goals.(Don't know , backend, frontend or both)
 
 <h1> In detail Features</h1>
+
+
 <b>HOMEPAGE</b> - This page contains three sections viz. Home, Introduction & Why TaskMaster? on the navigation bar and clicking any one of them would enable a smooth scrolling down the home page. These three sections fit into the first page of the web app! As stated in the mockup pdf there should be a ‘Tick’ in the Home which on clicked starts an animation explaining TaskMaster. Below this, a button entitled ‘Get Started’ enables a user to visit the Login/Sign-up page. Lastly, on the footer various media links Quora, LinkedIn can be provided. 
 Other modifications are open-ended and suggestions are needed for improving UI/UX!
 
 <b>LOGIN / SIGNUP PAGE</b> - This page contains the login (for the existing users) or sign-up (for the new users) option. This form uses Gmail account for both the purposes! There is also a button to share about this app on facebook. It includes a live background with video or canvas elements. 
+
+
 <b>USER ACCOUNT PAGE</b> - This page basically would be divided into three columns with a lot of interactivity. The leftmost column will include the list of upcoming goal along with deadlines. The rightmost column includes the list of prioritizing goal which can be displayed as a pop-up to the browser whenever a user opens up his/her browser. The middle column consists of a section for creating the goal itself with several buttons as follows - 
  
     Calendar Tool - This tool will set the date on which the remainder will come up as a popup.

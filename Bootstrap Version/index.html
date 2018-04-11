@@ -118,9 +118,22 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>Contact us</h2>
-            <p>Feel free to leave us your feedback(insert a contact me form)
-              </p>
-              
+            <p>Feel free to leave us your feedback</p>
+           <form class="form-horizontal">
+            <div class="form-group">
+              <label for="name" class="control-label">Name :</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+             <div class="form-group">
+              <label for="email" class="control-label">Email address:</label>
+              <input type="email" class="form-control" id="email" placeholder="you.example@gmail.com">
+            </div>
+            <div class="form-group">
+              <label for="message" class="control-label">Your Message:</label>
+              <textarea class="form-control" id="message" placeholder="Description"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Send</button>
+           </form>  
           </div>
         </div>
       </div>

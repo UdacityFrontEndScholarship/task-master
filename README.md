@@ -61,7 +61,6 @@ Only the first page would include a Contact Us section which can be accessed by 
 # New to this? Maybe this can help
   
    - <a href="https://gist.github.com/Rajrox97/02e3b2e3c6ef8a356106b65ad02e183a">Getting the hang of the code</a>
-   - <a href="https://gist.github.com/Rajrox97/b028a7eff0ea0c0225b7d19b54a2adf6">If you are new at this, break things down, and try to understand and modify code obtained from various sources</a>
    - <a href="https://gist.github.com/Rajrox97/af2508ec2523d85bc43f1eb080ce5985">MUST READ THIS BEFORE YOU COMMIT</a>
    - Don't contact moderators if you see an anomaly in the code and if you think some function is not working properly. Just raise an
      issue on github. That way more and more contributors can see that and the issue can be resolved faster   

@@ -281,3 +281,49 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+/* form css */
+.contact{
+  padding-top: 20px;
+  padding: 50px 0 80px;
+  text-align: center;
+}
+.contact p{
+  padding-bottom: 80px;
+  color: #737373;
+}
+.contact h2{
+  color: white;
+  margin: 20px 0 20px
+}
+.contact .input-group{
+  margin-bottom: 25px;
+
+}
+.contact .form-control{
+  border-radius: 0 !important;
+
+}
+.contact span{
+  border-radius: 0 !important;
+}
+
+.contact .btn{
+
+  border-radius: 0;
+  width: 100%;
+  font-size: 15px;
+  background-color: #f08880 !important;
+  color: #fff;
+}
+.contact .btn:hover{
+  background-color: red !important;
+  color: #fff !important;
+}
+.fa-user,.fa-phone{
+  font-size:50px;
+  margin: 7px;
+}
+.fa-envelope-square{
+  font-size:50px;
+  margin: 4px;
+}

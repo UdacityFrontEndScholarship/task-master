@@ -281,3 +281,38 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+#contact {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#contact input, #contact textarea {
+  display: block;
+  width: 120%;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 10px;
+  background: #eee;
+  -webkit-transition: .5s ease all;
+  transition: .5s ease all;
+}
+
+#contact textarea {
+  height: 150px;
+  resize: none;
+}
+
+#contact button {
+  display: block;
+  width: 120%;
+  background: #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  border: none;
+  color: #000000;
+  font-weight: 700;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -webkit-transition: .5s ease all;
+  transition: .5s ease all;
+}

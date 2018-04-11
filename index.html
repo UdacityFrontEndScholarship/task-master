@@ -1,48 +1,19 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 
-  <head>
+    <head>
       <title>TaskMaster </title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
       <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
       <link href="./css/init.css" rel="stylesheet">
-  </head>
+      <link href="css/imageSlider.css" rel="stylesheet">
+      <link href="css/form.css" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
 
   <body>
-
-
-  <div class="slider fullscreen">
-      <ul class="slides">
-          <li>
-              <div class="carousel-item">
-              <img src="./img/bgImg1.jpg">
-              <div class="caption center-align">
-                  <h3>A one stop solution to keep your goals on track.
-                      </h3>
-                  <h5 class=" pacifico light grey-text text-lighten-3">Created by Team TaskMaster.</h5>
-                  <div class="section"></div>
-                  <a href="#!" class="btn btn-large waves-effect waves-light hoverable">GET STARTED</a>
-              </div>
-
-              </div>
-          </li>
-          <li>
-              <div class="carousel-item">
-                  <img src="./img/bgImg1.jpg">
-                  <div class="caption center-align">
-                      <h3>A one stop solution to keep your goals on track.
-                      </h3>
-                      <h5 class=" pacifico light grey-text text-lighten-3">Created by Team TaskMaster.</h5>
-                      <div class="section"></div>
-                      <a href="#!" class="btn btn-large waves-effect waves-light hoverable">GET STARTED</a>
-                  </div>
-
-              </div>
-          </li>
-      </ul>
-  </div>
 <div class="main-content">
   <nav class="black">
       <div class="nav-wrapper container">
@@ -55,9 +26,52 @@
       </div>
   </nav>
 </div>
+
+<div id="imageslider">
+    <div class="mtext">
+        <p>A One Stop Solution to Keep your goals on track</p>
+        <p>Created By Team Task Master</p>
+        <img src="img/arrow.svg" id="arrowImg">
+    </div>
+</div>
+
+
+   <h2>Contact Us</h2>     
+<div class="centeri">
+    <div class="centerit">
+  <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <input  id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div></div>
+            
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea" data-length="120"></textarea>
+                  <label for="textarea1">Data</label>
+                </div>
+              </div>
+          
+  
+        </form>
+        <button type="submit" id="c"><span>Submit</span></button>
+        </div>
+      </div>
+    
+    <script type="text/javascript" src="js/formanimate.js"></script>  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
     <script src="./js/init.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    
 
   </body>
 </html>

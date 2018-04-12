@@ -24,17 +24,17 @@
     animation: 3s arrow infinite ease;
 }
 
-@keyframes  arrow
-{
- 0%,100%
- {
-     top:10px;
- }
- 50%
- {
-     top: 50px;
- }
-}
+/*@keyframes  arrow*/
+/*{*/
+ /*0%,100%*/
+ /*{*/
+     /*top:10px;*/
+ /*}*/
+ /*50%*/
+ /*{*/
+     /*top: 50px;*/
+ /*}*/
+/*}*/
 
 .social li
 {

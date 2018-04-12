@@ -1,9 +1,12 @@
-#imageslider
-{
-    height: 550px;
+body {
+    width: 100%;
+}
+
+#imageslider {
+    height: 100vh;
     width: 100%;
     margin: 0;
-    margin-top: -5px;
+    /*margin-top: -5px;*/
     padding: 0;
     color: #ffffff;
     background-size: cover;
@@ -13,28 +16,31 @@
 
 }
 
-.mtext
-{
-    width: 50%;
+.mtext {
+    /*width: 50%;*/
     margin: 0 auto;
     font-size: 25px;
-   padding: 75px;
+    padding: 75px;
 }
 
-#imageslider button
-{
+#imageslider button {
     background-color: green;
     color: beige;
     font-size: 25px;
     width: 190px;
     height: 70px;
     border: none;
-    cursor: pointer;  
-    margin-top: 10px;  
+    cursor: pointer;
+    margin-top: 10px;
 }
 
-#arrowImg
-{
+#arrowImg {
+    padding: 15px;
+    background-color: black;
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 50px;
+    width: 50px;
     margin-top: 20px;
 }
 

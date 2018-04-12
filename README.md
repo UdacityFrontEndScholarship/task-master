@@ -40,7 +40,7 @@ Other modifications can be open-ended and suggestions are welcome for improving 
 <b>LOGIN / SIGNUP PAGE</b> - This page contains the login (for the existing users) or sign-up (for the new users) option. Signing in via Google is also supported. There is also a button to share about this app on Facebook. It includes a live background with video or canvas elements. 
 
 
-<b>USER DASHBOARD</b> - This page basically would be divided into three columns with a lot of interactivity. The leftmost column will include the list of upcoming goals along with deadlines. The rightmost column includes the list of prioritized goals which can be displayed as a pop-up to the browser whenever a user opens up his/her browser. The middle column consists of a section for creating the goal itself with several buttons as follows:
+<b>USER DASHBOARD</b> - This page basically would be divided into three columns with a lot of interactivity. The leftmost column will include the list of upcoming goals along with deadlines. The rightmost column includes the list of prioritized goals which can be displayed as a pop-up to the browser whenever a user opens up his/her browser. The middle column consists of a section for creating the goal itself with several buttons as follows: 
  
     Calendar Tool - This tool will set the date on which the reminder will come up as a popup.
 

@@ -40,21 +40,22 @@
 {
     display: inline;
     
-    padding: 35px;
-    
 }
 
 #fit2
 {
-    margin-top: -65px;
-    float: right;
-    margin-right: 13px;
+    display: inline;
 }
 
 #fit1
 {
-    margin-top: 14px;
-    margin-left: 5px;
+    display: inline;
+    
+}
+
+.copy
+{
+    text-align: center;
 }
 
 

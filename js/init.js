@@ -1,7 +1,7 @@
-$('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-    indicators: true
-});
-$(document).ready(function(){
-    $('.slider').slider();
+$(document).ready(function() {
+  $(".slider").slider();
+
+  $(".scrollspy").scrollSpy({
+    scrollOffset: 71
+  });
 });

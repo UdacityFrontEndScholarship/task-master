@@ -1,0 +1,41 @@
+#imageslider
+{
+    height: 550px;
+    width: 100%;
+    margin: 0;
+    margin-top: -5px;
+    padding: 0;
+    color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+
+}
+
+.mtext
+{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 25px;
+   padding: 75px;
+}
+
+#imageslider button
+{
+    background-color: green;
+    color: beige;
+    font-size: 25px;
+    width: 190px;
+    height: 70px;
+    border: none;
+    cursor: pointer;  
+    margin-top: 10px;  
+}
+
+#arrowImg
+{
+    margin-top: 20px;
+}
+
+

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
   <!--webapp title-->
   <title>TaskMaster </title>
@@ -50,9 +51,7 @@
       <p>Created By Team Task Master</p>
       <button>Get Started</button>
       <p>
-          <a href="#intro">
-              <img src="img/down_arrow.png" id="arrowImg">
-          </a>
+        <div class="down-arrow"></div>
       </p>
     </div>
   </div>
@@ -97,8 +96,8 @@
         <h2 class=" wow fadeInUp" data-wow-delay="0.4s">Contact</h2>
         <div class="row">
 
-          <!-- <p></p> -->
-          <div class="col s12 m12 l6 xl6">
+          <p></p>
+          <div class="col s6 col s6">
             <div class="input-field  wow fadeInUp " data-wow-delay="0.4s">
               <i class="material-icons prefix icon-white ">account_circle</i>
               <input type="text" id="first_name" class="validate">
@@ -116,13 +115,47 @@
               <input type="text" id="phone_number" class="validate">
               <label for="phone_number">Phone Number</label>
 
+
+          </div>
+      </div>    
+</div> 
+    </section>
+    <!--footer-->
+   <footer class="page-footer grey darken-3">
+          <div class="container">
+            <div class="row">
+              <div class="col center s12 m4"><!--Added center class-->
+                <h4 class="white-text">Site Map</h4>
+                <ul><!--href link added-->
+                  <li><a class="teal-text scrollspy text-lighten-3" href="index.html">Home</a><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                  <li><a class="teal-text scrollspy text-lighten-3" href="#intro">Introduction</a></li>
+                  <li><a class="teal-text scrollspy text-lighten-3" href="#why">Why TaskMaster</a></li>
+                  
+                </ul>
+              </div>
+              <div class="col l4 center s12 m4"><!--Added center class-->
+                <h4 class="teal-text">Links</h4>
+                <ul>
+                  <li><a class="teal-text  text-lighten-3" href="#!">Twitter</a><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                  <li><a class="teal-text  text-lighten-3" href="#!">Facebook</a></li>
+                  <li><a class="teal-text  text-lighten-3" href="#!">Instagram</a></li>
+                  <li><a class="teal-text  text-lighten-3" href="#!">Google Play</a></li>
+                </ul>
+              </div>
+              <div class="col s12 center m4"> <!--Changing display of Mail Us 12th April/18-->
+                <h4 class="teal-text">Mail us</h4>
+                <form>
+                  <input type="email" >
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                    </button>
+                </form>
+              </div>
+
             </div>
 
           </div>
-
-
-
-          <div class="col s12 m12 l6 xl6">
+          <div class="col s6">
             <div class=" wow fadeInUp input-field" data-wow-delay="1.6s">
               <i class=" material-icons prefix icon-white">feedback</i>
               <textarea rows="4" id="area" class="materialize-textarea"></textarea>
@@ -165,7 +198,7 @@
           <ul class="social">
             <li>
               <a class="teal-text text-lighten-3" href="#!"><img src="img/twitter.svg"></a>
-
+              
             </li>
             <li>
               <a class="teal-text text-lighten-3" href="#!"><img src="img/fb.svg"></a>
@@ -180,35 +213,19 @@
               <a class="teal-text text-lighten-3" href="#!"><img src="img/insta.svg" width="75"></a>
             </li>
           </div>
-          </ul>
-        </div>
-        <div class="col l4 offset-l2 m4">
-          <h5 class="teal-text">Mail us</h5>
-          <form>
-            <input type="email">
-            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-              <i class="material-icons right">send</i>
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        Copyright © 2014 TaskMaster
-        <a class="teal-text text-lighten-4 right" href="#!">More Links</a>
-      </div>
-    </div>
-  </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
-  <script src="./js/init.js"></script>
-  <script src="js/formanimate.js"></script>
-  <script src="js/slider.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script>
-    new WOW().init();
-  </script>
-</body>
-
+        </footer>
+          <!--additional scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
+    <script src="./js/init.js"></script>
+    <script src="js/formanimate.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              //adding scrolling style
+              const ss = document.querySelectorAll('.scrollspy');
+              M.ScrollSpy.init(ss, {}); 
+              </script>
+  </body>
 </html>

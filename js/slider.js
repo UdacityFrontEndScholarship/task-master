@@ -1,4 +1,4 @@
-const slides = ["https://github.com/UdacityFrontEndScholarship/task-master/blob/master/img/bgImg1.jpg","https://github.com/UdacityFrontEndScholarship/task-master/blob/master/img/bgImg2.jpg","https://github.com/UdacityFrontEndScholarship/task-master/blob/master/img/bgImg3.jpg"]
+const slides = ["https://raw.githubusercontent.com/UdacityFrontEndScholarship/task-master/master/img/bgImg1.jpg","https://raw.githubusercontent.com/UdacityFrontEndScholarship/task-master/master/img/bgImg2.jpg","https://raw.githubusercontent.com/UdacityFrontEndScholarship/task-master/master/img/bgImg1.jpg"]
 
 const s = document.getElementById("imageslider");
 

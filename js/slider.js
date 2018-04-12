@@ -1,4 +1,4 @@
-const slides = ["/blob/master/img/bgimg1.jpg","/blob/master/img/bgimg2.jpg","/blob/master/img/bgimg3.jpg"]
+const slides = ["https://github.com/UdacityFrontEndScholarship/task-master/blob/master/img/bgImg1.jpg","https://github.com/UdacityFrontEndScholarship/task-master/blob/master/img/bgImg1.jpg","https://github.com/UdacityFrontEndScholarship/task-master/blob/master/img/bgImg1.jpg"]
 
 const s = document.getElementById("imageslider");
 

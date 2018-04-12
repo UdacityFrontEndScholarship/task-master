@@ -1,56 +1,41 @@
-
-/* form css */
-.contact{
-  padding-top: 20px;
-  padding: 50px 0 80px;
-  text-align: center;
-  background-color: black;
-}
-.contact p{
-  padding-bottom: 80px;
-  color: #737373;
-}
-.contact h2{
-  color: white;
-  margin: 20px 0 20px
+.centerit
+{   
+    
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        
+      
 }
 
-.contact span{
-  border-radius: 0 !important;
+.centeri
+{
+ color: white;
+ background-color: black;
 }
 
-.contact .btn{
+.centeri h2
+{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+#c
+{
+    width:5em;
+    height: 25px;
+    border: 1px solid black;
+    padding-left: 79px ;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    padding-right: 85px;
+    color: red;
+    background-color:white;
+    margin: 0 auto;
+    width: 50%;
 
-  border-radius: 0;
-  width: 100%;
-  font-size: 15px;
-  background-color: #00e676 !important;
-  color: #fff;
 }
-.contact .btn:hover{
-  background-color: teal !important;
-  color: #fff !important;
-}
-.fa-user,.fa-phone{
-  font-size:50px;
-  margin: 7px;
-  color: red;
-}
-.fa-envelope-square{
-  font-size:50px;
-  margin: 4px;
-}
-#first_name,#email_address,#phone_number,#area{
-  background-color: white;
-}
-.input-field{
-  margin: 25px;
-  box-shadow: 0 1px 0 0 #000;
-  border-bottom: 1px solid #000;
-}
-#area{
-  margin-top: 80px;
-}
-i.icon-white {
-    color: white;
-}
+
+
+
+

@@ -92,12 +92,13 @@
   <!--contact form-->
   <section>
     <div id="contact" class="contact ">
+      <form>
       <div class="container ">
         <h2 class=" wow fadeInUp" data-wow-delay="0.4s">Contact</h2>
         <div class="row">
 
           <p></p>
-          <div class="col s6 col s6">
+          <div class="col s6">
             <div class="input-field  wow fadeInUp " data-wow-delay="0.4s">
               <i class="material-icons prefix icon-white ">account_circle</i>
               <input type="text" id="first_name" class="validate">
@@ -114,11 +115,26 @@
               <i class="material-icons prefix icon-white">phone</i>
               <input type="text" id="phone_number" class="validate">
               <label for="phone_number">Phone Number</label>
-
-
+            </div>
           </div>
-      </div>    
-</div> 
+          <div class="col s6">
+                <div class=" wow fadeInUp input-field" data-wow-delay="1.6s">
+                  <i class=" material-icons prefix icon-white">feedback</i>
+                  <textarea rows="4" id="area" class="materialize-textarea"></textarea>
+                  <label for="area">Feed Back</label>
+                </div>
+                <button class="btn waves-effect waves-light wow fadeInUp teal" type="submit" name="action" data-wow-delay="2s">Submit
+                  <i class="material-icons right">send</i>
+                </button>
+                <!--<button class="btn btn-lg wow fadeInUp" type="Submit" data-wow-delay="2s">Submit Your Message</button> -->
+          </div>
+          </div>
+      </div>
+    </div>
+  </form>
+  </div>
+</section>
+</div>
     </section>
     <!--footer-->
    <footer class="page-footer grey darken-3">
@@ -130,7 +146,7 @@
                   <li><a class="teal-text scrollspy text-lighten-3" href="index.html">Home</a><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
                   <li><a class="teal-text scrollspy text-lighten-3" href="#intro">Introduction</a></li>
                   <li><a class="teal-text scrollspy text-lighten-3" href="#why">Why TaskMaster</a></li>
-                  
+
                 </ul>
               </div>
               <div class="col l4 center s12 m4"><!--Added center class-->
@@ -146,59 +162,17 @@
                 <h4 class="teal-text">Mail us</h4>
                 <form>
                   <input type="email" >
-                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                  <button class="btn waves-effect waves-light" type="submit" name="action">Submit
                     <i class="material-icons right">send</i>
-                    </button>
+                  </button>
                 </form>
               </div>
-
-            </div>
-
-          </div>
-          <div class="col s6">
-            <div class=" wow fadeInUp input-field" data-wow-delay="1.6s">
-              <i class=" material-icons prefix icon-white">feedback</i>
-              <textarea rows="4" id="area" class="materialize-textarea"></textarea>
-              <label for="area">Feed Back</label>
-            </div>
-            <button class="btn waves-effect waves-light wow fadeInUp teal" type="submit" name="action" data-wow-delay="2s">Submit
-              <i class="material-icons right">send</i>
-            </button>
-            <!--<button class="btn btn-lg wow fadeInUp" type="Submit" data-wow-delay="2s">Submit Your Message</button> -->
-          </div>
-
-
-
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--footer-->
-  <footer class="page-footer grey darken-3">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12 m4">
-          <h5 class="white-text">Site Map</h5>
-          <ul>
-            <li>
-              <a class="teal-text text-lighten-3" href="#!">Home</a>
-              <i class="fa fa-facebook-square" aria-hidden="true"></i>
-            </li>
-            <li>
-              <a class="teal-text text-lighten-3" href="#!">Introduction</a>
-            </li>
-            <li>
-              <a class="teal-text text-lighten-3" href="#!">Why TaskMaster</a>
-            </li>
-
-          </ul>
-        </div>
-        <div class="col l4 offset-l2 m3">
+              <div class="col l4 offset-l2 m3">
           <h5 class="teal-text">Links</h5>
           <ul class="social">
             <li>
               <a class="teal-text text-lighten-3" href="#!"><img src="img/twitter.svg"></a>
-              
+
             </li>
             <li>
               <a class="teal-text text-lighten-3" href="#!"><img src="img/fb.svg"></a>
@@ -213,7 +187,12 @@
               <a class="teal-text text-lighten-3" href="#!"><img src="img/insta.svg" width="75"></a>
             </li>
           </div>
-        </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
           <!--additional scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
@@ -225,7 +204,7 @@
               new WOW().init();
               //adding scrolling style
               const ss = document.querySelectorAll('.scrollspy');
-              M.ScrollSpy.init(ss, {}); 
+              M.ScrollSpy.init(ss, {});
               </script>
   </body>
 </html>

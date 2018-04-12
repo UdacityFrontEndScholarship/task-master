@@ -1,3 +1,20 @@
+body{
+    overflow-x: hidden;
+}
+
 #logo{
     padding-left: 20px;
+}
+
+#start:hover{
+    background: #00cfff !important;
+}
+
+.fade{
+    opacity:0.8;
+    border-radius: 20px;
+   
+}
+.fade:nth-child(3){
+    margin-top: -30px;
 }

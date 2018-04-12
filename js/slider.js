@@ -11,4 +11,4 @@ setInterval(function()
     {
         a=0;
     }
-},1000);
+},2000);

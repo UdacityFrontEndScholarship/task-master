@@ -1,0 +1,58 @@
+
+.down-arrow
+{
+   width: 100%;
+   margin: 0 auto;
+   text-align: center; 
+}
+
+.down-arrow::after
+{
+ position: absolute;
+ width: 34px;
+ margin: auto;
+ height: 34px;
+ top: 0;
+ right: 0;
+ left: 0;
+ 
+ margin-top: 460px;
+ content: "";
+    border-right: 4px solid green;
+    border-bottom: 4px solid green;
+    transform: rotate(45deg);
+    animation: 3s arrow infinite ease;
+}
+
+@keyframes  arrow
+{
+ 0%,100%
+ {
+     top:10px;
+ }
+ 50%
+ {
+     top: 50px;
+ }
+}
+
+.social li
+{
+    display: inline;
+    
+    padding: 35px;
+    
+}
+
+#fit2
+{
+    margin-top: -65px;
+    float: right;
+    margin-right: 13px;
+}
+
+#fit1
+{
+    margin-top: 14px;
+    margin-left: 5px;
+}

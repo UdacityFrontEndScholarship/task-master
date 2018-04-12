@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  
   <head>
     <!--webapp title-->
     <title>TaskMaster </title>
@@ -109,23 +109,17 @@
             <p class="">This app will help you to take stock of your situation, keep distractions away and focus more on your goals.
             </p>
           </div>
+
         </div>
       </div>
-    </section>
-    <section id="why" class="center-align card-panel hoverable section scrollspy">
-       <div class="container">
-         <div class="row">
-           <div class="col m12">
-            <h2>Why TaskMaster?</h2>
-             <p class="">In this digital age, where almost everything is going for digitization why use traditional TO-DO sticky notes to write down your goals? Our goals are imprinted in our minds if we can visualize them. We have a photo attachment feature exclusively for that purpose. Algorithms are changing every day so that people spend more time on their phones. Let's together conquer our goals with Taskmaster.
-            </p>
-           </div>
-         </div>
-       </div>
-    </section>
-    <!--contact form-->
-    <section>
-        <div id="contact" class="contact ">
+    </div>
+  </section>
+
+
+  <!--contact form-->
+  <section>
+    <div id="contact" class="contact ">
+      <form>
       <div class="container ">
         <h2 class=" wow fadeInUp" data-wow-delay="0.4s">Contact</h2>
           <div class="row">
@@ -165,52 +159,81 @@
               </div>
              
 
+              <i class="material-icons prefix icon-white">email</i>
+              <input type="text" id="email_address" class="validate">
+              <label for="email_address">Email Address</label>
+            </div>
+            <div class="input-field  wow fadeInUp " data-wow-delay="1.2s">
 
-          </div>
-      </div>    
-</div> 
-    </section>
-    <!--footer-->
-   <footer class="page-footer grey darken-3">
-          <div class="container">
-            <div class="row">
-              <div class="col center s12 m4"><!--Added center class-->
-                <h4 class="white-text">Site Map</h4>
-                <ul><!--href link added-->
-                  <li><a class="teal-text scrollspy text-lighten-3" href="index.html">Home</a><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
-                  <li><a class="teal-text scrollspy text-lighten-3" href="#intro">Introduction</a></li>
-                  <li><a class="teal-text scrollspy text-lighten-3" href="#why">Why TaskMaster</a></li>
-                  
-                </ul>
-              </div>
-              <div class="col l4 center s12 m4"><!--Added center class-->
-                <h4 class="teal-text">Links</h4>
-                <ul>
-                  <li><a class="teal-text  text-lighten-3" href="#!">Twitter</a><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
-                  <li><a class="teal-text  text-lighten-3" href="#!">Facebook</a></li>
-                  <li><a class="teal-text  text-lighten-3" href="#!">Instagram</a></li>
-                  <li><a class="teal-text  text-lighten-3" href="#!">Google Play</a></li>
-                </ul>
-              </div>
-              <div class="col s12 center m4"> <!--Changing display of Mail Us 12th April/18-->
-                <h4 class="teal-text">Mail us</h4>
-                <form>
-                  <input type="email" >
-                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                    <i class="material-icons right">send</i>
-                    </button>
-                </form>
-              </div>
+              <i class="material-icons prefix icon-white">phone</i>
+              <input type="text" id="phone_number" class="validate">
+              <label for="phone_number">Phone Number</label>
             </div>
           </div>
-          <hr/>
-          <div class="footer-copyright">
-            <div class="container center">
-            Copyright © 2014 TaskMaster
-            <a class="teal-text text-lighten-4 right" href="#!">More Links</a>
+          <div class="col s6">
+                <div class=" wow fadeInUp input-field" data-wow-delay="1.6s">
+                  <i class=" material-icons prefix icon-white">feedback</i>
+                  <textarea rows="4" id="area" class="materialize-textarea"></textarea>
+                  <label for="area">Feed Back</label>
+                </div>
+                <button class="btn waves-effect waves-light wow fadeInUp teal" type="submit" name="action" data-wow-delay="2s">Submit
+                  <i class="material-icons right">send</i>
+                </button>
+                <!--<button class="btn btn-lg wow fadeInUp" type="Submit" data-wow-delay="2s">Submit Your Message</button> -->
+          </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!--footer-->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12 m4">
+          <h5 class="white-text">Site Map</h5>
+          <ul>
+            <li>
+              <a class="teal-text text-lighten-3" href="#!">Home</a>
+            </li>
+            <li>
+              <a class="teal-text text-lighten-3" href="#!">Introduction</a>
+            </li>
+            <li>
+              <a class="teal-text text-lighten-3" href="#!">Why TaskMaster</a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="col l4 offset-l2 m3">
+          <h5 class="teal-text">Links</h5>
+          <ul class="social">
+            <li>
+              <i class="fab fa-twitter"></i>
+              <a class="teal-text text-lighten-3" href="#!"> Twitter</a>
+            </li>
+            <li>
+              <i class="fab fa-facebook"></i>
+              <a class="teal-text text-lighten-3" href="#!"> Facebook</a>
+            </li>
+            <div id="fit1">
+            <li>
+              <i class="fab fa-instagram"></i>
+              <a class="teal-text text-lighten-3" href="#!"> Instagram</a>
+            </li>
+             </div>
+            <div id="fit2">
+            <li>
+                <i class="fab fa-google-play"></i>
+              <a class="teal-text text-lighten-3" href="#!"> Google Play</a>
+            </li>
+          </div>
             </div>
           </div>
-        </footer>
+        </div>
+      </div>
+    </div>
+  </section>
+          <!--additional scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
     <script src="./js/init.js"></script>

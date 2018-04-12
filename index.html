@@ -10,6 +10,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!--remote stylesheets linkage-->
+    <!-- for icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -25,7 +27,7 @@
 
   <body>
     <!-- navigation bar edited on 12 April,18(@DeepPurohit) -->
-    <div class="main-content navbar-fixed">
+    <div class="navbar-fixed">
       <nav class="black">
           <!--<div class="nav-wrapper container">
               <a href="#" class="brand-logo">TASKMASTER</a>
@@ -43,6 +45,7 @@
                   <li><a href="index.html">HOME</a></li>
                   <li><a class="scrollspy" href="#intro">INTRODUCTION</a></li>
                   <li><a class="scrollspy" href="#why">WHY TASKMASTER?</a></li>
+                  <li><a class="scrollspy" href="#contact">CONTACT</a></li>
               </ul>
             </a>
           </div>  
@@ -52,10 +55,11 @@
       <li><a class="white-text" href="index.html">HOME</a></li>
       <li><a class="scrollspy white-text" href="#intro">INTRODUCTION</a></li>
       <li><a class="scrollspy white-text" href="#why">WHY TASKMASTER?</a></li>
+      <li><a class="scrollspy white-text" href="#contact">CONTACT</a></li>
     </ul>
 
 
-    <!--Slider -->
+   
     <!--added image slider on 12 April,18-->
     <!-- <div id="imageslider">
             <div class="mtext">
@@ -67,37 +71,38 @@
             </p>
             </div>
     </div> -->
+     <!--Slider -->
     <section class="slider">
+      <div class="container">
       <ul class="slides">
           <li>
-            <img src="img/bgImg1.jpg">
+            <img src="https://previews.123rf.com/images/auremar/auremar1311/auremar131100927/45586237-office-worker-overworked.jpg"/>
             <div class="caption center-align">
-              <h2 class="blue-text">Lorem ipsum dolor sit.</h2>
-              <h5 class="light grey-text text-lighten-3">A One Stop Solution to Keep your goals on track</h5>
+              <h2 class="orange-text white fade">Can't Manage Work?</h2>
+              <h4 class=" yellow-text fade grey darken-2 hide-on-small-only">A One Stop Solution to Keep your goals on track</h4>
             </div>
           </li>
           <li>
-            <img src="img/bgImg2.jpg">
+            <img src="https://toggl.com/time-management-tips/images/time-management-tips-toggl-00083821b98f22b3bcd7120cd3bcd738.jpg">
             <div class="caption left-align">
-              <h2 class="yellow-text text-lighten-3">Lorem ipsum dolor sit.</h2>
-              <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, possimus?</h5>
+              <h2 class="red-text white fade">Easy To Use</h2>
+              <h4 class="yellow-text fade grey darken-5 hide-on-small-only">List Your All Day To-Dos</h4>
             </div>
           </li>
           <li>
-            <img src="img/bgImg3.jpg">
-            <div class="caption right-align">
-              <h2>Lorem ipsum dolor sit amet.</h2>
-              <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, neque?</h5>
+            <img src="http://32dayz.com/blog/wp-content/uploads/2014/05/104772212_web.jpg">
+            <div class="caption center-align">
+              <h2 class="blue-text white lighten-4 fade">Complete Your Work In Time</h2>
+              <h4 class="yellow-text fade grey hide-on-small-only">Managing time becomes EASY</h4>
             </div>
           </li>
         </ul>
+      </div>
   </section>
-    
-    
-    <section class="section center">
-        <!-- <h3 class="blue-text lighten-2">Created By Team Task Master</h3> -->
+
+    <section class="section center" style="margin-top: -30px">
+        <h3 class="blue-text lighten-2">Task Master <h5>One Solution For Work Management Problems</h5></h3>
         <a id="start" href="#intro" class="teal waves-effect waves-light btn">Get Started</a>
-        <p>
     </section>
     
     
@@ -128,42 +133,34 @@
        </div>
     </section>
     <!--contact form-->
-    <section>
+    <section class="section section-contact black scrollspy card-panel hoverable"
         <div id="contact" class="contact ">
       <div class="container ">
-        <h2 class=" wow fadeInUp" data-wow-delay="0.4s">Contact</h2>
+        <h2 class=" wow fadeInUp center white-text" data-wow-delay="0.4s">Contact</h2>
           <div class="row">
-              
-              <p></p>
-              <div class="col s6 col s6">
+              <div class="col s12 m12 center">
                 <div class="input-field  wow fadeInUp " data-wow-delay="0.4s">
                     <i class="material-icons prefix icon-white ">account_circle</i>
-                    <input  type="text" id="first_name" class="validate">
+                    <input  type="text" id="first_name" class="validate"/>
                     <label for="first_name">First Name</label>
                 </div>
-                <div class="input-field  wow fadeInUp " data-wow-delay="0.8s">
-                    
-                    <i class="material-icons prefix icon-white">email</i>
-                    <input  type="text" id="email_address" class="validate">
+                  <div class="input-field  wow fadeInUp" data-wow-delay="0.8s">
+                    <i class="material-icons prefix icon-white"> email</i>
+                    <input  type="text" id="email_address" class="validate"/>
                     <label for="email_address">Email Address</label>
                 </div>
-                  <div class="input-field  wow fadeInUp " data-wow-delay="1.2s">
-                    
+                  <div class="input-field  wow fadeInUp" data-wow-delay="1.2s">
                    <i class="material-icons prefix icon-white">phone</i> 
-                    <input  type="text" id="phone_number" class="validate">
+                    <input  type="number" id="phone_number" class="validate">
                     <label for="phone_number">Phone Number</label>
-
                 </div>
-                
-</div>              
-              <div class="col s6"  >
                   <div class=" wow fadeInUp input-field" data-wow-delay="1.6s">
                     <i class=" material-icons prefix icon-white">feedback</i>
-                    <textarea rows="4" id="area" class="materialize-textarea" ></textarea>
+                    <textarea rows="4" id="area" class=" white materialize-textarea" ></textarea>
                     <label for="area">Feed Back</label>
                   </div>
-                  <button class="btn waves-effect waves-light wow fadeInUp teal" type="submit" name="action" data-wow-delay="2s">Submit
-                                          <i class="material-icons right">send</i>
+                  <button class="btn waves-effect waves-light wow fadeInUp teal" type="submit" name="action" data-wow-delay="1.8s">Submit
+                   <i class="material-icons right">send</i>
                   </button>
                   <!--<button class="btn btn-lg wow fadeInUp" type="Submit" data-wow-delay="2s">Submit Your Message</button> -->
               </div>
@@ -181,7 +178,7 @@
               <div class="col center s12 m4"><!--Added center class-->
                 <h4 class="white-text">Site Map</h4>
                 <ul><!--href link added-->
-                  <li><a class="teal-text scrollspy text-lighten-3" href="index.html">Home</a><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                  <li><a class="teal-text scrollspy text-lighten-3" href="index.html">Home</a></li>
                   <li><a class="teal-text scrollspy text-lighten-3" href="#intro">Introduction</a></li>
                   <li><a class="teal-text scrollspy text-lighten-3" href="#why">Why TaskMaster</a></li>
                   
@@ -190,10 +187,10 @@
               <div class="col l4 center s12 m4"><!--Added center class-->
                 <h4 class="teal-text">Links</h4>
                 <ul>
-                  <li><a class="teal-text  text-lighten-3" href="#!">Twitter</a><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
-                  <li><a class="teal-text  text-lighten-3" href="#!">Facebook</a></li>
-                  <li><a class="teal-text  text-lighten-3" href="#!">Instagram</a></li>
-                  <li><a class="teal-text  text-lighten-3" href="#!">Google Play</a></li>
+                  <li><a class="teal-text  text-lighten-3" href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                  <li><a class="teal-text  text-lighten-3" href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                  <li><a class="teal-text  text-lighten-3" href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                  <li><a class="teal-text  text-lighten-3" href="#"><i class="fab fa-google-plus"></i> Google Plus</a></li>
                 </ul>
               </div>
               <div class="col s12 center m4"> <!--Changing display of Mail Us 12th April/18-->

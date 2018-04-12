@@ -1,17 +1,3 @@
-#imageslider
-{
-    height: 550px;
-    width: 100%;
-    margin: 0;
-    margin-top: -5px;
-    padding: 0;
-    color: #ffffff;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-    text-align: center;
-
-}
 
 .mtext
 {
@@ -21,7 +7,7 @@
    padding: 75px;
 }
 
-#imageslider button
+.test button
 {
     background-color: green;
     color: beige;
@@ -39,3 +25,38 @@
 }
 
 
+#slideshow { 
+    margin: 50px auto; 
+   position: relative;
+    width: 100%; 
+    height: 550px; 
+     
+    
+}
+
+#slideshow > div { 
+    position: absolute; 
+    
+    bottom: 3px; 
+}
+
+#slideshow img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.test
+{
+    position: absolute;
+    width: 500px;
+    margin: auto;
+    height: 100px;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 27px;
+}

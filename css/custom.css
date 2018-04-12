@@ -1,3 +1,7 @@
 #logo{
     padding-left: 20px;
 }
+
+#start:hover{
+    background: #00cfff !important;
+}

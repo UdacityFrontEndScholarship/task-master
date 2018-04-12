@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -13,7 +13,10 @@
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <!--additional stylesheets-->
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <link href="./css/init.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
   </head>
 
   <body>
@@ -100,32 +103,90 @@
     </section>
     <!--contact form-->
     <section>
-        <h2>Contact Us</h2>
-        <p>Add contact form here!</p>
+        <div id="contact" class="contact ">
+      <div class="container ">
+        <h2 class=" wow fadeInUp" data-wow-delay="0.8s">Contact</h2>
+          <div class="row">
+              
+              <p></p>
+                          <div class="col s6 col s6">
+                                            <div class="input-field  wow fadeInUp " data-wow-delay="0.8s">
+                                                <i class="material-icons prefix icon-white ">account_circle</i>
+                                                <input  type="text" id="first_name" class="validate">
+                                                <label for="first_name">First Name</label>
+                                            </div>
+                                            <div class="input-field  wow fadeInUp " data-wow-delay="1.2s">
+                                                
+                                                <i class="material-icons prefix icon-white">email</i>
+                                                <input  type="text" id="email_address" class="validate">
+                                                <label for="email_address">Email Address</label>
+                                            </div>
+                                              <div class="input-field  wow fadeInUp " data-wow-delay="1.6s">
+                                                
+                                               <i class="material-icons prefix icon-white">phone</i> 
+                                                <input  type="text" id="phone_number" class="validate">
+                                                <label for="phone_number">Phone Number</label>
+
+                                            </div>
+                                            
+                          </div>
+              
+
+              
+              <div class="col s6"  >
+                  <div class=" wow fadeInUp input-field" data-wow-delay="2s">
+                    <i class=" material-icons prefix icon-white">feedback</i>
+                    <textarea rows="4" id="area" class="materialize-textarea" ></textarea>
+                    <label for="area">Feed Back</label>
+                  </div>
+                  <button class="btn waves-effect waves-light wow fadeInUp teal" type="submit" name="action" data-wow-delay="2.4s">Submit
+                                          <i class="material-icons right">send</i>
+                  </button>
+                  <!--<button class="btn btn-lg wow fadeInUp" type="Submit" data-wow-delay="2.4s">Submit Your Message</button> -->
+              </div>
+             
+
+
+          </div>
+      </div>    
+</div> 
     </section>
     <!--footer-->
-    <footer class="page-footer black">
-      <!--add footer or modify this-->
+   <footer class="page-footer grey darken-3">
           <div class="container">
             <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="teal-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              <div class="col l6 s12 m4">
+                <h5 class="white-text">Site Map</h5>
+                <ul>
+                  <li><a class="teal-text text-lighten-3" href="#!">Home</a><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                  <li><a class="teal-text text-lighten-3" href="#!">Introduction</a></li>
+                  <li><a class="teal-text text-lighten-3" href="#!">Why TaskMaster</a></li>
+                  
+                </ul>
               </div>
-              <div class="col l4 offset-l2 s12">
+              <div class="col l4 offset-l2 m3">
                 <h5 class="teal-text">Links</h5>
                 <ul>
-                  <li><a class="teal-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="teal-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="teal-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="teal-text text-lighten-3" href="#!">Link 4</a></li>
+                  <li><a class="teal-text text-lighten-3" href="#!">Twitter</a><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                  <li><a class="teal-text text-lighten-3" href="#!">Facebook</a></li>
+                  <li><a class="teal-text text-lighten-3" href="#!">Instagram</a></li>
+                  <li><a class="teal-text text-lighten-3" href="#!">Google Play</a></li>
                 </ul>
+              </div>
+              <div class="col l4 offset-l2 m4">
+                <h5 class="teal-text">Mail us</h5>
+                <form>
+                  <input type="email" >
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                    </button>
+                </form>
               </div>
             </div>
           </div>
           <div class="footer-copyright">
             <div class="container">
-            Copyright © 2018 TaskMaster
+            Copyright © 2014 TaskMaster
             <a class="teal-text text-lighten-4 right" href="#!">More Links</a>
             </div>
           </div>
@@ -134,5 +195,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
     <script src="./js/init.js"></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
   </body>
 </html>

@@ -20,6 +20,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/form.css">
   <link href="css/imageSlider.css" rel="stylesheet">
+  <link href="css/nav_n_btn.css" rel="stylesheet">
 </head>
 
 <body>
@@ -49,9 +50,7 @@
       <p>Created By Team Task Master</p>
       <button>Get Started</button>
       <p>
-        <a href="#intro">
-          <img src="img/arrow.svg" id="arrowImg">
-        </a>
+        <div class="down-arrow"></div>
       </p>
     </div>
   </div>
@@ -96,8 +95,8 @@
         <h2 class=" wow fadeInUp" data-wow-delay="0.4s">Contact</h2>
         <div class="row">
 
-          <!-- <p></p> -->
-          <div class="col s12 m12 l6 xl6">
+          <p></p>
+          <div class="col s6 col s6">
             <div class="input-field  wow fadeInUp " data-wow-delay="0.4s">
               <i class="material-icons prefix icon-white ">account_circle</i>
               <input type="text" id="first_name" class="validate">
@@ -121,7 +120,7 @@
 
 
 
-          <div class="col s12 m12 l6 xl6">
+          <div class="col s6">
             <div class=" wow fadeInUp input-field" data-wow-delay="1.6s">
               <i class=" material-icons prefix icon-white">feedback</i>
               <textarea rows="4" id="area" class="materialize-textarea"></textarea>
@@ -161,20 +160,24 @@
         </div>
         <div class="col l4 m4 s12">
           <h5 class="teal-text">Links</h5>
-          <ul>
+          <ul class="social">
             <li>
-              <a class="teal-text text-lighten-3" href="#!">Twitter</a>
-              <i class="fa fa-facebook-square" aria-hidden="true"></i>
+              <a class="teal-text text-lighten-3" href="#!"><img src="img/twitter.svg"></a>
+              
             </li>
             <li>
-              <a class="teal-text text-lighten-3" href="#!">Facebook</a>
+              <a class="teal-text text-lighten-3" href="#!"><img src="img/fb.svg"></a>
             </li>
+            <div id="fit1">
             <li>
-              <a class="teal-text text-lighten-3" href="#!">Instagram</a>
+              <a class="teal-text text-lighten-3" href="#!"><img src="img/googleplus.svg" width="55"></a>
             </li>
+             </div>
+            <div id="fit2">
             <li>
-              <a class="teal-text text-lighten-3" href="#!">Google Play</a>
+              <a class="teal-text text-lighten-3" href="#!"><img src="img/insta.svg" width="75"></a>
             </li>
+          </div>
           </ul>
         </div>
         <div class="col l4 m4 s12">

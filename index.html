@@ -1,119 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-  <head>
-    <!--webapp title-->
-    <title>TaskMaster </title>
-    <!--meta tags-->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!--remote stylesheets linkage-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <!--additional stylesheets-->
-    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
-    <link href="./css/init.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/form.css">
-    <link href="css/imageSlider.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/custom.css">
-  </head>
-
-  <body>
-    <!-- navigation bar edited on 12 April,18(@DeepPurohit) -->
-    <div class="main-content navbar-fixed">
-      <nav class="black">
-          <!--<div class="nav-wrapper container">
-              <a href="#" class="brand-logo">TASKMASTER</a>
-              <ul id="nav-mobile" class="right hide-on-med-and-down section table-of-contents">
-                  <li><a href="index.html">HOME</a></li>
-                  <li><a class="scrollspy" href="#intro">INTRODUCTION</a></li>
-                  <li><a class="scrollspy" href="#why">WHY TASKMASTER?</a></li>
-              </ul>
-          </div>-->
-          <div class="nav-wrapper">
-            <a href="#" class="brand-logo" id="logo">TASKMASTER</a>
-            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
-              <i class="material-icons">menu</i>
-              <ul class="right hide-on-med-and-down">
-                  <li><a href="index.html">HOME</a></li>
-                  <li><a class="scrollspy" href="#intro">INTRODUCTION</a></li>
-                  <li><a class="scrollspy" href="#why">WHY TASKMASTER?</a></li>
-              </ul>
-            </a>
-          </div>  
-      </nav>
-    </div>
-    <ul class="sidenav grey darken-2" id="mobile-nav">
-      <li><a class="white-text" href="index.html">HOME</a></li>
-      <li><a class="scrollspy white-text" href="#intro">INTRODUCTION</a></li>
-      <li><a class="scrollspy white-text" href="#why">WHY TASKMASTER?</a></li>
-    </ul>
 
 
-    <!--Slider -->
-    <!--added image slider on 12 April,18-->
-    <!-- <div id="imageslider">
-            <div class="mtext">
-                <p>A One Stop Solution to Keep your goals on track</p>
-                <p>Created By Team Task Master</p>
-                <button>Get Started</button>
-                <p>
-               <a  href="#intro"> <img src="img/arrow.svg" id="arrowImg"></a>
-            </p>
-            </div>
-    </div> -->
-    <section class="slider">
-      <ul class="slides"><!--Replace lorem text with awesome Quotes-->
+<head>
+  <!--webapp title-->
+  <title>TaskMaster </title>
+  <!--meta tags-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!--remote stylesheets linkage-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <!--additional stylesheets-->
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+  <link href="./css/init.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/form.css">
+  <link href="css/imageSlider.css" rel="stylesheet">
+  <link href="css/nav_n_btn.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main-content navbar-fixed">
+    <nav class="black">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo">TASKMASTER</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down table-of-contents">
           <li>
-            <img src="img/bgImg1.jpg">
-            <div class="caption center-align">
-              <h2 class="blue-text">Lorem ipsum dolor sit.</h2>
-              <h5 class="light grey-text text-lighten-3">A One Stop Solution to Keep your goals on track</h5>
-            </div>
+            <a href="#imageslider">HOME</a>
           </li>
           <li>
-            <img src="img/bgImg2.jpg">
-            <div class="caption left-align">
-              <h2 class="yellow-text text-lighten-3">Lorem ipsum dolor sit.</h2>
-              <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, possimus?</h5>
-            </div>
+            <a href="#intro">INTRODUCTION</a>
           </li>
           <li>
-            <img src="img/bgImg3.jpg">
-            <div class="caption right-align">
-              <h2>Lorem ipsum dolor sit amet.</h2>
-              <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, neque?</h5>
-            </div>
+            <a href="#why">WHY TASKMASTER?</a>
           </li>
         </ul>
-  </section>
-    
-    
-    <section class="section center">
-        <!-- <h3 class="blue-text lighten-2">Created By Team Task Master</h3> -->
-        <a id="start" href="#intro" class="teal waves-effect waves-light btn">Get Started</a>
-        <p>
-    </section>
-    
-    
-    <!-- Intro Section -->
-    
-    <section id="intro" class="center-align card-panel hoverable section scrollspy">
-      <div class="container">
-        <div class="row">
-          <div class="col m12">
-            <h2>Introduction</h2>
-            <p class="">TaskManager is a one place solution for all your TO-DO Lists and goals in one place.Give color to your goals, attach files, set priorities and do much more. Our website also has an alarm popup feature that will remind you that your time is up to complete a goal.
-            </p>
-            <p class="">This app will help you to take stock of your situation, keep distractions away and focus more on your goals.
-            </p>
-          </div>
+      </div>
+    </nav>
+  </div>
 
+  <!--Slider -->
+  <div id="imageslider" class="scrollspy">
+    <div class="mtext">
+      <p>A One Stop Solution to Keep your goals on track</p>
+      <p>Created By Team Task Master</p>
+      <button>Get Started</button>
+      <p>
+        <div class="down-arrow"></div>
+      </p>
+    </div>
+  </div>
+
+
+  <!-- Intro Section -->
+  <section id="intro" class="center-align card-panel hoverable section scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col m12">
+          <h2>Introduction</h2>
+          <p class="flow-text">TaskManager is a one place solution for all your TO-DO Lists and goals in one place.Give color to your goals, attach
+            files, set priorities and do much more. Our website also has an alarm popup feature that will remind you that
+            your time is up to complete a goal.
+          </p>
+          <p class="flow-text">This app will help you to take stock of your situation, keep distractions away and focus more on your goals.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="why" class="center-align card-panel hoverable section scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col m12">
+          <h2>Why TaskMaster?</h2>
+          <p class="flow-text">In this digital age, where almost everything is going for digitization why use traditional TO-DO sticky notes to
+            write down your goals? Our goals are imprinted in our minds if we can visualize them. We have a photo attachment
+            feature exclusively for that purpose. Algorithms are changing every day so that people spend more time on their
+            phones. Let's together conquer our goals with Taskmaster.
+          </p>
         </div>
       </div>
     </div>
@@ -126,42 +96,16 @@
       <form>
       <div class="container ">
         <h2 class=" wow fadeInUp" data-wow-delay="0.4s">Contact</h2>
-          <div class="row">
-              
-              <p></p>
-              <div class="col s6 col s6">
-                <div class="input-field  wow fadeInUp " data-wow-delay="0.4s">
-                    <i class="material-icons prefix icon-white ">account_circle</i>
-                    <input  type="text" id="first_name" class="validate">
-                    <label for="first_name">First Name</label>
-                </div>
-                <div class="input-field  wow fadeInUp " data-wow-delay="0.8s">
-                    
-                    <i class="material-icons prefix icon-white">email</i>
-                    <input  type="text" id="email_address" class="validate">
-                    <label for="email_address">Email Address</label>
-                </div>
-                  <div class="input-field  wow fadeInUp " data-wow-delay="1.2s">
-                    
-                   <i class="material-icons prefix icon-white">phone</i> 
-                    <input  type="text" id="phone_number" class="validate">
-                    <label for="phone_number">Phone Number</label>
+        <div class="row">
 
-                </div>
-                
-</div>              
-              <div class="col s6"  >
-                  <div class=" wow fadeInUp input-field" data-wow-delay="1.6s">
-                    <i class=" material-icons prefix icon-white">feedback</i>
-                    <textarea rows="4" id="area" class="materialize-textarea" ></textarea>
-                    <label for="area">Feed Back</label>
-                  </div>
-                  <button class="btn waves-effect waves-light wow fadeInUp teal" type="submit" name="action" data-wow-delay="2s">Submit
-                                          <i class="material-icons right">send</i>
-                  </button>
-                  <!--<button class="btn btn-lg wow fadeInUp" type="Submit" data-wow-delay="2s">Submit Your Message</button> -->
-              </div>
-             
+          <p></p>
+          <div class="col s6">
+            <div class="input-field  wow fadeInUp " data-wow-delay="0.4s">
+              <i class="material-icons prefix icon-white ">account_circle</i>
+              <input type="text" id="first_name" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field  wow fadeInUp " data-wow-delay="0.8s">
 
               <i class="material-icons prefix icon-white">email</i>
               <input type="text" id="email_address" class="validate">
@@ -244,24 +188,11 @@
     <script src="js/formanimate.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/wow.min.js"></script>
-              <!-- custom script edited on 12th April,18(@DeepPurohit) -->
               <script>
               new WOW().init();
               //adding scrolling style
               const ss = document.querySelectorAll('.scrollspy');
-              M.ScrollSpy.init(ss, {}); 
-            
-              //mobile-navbar
-                const menu = document.querySelector('.sidenav');
-                M.Sidenav.init(menu, {});
-              //image slider
-                const slider = document.querySelector('.slider');
-                M.Slider.init(slider, {
-                  indicators: false,
-                  height: 500,
-                  transition: 500,
-                  interval: 6000
-                });
+              M.ScrollSpy.init(ss, {});
               </script>
   </body>
 </html>

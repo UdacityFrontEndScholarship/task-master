@@ -1,46 +1,49 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
   <head>
-      <title>TaskMaster </title>
-
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-      <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-      <link href="./css/init.css" rel="stylesheet">
+    <!--webapp title-->
+    <title>TaskMaster </title>
+    <!--meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--remote stylesheets linkage-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <!--additional stylesheets-->
+    <link href="./css/init.css" rel="stylesheet">
   </head>
 
   <body>
-    <div class="main-content navbar-fixed">
+    <!--navigation bar-->
+    <div class="main-content navbar-fixed" id="top">
       <nav class="black">
           <div class="nav-wrapper container">
               <a href="#" class="brand-logo">TASKMASTER</a>
-              <ul id="nav-mobile" class="right hide-on-med-and-down section table-of-contents">
-                  <li><a href="index.html">HOME</a></li>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li><a href="#top">HOME</a></li>
                   <li><a href="#intro">INTRODUCTION</a></li>
                   <li><a href="#why">WHY TASKMASTER?</a></li>
               </ul>
           </div>
       </nav>
     </div>
+    <!--background image slider-->
     <div class="slider slider-adjustment">
+      <!--do not change this slider only make the background image so that it covers whole screen without compromising rest of the code-->
         <ul class="slides">
             <li>
                 <div class="carousel-item">
-                <img src="./img/bgImg1.jpg" class="responsive-img">
+                <img src="./img/bgImg1.jpg">
                 <div class="caption center-align">
                     <h3>A one stop solution to keep your goals on track.</h3>
                     <h5 class=" pacifico light grey-text text-lighten-3">Created by Team TaskMaster.</h5>
                     <div class="section"></div>
                     <a href="#!" class="btn btn-large waves-effect waves-light card-panel hoverable">GET STARTED</a>
                 </div>
-
-                </div>
+                 </div>
             </li>
             <li>
                 <div class="carousel-item">
@@ -63,11 +66,13 @@
                         <h5 class=" pacifico light grey-text text-lighten-3">Created by Team TaskMaster.</h5>
                         <div class="section"></div>
                         <a href="#!" class="btn btn-large waves-effect waves-light hoverable">GET STARTED</a>
+                            <img src="img/arrow.svg" id="arrowImg">
                     </div>
                 </div>
             </li>
         </ul>
     </div>
+    <!--intro-->
     <section id="intro" class="center-align card-panel hoverable section scrollspy">
       <div class="container">
         <div class="row">
@@ -81,6 +86,7 @@
         </div>
       </div>
     </section>
+    <!--why taskmaster-->
     <section id="why" class="center-align card-panel hoverable section scrollspy">
        <div class="container">
          <div class="row">
@@ -92,7 +98,14 @@
          </div>
        </div>
     </section>
+    <!--contact form-->
+    <section>
+        <h2>Contact Us</h2>
+        <p>Add contact form here!</p>
+    </section>
+    <!--footer-->
     <footer class="page-footer black">
+      <!--add footer or modify this-->
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
@@ -112,13 +125,14 @@
           </div>
           <div class="footer-copyright">
             <div class="container">
-            Copyright © 2014 TaskMaster
+            Copyright © 2018 TaskMaster
             <a class="teal-text text-lighten-4 right" href="#!">More Links</a>
             </div>
           </div>
         </footer>
+    <!--additional scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
     <script src="./js/init.js"></script>
-</body>
+  </body>
 </html>

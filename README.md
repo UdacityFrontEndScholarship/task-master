@@ -1,6 +1,6 @@
 <img src="https://image.ibb.co/kkGpRc/Task_Master.png" alt="Task Master" border="10">
 
-<a href="https://udacityfrontendscholarship.github.io/task-master/"># Live Link </a>
+<a href="https://udacityfrontendscholarship.github.io/task-master/">##Live_Link(This link is Buggy at present)</a>
 
 # Usage
 This is an online goal setting app where the number of goals and tasks to be done are written down and includes various additional features. 

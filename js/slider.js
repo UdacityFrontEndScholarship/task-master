@@ -1,4 +1,4 @@
-const slides = ["img/bgimg1.jpg","img/bgimg2.jpg","img/bgimg3.jpg"]
+const slides = ["./img/bgimg1.jpg","./img/bgimg2.jpg","./img/bgimg3.jpg"]
 
 const s = document.getElementById("imageslider");
 

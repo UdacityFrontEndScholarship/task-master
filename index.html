@@ -20,24 +20,44 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/form.css">
     <link href="css/imageSlider.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
   </head>
 
   <body>
+    <!-- navigation bar edited on 12 April,18(@DeepPurohit) -->
     <div class="main-content navbar-fixed">
       <nav class="black">
-          <div class="nav-wrapper container">
+          <!--<div class="nav-wrapper container">
               <a href="#" class="brand-logo">TASKMASTER</a>
               <ul id="nav-mobile" class="right hide-on-med-and-down section table-of-contents">
                   <li><a href="index.html">HOME</a></li>
                   <li><a class="scrollspy" href="#intro">INTRODUCTION</a></li>
                   <li><a class="scrollspy" href="#why">WHY TASKMASTER?</a></li>
               </ul>
-          </div>
+          </div>-->
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo" id="logo">TASKMASTER</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+              <ul class="right hide-on-med-and-down">
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a class="scrollspy" href="#intro">INTRODUCTION</a></li>
+                  <li><a class="scrollspy" href="#why">WHY TASKMASTER?</a></li>
+              </ul>
+            </a>
+          </div>  
       </nav>
     </div>
+    <ul class="sidenav grey darken-2" id="mobile-nav">
+      <li><a class="white-text" href="index.html">HOME</a></li>
+      <li><a class="scrollspy white-text" href="#intro">INTRODUCTION</a></li>
+      <li><a class="scrollspy white-text" href="#why">WHY TASKMASTER?</a></li>
+    </ul>
+
+
     <!--Slider -->
-    
-    <div id="imageslider">
+    <!--added image slider on 12 April,18-->
+    <!-- <div id="imageslider">
             <div class="mtext">
                 <p>A One Stop Solution to Keep your goals on track</p>
                 <p>Created By Team Task Master</p>
@@ -46,7 +66,32 @@
                <a  href="#intro"> <img src="img/arrow.svg" id="arrowImg"></a>
             </p>
             </div>
-    </div>
+    </div> -->
+    <section class="slider">
+      <ul class="slides">
+          <li>
+            <img src="img/bgImg1.jpg">
+            <div class="caption center-align">
+              <h2 class="blue-text">Lorem ipsum dolor sit.</h2>
+              <h5 class="light grey-text text-lighten-3">A One Stop Solution to Keep your goals on track</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/bgImg2.jpg">
+            <div class="caption left-align">
+              <h2 class="yellow-text text-lighten-3">Lorem ipsum dolor sit.</h2>
+              <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, possimus?</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/bgImg3.jpg">
+            <div class="caption right-align">
+              <h2>Lorem ipsum dolor sit amet.</h2>
+              <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, neque?</h5>
+            </div>
+          </li>
+        </ul>
+  </section>
     
     
     
@@ -86,30 +131,27 @@
           <div class="row">
               
               <p></p>
-                          <div class="col s6 col s6">
-                                            <div class="input-field  wow fadeInUp " data-wow-delay="0.4s">
-                                                <i class="material-icons prefix icon-white ">account_circle</i>
-                                                <input  type="text" id="first_name" class="validate">
-                                                <label for="first_name">First Name</label>
-                                            </div>
-                                            <div class="input-field  wow fadeInUp " data-wow-delay="0.8s">
-                                                
-                                                <i class="material-icons prefix icon-white">email</i>
-                                                <input  type="text" id="email_address" class="validate">
-                                                <label for="email_address">Email Address</label>
-                                            </div>
-                                              <div class="input-field  wow fadeInUp " data-wow-delay="1.2s">
-                                                
-                                               <i class="material-icons prefix icon-white">phone</i> 
-                                                <input  type="text" id="phone_number" class="validate">
-                                                <label for="phone_number">Phone Number</label>
+              <div class="col s6 col s6">
+                <div class="input-field  wow fadeInUp " data-wow-delay="0.4s">
+                    <i class="material-icons prefix icon-white ">account_circle</i>
+                    <input  type="text" id="first_name" class="validate">
+                    <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field  wow fadeInUp " data-wow-delay="0.8s">
+                    
+                    <i class="material-icons prefix icon-white">email</i>
+                    <input  type="text" id="email_address" class="validate">
+                    <label for="email_address">Email Address</label>
+                </div>
+                  <div class="input-field  wow fadeInUp " data-wow-delay="1.2s">
+                    
+                   <i class="material-icons prefix icon-white">phone</i> 
+                    <input  type="text" id="phone_number" class="validate">
+                    <label for="phone_number">Phone Number</label>
 
-                                            </div>
-                                            
-                          </div>
-              
-
-              
+                </div>
+                
+</div>              
               <div class="col s6"  >
                   <div class=" wow fadeInUp input-field" data-wow-delay="1.6s">
                     <i class=" material-icons prefix icon-white">feedback</i>
@@ -175,11 +217,24 @@
     <script src="js/formanimate.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/wow.min.js"></script>
+              <!-- custom script edited on 12th April,18(@DeepPurohit) -->
               <script>
               new WOW().init();
               //adding scrolling style
               const ss = document.querySelectorAll('.scrollspy');
               M.ScrollSpy.init(ss, {}); 
+            
+              //mobile-navbar
+                const menu = document.querySelector('.sidenav');
+                M.Sidenav.init(menu, {});
+              //image slider
+                const slider = document.querySelector('.slider');
+                M.Slider.init(slider, {
+                  indicators: false,
+                  height: 500,
+                  transition: 500,
+                  interval: 6000
+                });
               </script>
   </body>
 </html>

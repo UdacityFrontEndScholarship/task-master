@@ -1,209 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <!--webapp title-->
-  <title>TaskMaster </title>
-  <!--meta tags-->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <!--remote stylesheets linkage-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-  <!--additional stylesheets-->
-  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
-  <link href="./css/init.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/form.css">
-  <link href="css/imageSlider.css" rel="stylesheet">
-</head>
+  <head>
+    <!--webapp title-->
+    <title>TaskMaster </title>
+    <!--meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--remote stylesheets linkage-->
+    <!-- for icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <!--additional stylesheets-->
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link href="./css/init.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+    <link href="css/imageSlider.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+  </head>
 
-<body>
-  <div class="main-content navbar-fixed">
-    <nav class="black">
-      <div class="nav-wrapper container">
-        <a href="#" class="brand-logo">TASKMASTER</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down table-of-contents">
+  <body>
+    <!-- navigation bar edited on 12 April,18(@DeepPurohit) -->
+    <div class="navbar-fixed">
+      <nav class="black">
+          <!--<div class="nav-wrapper container">
+              <a href="#" class="brand-logo">TASKMASTER</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down section table-of-contents">
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a class="scrollspy" href="#intro">INTRODUCTION</a></li>
+                  <li><a class="scrollspy" href="#why">WHY TASKMASTER?</a></li>
+              </ul>
+          </div>-->
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo" id="logo">TASKMASTER</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+              <ul class="right hide-on-med-and-down">
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a class="scrollspy" href="#intro">INTRODUCTION</a></li>
+                  <li><a class="scrollspy" href="#why">WHY TASKMASTER?</a></li>
+                  <li><a class="scrollspy" href="#contact">CONTACT</a></li>
+              </ul>
+            </a>
+          </div>  
+      </nav>
+    </div>
+    <ul class="sidenav grey darken-2" id="mobile-nav">
+      <li><a class="white-text" href="index.html">HOME</a></li>
+      <li><a class="scrollspy white-text" href="#intro">INTRODUCTION</a></li>
+      <li><a class="scrollspy white-text" href="#why">WHY TASKMASTER?</a></li>
+      <li><a class="scrollspy white-text" href="#contact">CONTACT</a></li>
+    </ul>
+
+
+   
+    <!--added image slider on 12 April,18-->
+    <!-- <div id="imageslider">
+            <div class="mtext">
+                <p>A One Stop Solution to Keep your goals on track</p>
+                <p>Created By Team Task Master</p>
+                <button>Get Started</button>
+                <p>
+               <a  href="#intro"> <img src="img/arrow.svg" id="arrowImg"></a>
+            </p>
+            </div>
+    </div> -->
+     <!--Slider -->
+    <section class="slider">
+      <div class="container">
+      <ul class="slides">
           <li>
-            <a href="#imageslider">HOME</a>
+            <img src="https://previews.123rf.com/images/auremar/auremar1311/auremar131100927/45586237-office-worker-overworked.jpg"/>
+            <div class="caption center-align">
+              <h2 class="orange-text white fade">Can't Manage Work?</h2>
+              <h4 class=" yellow-text fade grey darken-2 hide-on-small-only">A One Stop Solution to Keep your goals on track</h4>
+            </div>
           </li>
           <li>
-            <a href="#intro">INTRODUCTION</a>
+            <img src="https://toggl.com/time-management-tips/images/time-management-tips-toggl-00083821b98f22b3bcd7120cd3bcd738.jpg">
+            <div class="caption left-align">
+              <h2 class="red-text white fade">Easy To Use</h2>
+              <h4 class="yellow-text fade grey darken-5 hide-on-small-only">List Your All Day To-Dos</h4>
+            </div>
           </li>
           <li>
-            <a href="#why">WHY TASKMASTER?</a>
+            <img src="http://32dayz.com/blog/wp-content/uploads/2014/05/104772212_web.jpg">
+            <div class="caption center-align">
+              <h2 class="blue-text white lighten-4 fade">Complete Your Work In Time</h2>
+              <h4 class="yellow-text fade grey hide-on-small-only">Managing time becomes EASY</h4>
+            </div>
           </li>
         </ul>
       </div>
-    </nav>
-  </div>
-
-  <!--Slider -->
-  <div id="imageslider" class="scrollspy">
-    <div class="mtext">
-      <p>A One Stop Solution to Keep your goals on track</p>
-      <p>Created By Team Task Master</p>
-      <button>Get Started</button>
-      <p>
-        <a href="#intro">
-          <img src="img/arrow.svg" id="arrowImg">
-        </a>
-      </p>
-    </div>
-  </div>
-
-
-  <!-- Intro Section -->
-  <section id="intro" class="center-align card-panel hoverable section scrollspy">
-    <div class="container">
-      <div class="row">
-        <div class="col m12">
-          <h2>Introduction</h2>
-          <p class="flow-text">TaskManager is a one place solution for all your TO-DO Lists and goals in one place.Give color to your goals, attach
-            files, set priorities and do much more. Our website also has an alarm popup feature that will remind you that
-            your time is up to complete a goal.
-          </p>
-          <p class="flow-text">This app will help you to take stock of your situation, keep distractions away and focus more on your goals.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="why" class="center-align card-panel hoverable section scrollspy">
-    <div class="container">
-      <div class="row">
-        <div class="col m12">
-          <h2>Why TaskMaster?</h2>
-          <p class="flow-text">In this digital age, where almost everything is going for digitization why use traditional TO-DO sticky notes to
-            write down your goals? Our goals are imprinted in our minds if we can visualize them. We have a photo attachment
-            feature exclusively for that purpose. Algorithms are changing every day so that people spend more time on their
-            phones. Let's together conquer our goals with Taskmaster.
-          </p>
-        </div>
-      </div>
-    </div>
   </section>
 
-
-  <!--contact form-->
-  <section>
-    <div id="contact" class="contact ">
-      <div class="container ">
-        <h2 class=" wow fadeInUp" data-wow-delay="0.4s">Contact</h2>
-        <div class="row">
-
-          <p></p>
-          <div class="col s6 col s6">
-            <div class="input-field  wow fadeInUp " data-wow-delay="0.4s">
-              <i class="material-icons prefix icon-white ">account_circle</i>
-              <input type="text" id="first_name" class="validate">
-              <label for="first_name">First Name</label>
-            </div>
-            <div class="input-field  wow fadeInUp " data-wow-delay="0.8s">
-
-              <i class="material-icons prefix icon-white">email</i>
-              <input type="text" id="email_address" class="validate">
-              <label for="email_address">Email Address</label>
-            </div>
-            <div class="input-field  wow fadeInUp " data-wow-delay="1.2s">
-
-              <i class="material-icons prefix icon-white">phone</i>
-              <input type="text" id="phone_number" class="validate">
-              <label for="phone_number">Phone Number</label>
-
-            </div>
-
-          </div>
-
-
-
-          <div class="col s6">
-            <div class=" wow fadeInUp input-field" data-wow-delay="1.6s">
-              <i class=" material-icons prefix icon-white">feedback</i>
-              <textarea rows="4" id="area" class="materialize-textarea"></textarea>
-              <label for="area">Feed Back</label>
-            </div>
-            <button class="btn waves-effect waves-light wow fadeInUp teal" type="submit" name="action" data-wow-delay="2s">Submit
-              <i class="material-icons right">send</i>
-            </button>
-            <!--<button class="btn btn-lg wow fadeInUp" type="Submit" data-wow-delay="2s">Submit Your Message</button> -->
-          </div>
-
-
-
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--footer-->
-  <footer class="page-footer grey darken-3">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12 m4">
-          <h5 class="white-text">Site Map</h5>
-          <ul>
-            <li>
-              <a class="teal-text text-lighten-3" href="#!">Home</a>
-              <i class="fa fa-facebook-square" aria-hidden="true"></i>
-            </li>
-            <li>
-              <a class="teal-text text-lighten-3" href="#!">Introduction</a>
-            </li>
-            <li>
-              <a class="teal-text text-lighten-3" href="#!">Why TaskMaster</a>
-            </li>
-
-          </ul>
-        </div>
-        <div class="col l4 offset-l2 m3">
-          <h5 class="teal-text">Links</h5>
-          <ul>
-            <li>
-              <a class="teal-text text-lighten-3" href="#!">Twitter</a>
-              <i class="fa fa-facebook-square" aria-hidden="true"></i>
-            </li>
-            <li>
-              <a class="teal-text text-lighten-3" href="#!">Facebook</a>
-            </li>
-            <li>
-              <a class="teal-text text-lighten-3" href="#!">Instagram</a>
-            </li>
-            <li>
-              <a class="teal-text text-lighten-3" href="#!">Google Play</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col l4 offset-l2 m4">
-          <h5 class="teal-text">Mail us</h5>
-          <form>
-            <input type="email">
-            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-              <i class="material-icons right">send</i>
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
+    <section class="section center wow fadeInUp" data-wow-delay="0.2s" style="margin-top: -30px">
+        <h3 class="blue-text lighten-2">Task Master <h5>One Solution For Work Management Problems</h5></h3>
+        <a id="start" href="#intro" class="teal waves-effect waves-light btn">Get Started</a>
+    </section>
+    
+    
+    <!-- Intro Section -->
+    
+    <section id="intro" class="center-align card-panel hoverable section scrollspy wow fadeInLeft" data-wow-delay="0.1s">
       <div class="container">
-        Copyright © 2014 TaskMaster
-        <a class="teal-text text-lighten-4 right" href="#!">More Links</a>
+        <div class="row">
+          <div class="col m12">
+            <h2>Introduction</h2>
+            <p class="">TaskManager is a one place solution for all your TO-DO Lists and goals in one place.Give color to your goals, attach files, set priorities and do much more. Our website also has an alarm popup feature that will remind you that your time is up to complete a goal.
+            </p>
+            <p class="">This app will help you to take stock of your situation, keep distractions away and focus more on your goals.
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-  </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
-  <script src="./js/init.js"></script>
-  <script src="js/formanimate.js"></script>
-  <script src="js/slider.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script>
-    new WOW().init();
-  </script>
-</body>
+    </section>
+    <section id="why" class="center-align card-panel hoverable section scrollspy wow fadeInRight" data-wow-delay="0.1s">
+       <div class="container">
+         <div class="row">
+           <div class="col m12">
+            <h2>Why TaskMaster?</h2>
+             <p class="">In this digital age, where almost everything is going for digitization why use traditional TO-DO sticky notes to write down your goals? Our goals are imprinted in our minds if we can visualize them. We have a photo attachment feature exclusively for that purpose. Algorithms are changing every day so that people spend more time on their phones. Let's together conquer our goals with Taskmaster.
+            </p>
+           </div>
+         </div>
+       </div>
+    </section>
+    <!--contact form-->
+    <section class="section section-contact black scrollspy card-panel hoverable"
+        <div id="contact" class="contact ">
+      <div class="container ">
+        <h2 class=" wow fadeInUp center white-text" data-wow-delay="0.4s">Contact</h2>
+          <div class="row">
+              <div class="col s12 m12 center">
+                <div class="input-field  wow fadeInUp " data-wow-delay="0.4s">
+                    <i class="material-icons prefix icon-white ">account_circle</i>
+                    <input  type="text" id="first_name" class="validate"/>
+                    <label for="first_name">First Name</label>
+                </div>
+                  <div class="input-field  wow fadeInUp" data-wow-delay="0.8s">
+                    <i class="material-icons prefix icon-white"> email</i>
+                    <input  type="text" id="email_address" class="validate"/>
+                    <label for="email_address">Email Address</label>
+                </div>
+                  <div class="input-field  wow fadeInUp" data-wow-delay="1.2s">
+                   <i class="material-icons prefix icon-white">phone</i> 
+                    <input  type="number" id="phone_number" class="validate">
+                    <label for="phone_number">Phone Number</label>
+                </div>
+                  <div class=" wow fadeInUp input-field" data-wow-delay="1.6s">
+                    <i class=" material-icons prefix icon-white">feedback</i>
+                    <textarea rows="4" id="area" class=" white materialize-textarea" ></textarea>
+                    <label for="area">Feed Back</label>
+                  </div>
+                  <button class="btn waves-effect waves-light wow fadeInUp teal" type="submit" name="action" data-wow-delay="1.8s">Submit
+                   <i class="material-icons right">send</i>
+                  </button>
+                  <!--<button class="btn btn-lg wow fadeInUp" type="Submit" data-wow-delay="2s">Submit Your Message</button> -->
+              </div>
+             
 
+
+          </div>
+      </div>    
+</div> 
+    </section>
+    <!--footer-->
+   <footer class="page-footer grey darken-3">
+          <div class="container">
+            <div class="row">
+              <div class="col center s12 m4"><!--Added center class-->
+                <h4 class="white-text">Site Map</h4>
+                <ul><!--href link added-->
+                  <li><a class="teal-text scrollspy text-lighten-3" href="index.html">Home</a></li>
+                  <li><a class="teal-text scrollspy text-lighten-3" href="#intro">Introduction</a></li>
+                  <li><a class="teal-text scrollspy text-lighten-3" href="#why">Why TaskMaster</a></li>
+                  
+                </ul>
+              </div>
+              <div class="col l4 center s12 m4"><!--Added center class-->
+                <h4 class="teal-text">Links</h4>
+                <ul>
+                  <li><a class="teal-text  text-lighten-3" href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                  <li><a class="teal-text  text-lighten-3" href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                  <li><a class="teal-text  text-lighten-3" href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                  <li><a class="teal-text  text-lighten-3" href="#"><i class="fab fa-google-plus"></i> Google Plus</a></li>
+                </ul>
+              </div>
+              <div class="col s12 center m4"> <!--Changing display of Mail Us 12th April/18-->
+                <h4 class="teal-text">Mail us</h4>
+                <form>
+                  <input type="email" >
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                    </button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <hr/>
+          <div class="footer-copyright">
+            <div class="container center">
+            Copyright © 2018 TaskMaster
+            <a class="teal-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
+    <script src="./js/init.js"></script>
+    <script src="js/formanimate.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/wow.min.js"></script>
+              <!-- custom script edited on 12th April,18(@DeepPurohit) -->
+              <script>
+              new WOW().init();
+              //adding scrolling style
+              const ss = document.querySelectorAll('.scrollspy');
+              M.ScrollSpy.init(ss, {}); 
+            
+              //mobile-navbar
+                const menu = document.querySelector('.sidenav');
+                M.Sidenav.init(menu, {});
+              //image slider
+                const slider = document.querySelector('.slider');
+                M.Slider.init(slider, {
+                  indicators: false,
+                  height: 500,
+                  transition: 500,
+                  interval: 6000
+                });
+              </script>
+  </body>
 </html>

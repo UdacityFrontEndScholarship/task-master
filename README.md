@@ -14,7 +14,6 @@
 
 - Fork this repo, understand the code, from 13.04.2018 Evening to 15.04.2018 midnight, you can expect huge number of issues you can work on.Whatever work has to be done, you can find it in the issues tab. If you want to work on something by you own, raise an issue, WAIT FOR COLLABORATORS to APPROVE it, then go ahead with you code. 
 
-- Also inviting participants to construct a WIKI page for us. :)
 
 
 # Usage

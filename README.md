@@ -1,6 +1,21 @@
 <img src="https://image.ibb.co/kkGpRc/Task_Master.png" alt="Task Master" border="10">
 
-<a href="https://udacityfrontendscholarship.github.io/task-master/">##Live_Link</a>
+<a href="https://udacityfrontendscholarship.github.io/task-master/"><b>Live_Link</b></a>
+
+# Current Status
+
+- HomePage is Designed . (Thanks to collective effort) Whatever bug remains will be squashed later.
+# Next Up
+
+- Login page. (Priyabrata working on the basic framework)
+- Register Page(Sahkal working on basic Framework)
+- User Account Page(Shashank Working on it) 
+# What you can do?
+
+- Fork this repo, understand the code, from 13.04.2018 Evening to 15.04.2018 midnight, you can expect huge number of issues you can work on.Whatever work has to be done, you can find it in the issues tab. If you want to work on something by you own, raise an issue, WAIT FOR COLLABORATORS to APPROVE it, then go ahead with you code. 
+
+- Also inviting participants to construct a WIKI page for us. :)
+
 
 # Usage
 This is an online goal setting app where the number of goals and tasks to be done are written down and includes various additional features. 

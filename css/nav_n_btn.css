@@ -1,58 +1,71 @@
-
-.down-arrow
-{
-   width: 100%;
-   margin: 0 auto;
-   text-align: center; 
+section {
+    height: 100vh;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-.down-arrow::after
-{
- position: absolute;
- width: 34px;
- margin: auto;
- height: 34px;
- top: 0;
- right: 0;
- left: 0;
- 
- margin-top: 460px;
- content: "";
+/*Hide Scrollbar*/
+::-webkit-scrollbar {
+    width: 0 !important; /* remove scrollbar space */
+    background: transparent !important; /* optional: just make scrollbar invisible */
+}
+
+.down-arrow {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.down-arrow::after {
+    position: absolute;
+    width: 34px;
+    margin: auto;
+    height: 34px;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    margin-top: 510px;
+    content: "";
     border-right: 4px solid green;
     border-bottom: 4px solid green;
     transform: rotate(45deg);
     animation: 3s arrow infinite ease;
 }
 
-@keyframes  arrow
-{
- 0%,100%
- {
-     top:10px;
- }
- 50%
- {
-     top: 50px;
- }
+@keyframes arrow {
+    0%, 100% {
+        top: 10px;
+    }
+    50% {
+        top: 50px;
+    }
 }
 
-.social li
-{
+.social li {
     display: inline;
-    
-    padding: 35px;
-    
+
 }
 
-#fit2
-{
-    margin-top: -65px;
-    float: right;
-    margin-right: 13px;
+#fit2 {
+    display: inline;
 }
 
-#fit1
-{
-    margin-top: 14px;
-    margin-left: 5px;
+#fit1 {
+    display: inline;
+
+}
+
+.copy {
+    text-align: center;
+}
+
+.black ul {
+    position: absolute;
+    margin-left: 920px;
+}
+
+.brand-logo {
+    margin-left: 50px;
 }

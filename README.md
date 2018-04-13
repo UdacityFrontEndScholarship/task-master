@@ -1,6 +1,8 @@
 <img src="https://image.ibb.co/kkGpRc/Task_Master.png" alt="Task Master" border="10">
 
-<a href="https://udacityfrontendscholarship.github.io/task-master/"><b>Live_Link</b></a>
+<a href="https://udacityfrontendscholarship.github.io/task-master/"><b>Home Page</b></a>
+<br>
+<a href="https://udacityfrontendscholarship.github.io/task-master/login.html"><b>Login Page</b></a>
 
 # Current Status
 

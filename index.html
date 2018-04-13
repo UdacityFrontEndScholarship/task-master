@@ -48,7 +48,7 @@
                   <li><a class="scrollspy" href="#contact">CONTACT</a></li>
               </ul>
             </a>
-          </div>
+          </div>  
       </nav>
     </div>
     <ul class="sidenav grey darken-2" id="mobile-nav">
@@ -59,7 +59,7 @@
     </ul>
 
 
-
+   
     <!--added image slider on 12 April,18-->
     <!-- <div id="imageslider">
             <div class="mtext">
@@ -100,15 +100,15 @@
       </div>
   </section>
 
-    <section class="section center" style="margin-top: -30px">
+    <section class="section center wow fadeInUp" data-wow-delay="0.2s" style="margin-top: -30px">
         <h3 class="blue-text lighten-2">Task Master <h5>One Solution For Work Management Problems</h5></h3>
         <a id="start" href="#intro" class="teal waves-effect waves-light btn">Get Started</a>
     </section>
-
-
+    
+    
     <!-- Intro Section -->
-
-    <section id="intro" class="center-align card-panel hoverable section scrollspy">
+    
+    <section id="intro" class="center-align card-panel hoverable section scrollspy wow fadeInLeft" data-wow-delay="0.1s">
       <div class="container">
         <div class="row">
           <div class="col m12">
@@ -121,7 +121,7 @@
         </div>
       </div>
     </section>
-    <section id="why" class="center-align card-panel hoverable section scrollspy">
+    <section id="why" class="center-align card-panel hoverable section scrollspy wow fadeInRight" data-wow-delay="0.1s">
        <div class="container">
          <div class="row">
            <div class="col m12">
@@ -133,7 +133,7 @@
        </div>
     </section>
     <!--contact form-->
-    <section class="section section-contact scrollspy black card-panel hoverable"
+    <section class="section section-contact black scrollspy card-panel hoverable"
         <div id="contact" class="contact ">
       <div class="container ">
         <h2 class=" wow fadeInUp center white-text" data-wow-delay="0.4s">Contact</h2>
@@ -145,31 +145,31 @@
                     <label for="first_name">First Name</label>
                 </div>
                   <div class="input-field  wow fadeInUp" data-wow-delay="0.8s">
-                    <i class="material-icons prefix icon-white"> email</i>
+                    <i class="material-icons prefix icon-white "> email</i>
                     <input  type="text" id="email_address" class="validate"/>
                     <label for="email_address">Email Address</label>
                 </div>
                   <div class="input-field  wow fadeInUp" data-wow-delay="1.2s">
-                   <i class="material-icons prefix icon-white">phone</i>
+                   <i class="material-icons prefix icon-white ">phone</i> 
                     <input  type="number" id="phone_number" class="validate">
                     <label for="phone_number">Phone Number</label>
                 </div>
                   <div class=" wow fadeInUp input-field" data-wow-delay="1.6s">
-                    <i class=" material-icons prefix icon-white">feedback</i>
+                    <i class=" material-icons prefix icon-white ">feedback</i>
                     <textarea rows="4" id="area" class=" white materialize-textarea" ></textarea>
-                    <label for="area">Feed Back</label>
+                    <label for="area">Feedback</label>
                   </div>
                   <button class="btn waves-effect waves-light wow fadeInUp teal" type="submit" name="action" data-wow-delay="1.8s">Submit
                    <i class="material-icons right">send</i>
                   </button>
                   <!--<button class="btn btn-lg wow fadeInUp" type="Submit" data-wow-delay="2s">Submit Your Message</button> -->
               </div>
-
+             
 
 
           </div>
-      </div>
-</div>
+      </div>    
+</div> 
     </section>
     <!--footer-->
    <footer class="page-footer grey darken-3">
@@ -181,7 +181,7 @@
                   <li><a class="teal-text scrollspy text-lighten-3" href="index.html">Home</a></li>
                   <li><a class="teal-text scrollspy text-lighten-3" href="#intro">Introduction</a></li>
                   <li><a class="teal-text scrollspy text-lighten-3" href="#why">Why TaskMaster</a></li>
-
+                  
                 </ul>
               </div>
               <div class="col l4 center s12 m4"><!--Added center class-->
@@ -223,8 +223,8 @@
               new WOW().init();
               //adding scrolling style
               const ss = document.querySelectorAll('.scrollspy');
-              M.ScrollSpy.init(ss, {});
-
+              M.ScrollSpy.init(ss, {}); 
+            
               //mobile-navbar
                 const menu = document.querySelector('.sidenav');
                 M.Sidenav.init(menu, {});

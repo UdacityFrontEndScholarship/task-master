@@ -43,7 +43,6 @@ section {
     }
 }
 
-/*Social Icons*/
 .social li {
     display: inline;
 
@@ -62,7 +61,6 @@ section {
     text-align: center;
 }
 
-/*Navbar*/
 .black ul {
     position: absolute;
     margin-left: 920px;

@@ -2,38 +2,6 @@ body {
     overflow-x: hidden;
 }
 
-html {
-    width: 100%;
-}
-
-/*One page Template*/
-#intro, #why, #contact {
-    height: 100vh;
-    width: 100%;
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-.slider {
-    height: 100vh !important;
-}
-
-/*Hide Scrollbar*/
-::-webkit-scrollbar {
-    width: 0 !important; /* remove scrollbar space */
-    background: transparent !important; /* optional: just make scrollbar invisible */
-}
-
-/*Font size for paragraph of Intro and Why*/
-.infoFont {
-    font-size: 3vh;
-}
-
-/* Hide the carousal Indicators*/
-.indicators {
-    display: none !important;
-}
-
 #logo {
     padding-left: 20px;
 }

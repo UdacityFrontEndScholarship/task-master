@@ -43,11 +43,7 @@
 #first_name,#email_address,#phone_number,#area{
   background-color: white;
 }
-.input-field{
-  margin: 25px;
-  box-shadow: 0 1px 0 0 #000;
-  border-bottom: 1px solid #000;
-}
+
 #area{
   /*margin-top: 80px;*/
 }

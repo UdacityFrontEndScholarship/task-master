@@ -13,6 +13,9 @@ section {
     padding: 32px 10px 0px 10px;
     border: 1px solid #eee;
     margin-top: 1em;
+    min-width: 100%;
+    max-width: 470px;
+    width: 100%;
 }
 
 #box {
@@ -20,7 +23,8 @@ section {
   top: 50%;
   right: 50%;
   transform: translate(50%,-50%);
-  max-width: 90%
+  max-width: 500px;
+  width: 95%;
 }
 
 .choice {

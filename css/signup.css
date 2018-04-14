@@ -16,7 +16,7 @@ input{
     font-weight: bold;
     font-size: 20px !important;
     color: white;
-    text-align: center;
+    /*text-align: center;*/
 }
 .material-icons{
     color: orange;

@@ -4,7 +4,7 @@
 <br>
 <a href="https://udacityfrontendscholarship.github.io/task-master/login.html"><b>Login Page</b></a>
 <br>
-<a href="https://udacityfrontendscholarship.github.io/task-master/login.html"><b>Signup Page</b></a>
+<a href="https://udacityfrontendscholarship.github.io/task-master/signup.html"><b>Signup Page</b></a>
 
 # Current Status
 

@@ -1,3 +1,4 @@
+
 body {
       display: flex;
       min-height: 100vh;
@@ -10,9 +11,9 @@ section {
 
 #form-block {
     display: inline-block;
-    padding: 32px 48px 0px 48px;
+    padding: 32px 10px 0px 10px;
     border: 1px solid #eee;
-    margin-top: 3em;
+    margin-top: 1em;
 }
 
 #box {
@@ -20,6 +21,7 @@ section {
   top: 50%;
   right: 50%;
   transform: translate(50%,-50%);
+  max-width: 90%
 }
 
 .choice {
@@ -27,8 +29,3 @@ section {
     font-size: 1.5em;
 }
 
-@media only screen and (max-width: 425px) {
-  #box {
-      width: 90%
-  }
-}

@@ -12,7 +12,7 @@ section {
     display: inline-block;
     padding: 32px 48px 0px 48px;
     border: 1px solid #eee;
-    margin-top: 1em;
+    margin-top: 3em;
 }
 
 #box {
@@ -20,10 +20,15 @@ section {
   top: 50%;
   right: 50%;
   transform: translate(50%,-50%);
-  max-width: 90%
 }
 
 .choice {
     margin: 0.5em;
     font-size: 1.5em;
+}
+
+@media only screen and (max-width: 425px) {
+  #box {
+      width: 90%
+  }
 }

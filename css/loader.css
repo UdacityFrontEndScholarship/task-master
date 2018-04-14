@@ -2,7 +2,7 @@
 {
     width: 50px;
     height: 50px;
-    border: 5px solid black;
+    border: 5px solid beige;
     border-top-color: red;
     border-radius: 100%;
     position: fixed;
@@ -25,16 +25,4 @@
     from{transform: rotate(0deg)}
     to{transform: rotate(360deg)}
 
-}
-
-.blur
-{
-    background: #e9e9e9;
-   
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    opacity: 0.5;
 }

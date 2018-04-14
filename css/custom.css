@@ -27,3 +27,41 @@ label {
  -webkit-appearance: none; 
  margin: 0; 
 }
+
+.homePageForm{
+    max-width:500px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #171717;
+    padding: 28px;
+    border-radius: 15px;
+}
+
+.roundInputs{
+    border-radius: 30px !important;
+    max-width: calc(100% - 3em) !important;
+    width: 100% !important;
+}
+.roundInputs+label{
+padding-left:  20px;
+padding-top: 3px;
+}
+.roundInputs+label.active{
+margin-top:  -7px;
+color: #26a69a;
+}
+
+.homePageForm button{
+max-width: 300px;
+height: 58px;
+line-height: 58px;
+border-radius: 40px !important;
+font-size: 19px !important;
+}
+.homePageForm button>i{   
+vertical-align: sub;   
+padding-left: 15px;
+}
+.contactHeading{
+font-size: 41px;
+}

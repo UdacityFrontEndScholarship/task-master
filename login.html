@@ -28,7 +28,10 @@
 
 
 <body>
-    <div class="navbar-fixed">
+<!-- Loading screen edited on 14 April,18(@vattytrivedi)-->
+<script src="js/loading.js"></script>
+
+<div class="navbar-fixed">
       <nav class="black">
           <div class="nav-wrapper">
             <a href="#" class="brand-logo" id="logo">TASKMASTER</a>
@@ -51,51 +54,65 @@
       <li><a class="scrollspy white-text" href="index.html#contact">CONTACT</a></li>
     </ul>
 
+<!-- particles.js container -->
+<div id="particles-js"></div>
 
-
+<!-- Login form edited on 14 April,18(@vattytrivedi)-->
 <!--login form code-->
-
-  <section class="center-align">
-      <div id="box">
-        <div class="z-depth-5 white lighten-4 row" id="form-block">
-            <h5 class="indigo-text choice">Login into your account</h5>
-          <form class="col s12" method="post">
-            <div class='row'>
-              <div class='input-field col s12'>
-                <label for='email'>Enter your email</label>
-                <input class='validate' type='email' name='email' id='email' required/>
+<div class="container login-container">
+  <div class="row valign-wrapper">
+    <div class="col s12 col-position">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">
+            <h5 class="indigo-text choice center-align">
+              Login into your account
+            </h5>
+          </span>
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
               </div>
-            </div>
-
-            <div class='row'>
-              <div class='input-field col s12'>
-                <label for='password'>Enter your password</label>
-                <input class='validate' type='password' name='password' id='password' required/>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="password" type="password" class="validate">
+                  <label for="password">Password</label>
+                </div>
               </div>
-              <label style='float: right;'>
-                    <a class='red-text' href='#!'>Forgot Password?</a>
-              </label>
-            </div>
               <div class='row'>
                 <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect teal'>Login</button>
               </div>
-              <hr>
-              <p class="choice">Or Sign In with</p>
-              <div class='row'>
-                <button type='submit' name='gmail_login' class='col s12 btn btn-large waves-effect red'>Google</button>
-              </div>
-          </form>
+            </form>
+            <div class="row">
+              <label style='float: right; padding-top: 5px'>
+                <a class='red-text' href='#!'>Forgot Password?</a>
+              </label>
+            </div>
+            <hr/>
+            <p class="choice center-align">Sign In with</p>
+            <div class='row'>
+              <button type='submit' name='gmail_login' class='col s12 btn btn-large waves-effect red'>Google</button>
+            </div>
+          </div>
         </div>
-        <div class="container">
-            <span class="white-text">Not a member yet? <a href="signup.html">Create account</a></span>
-        </div>
+        <!--<div class="card-action">
+          <a href="#">This is a link</a>
+          <a href="#">This is a link</a>
+        </div>-->
       </div>
-  </section>
+      <div class="row center-align">
+        <span class="white-text ">Not a member yet? <a href="signup.html">Create account</a></span>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-    <!-- particles.js container -->
-<div id="particles-js"></div>
-  <!--footer-->
+<!--footer-->
    <footer class="page-footer grey darken-3">
           <div class="container">
             <div class="row">

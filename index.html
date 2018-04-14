@@ -23,11 +23,13 @@
     <link rel="stylesheet" type="text/css" href="css/form.css">
     <link href="css/imageSlider.css" rel="stylesheet">
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/nav_n_btn.css">
   </head>
 
-  <body>
-    <!-- Loading screen edited on 12 April,18(@vattytrivedi)-->   
-    <script src="js/loading.js"></script>
+  <body onload="loader()" class="blur">
+    <!-- Loading screen added by @Aditya Sharma -->
+    <div id="loader"></div>
     
     <!-- navigation bar edited on 12 April,18(@DeepPurohit) -->
     <div class="navbar-fixed">
@@ -41,7 +43,7 @@
               </ul>
           </div>-->
           <div class="nav-wrapper">
-            <a href="#" class="brand-logo" id="logo">TASKMASTER</a>
+            <a href="#" class="brand-logo" id="logo"><i class="fas fa-tasks"></i> TASKMASTER</a>
             <a href="#" data-target="mobile-nav" class="sidenav-trigger">
               <i class="material-icons">menu</i>
               <ul class="right hide-on-med-and-down">
@@ -63,23 +65,31 @@
 
 
    
-    <!--added image slider on 12 April,18-->
-    <!-- <div id="imageslider">
-            <div class="mtext">
-                <p>A One Stop Solution to Keep your goals on track</p>
-                <p>Created By Team Task Master</p>
-                <button>Get Started</button>
-                <p>
-               <a  href="#intro"> <img src="img/arrow.svg" id="arrowImg"></a>
-            </p>
-            </div>
-    </div> -->
+   
+    <!--added image slider web view by @AdityaSharma-->
+    
+    <div id="slideshow">
+      <div >
+        <img src="https://thenypost.files.wordpress.com/2014/08/shutterstock_172037909.jpg">
+      </div>
+      <div >
+        <img src="https://www.autoxloo.com/wp-content/uploads/2016/05/easybutton.jpg">
+      </div>
+      <div >
+          <img src="http://vivente.com.au/wp-content/uploads/2015/06/work-life-balance-e1433993527107.jpg" >
+      </div>
+    </div>
+    
+    <div class="test">
+      <h3>Task Master <h5>One Solution For Work Management Problems</h5></h3>
+      
+       </div> <div class="tes"><a id="start" href="#intro" class="teal waves-effect waves-light btn">Get Started</a></div>
      <!--Slider -->
     <section class="slider">
       <div class="container">
       <ul class="slides">
           <li>
-            <img src="https://previews.123rf.com/images/auremar/auremar1311/auremar131100927/45586237-office-worker-overworked.jpg"/>
+            <img src="https://thenypost.files.wordpress.com/2014/08/shutterstock_172037909.jpg"/>
             <div class="caption center-align">
               <h2 class="orange-text white fade">Can't Manage Work?</h2>
               <h4 class=" yellow-text fade grey darken-2 hide-on-small-only">A One Stop Solution to Keep your goals on track</h4>
@@ -93,7 +103,7 @@
             </div>
           </li>
           <li>
-            <img src="http://32dayz.com/blog/wp-content/uploads/2014/05/104772212_web.jpg">
+            <img src="http://vivente.com.au/wp-content/uploads/2015/06/work-life-balance-e1433993527107.jpg">
             <div class="caption center-align">
               <h2 class="blue-text white lighten-4 fade">Complete Your Work In Time</h2>
               <h4 class="yellow-text fade grey hide-on-small-only">Managing time becomes EASY</h4>
@@ -103,7 +113,7 @@
       </div>
   </section>
 
-    <section class="section center wow fadeInUp" data-wow-delay="0.2s" style="margin-top: -30px">
+    <section class="section center wow fadeInUp chl" data-wow-delay="0.2s" style="margin-top: -30px">
         <h3 class="blue-text lighten-2">Task Master <h5>One Solution For Work Management Problems</h5></h3>
         <a id="start" href="#intro" class="teal waves-effect waves-light btn">Get Started</a>
     </section>
@@ -188,7 +198,7 @@
                 </ul>
               </div>
               <div class="col l4 center s12 m4"><!--Added center class-->
-                <h4 class="teal-text">Links</h4>
+                <h4 class="white-text">Links</h4>
                 <ul>
                   <li><a class="teal-text  text-lighten-3" href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
                   <li><a class="teal-text  text-lighten-3" href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
@@ -197,7 +207,7 @@
                 </ul>
               </div>
               <div class="col s12 center m4"> <!--Changing display of Mail Us 12th April/18-->
-                <h4 class="teal-text">Mail us</h4>
+                <h4 class="white-text">Mail us</h4>
                 <form>
                   <input type="email" >
                     <button class="btn waves-effect waves-light" type="submit" name="action">Submit
@@ -212,7 +222,6 @@
           <div class="footer-copyright">
             <div class="container center">
             Copyright © 2018 TaskMaster
-            <a class="teal-text text-lighten-4 right" href="#!">More Links</a>
             </div>
           </div>
         </footer>

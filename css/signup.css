@@ -16,22 +16,22 @@ input{
     font-weight: bold;
     font-size: 20px !important;
     color: white;
-    text-align: center;
+    /*text-align: center;*/
 }
 .material-icons{
     color: orange;
     position: relative;
-    top: 10px;
+    /*top: 10px;*/
 }
 button{
     font-family: 'Raleway',san-serif;
-    margin-left: 390px;
+    /*margin-left: 390px;*/
     margin-bottom: 25px;
 
 }
 
 .row{
-    padding-left: 20px;
+    /*padding-left: 20px;*/
     margin-top: 30px;
     
 }

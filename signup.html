@@ -62,35 +62,35 @@
 			<form class="col s12 z-depth-5 #e3f2fd blue lighten-5 wow fadeInLeft " data-wow-delay="1.2s">
 				<br>
 				<div class="row ">
-					<div class="input-field col s6 center-align wow rotateInDownLeft" style="text-align: center;" data-wow-delay="1.3s">
+					<div class="input-field col s12 m6 l6 xl6 wow rotateInDownLeft" data-wow-delay="1.3s">
 						<i class="material-icons prefix">
 							account_circle
 						</i>
 						<input type="text" >
-						<label class="active" for="firstname ">FirstName</label>
+						<label class="active" for="firstname ">First Name</label>
 					</div>
-					<div class="input-field col s6 wow rotateInDownLeft" style="text-align: center;" data-wow-delay="1.4s">
+					<div class="input-field col s12 m6 l6 xl6 wow rotateInDownLeft"  data-wow-delay="1.4s">
 						<i class="material-icons prefix">
 							account_circle
 						</i>
 						<input type="text" >
-						<label class="active" for="firstname">LastName</label>
+						<label class="active" for="firstname">Last Name</label>
 					</div>
-					<div class="input-field col s6 wow rotateInDownLeft" style="text-align: center;" data-wow-delay="1.5s">
+					<div class="input-field col s12 m6 l6 xl6 wow rotateInDownLeft"  data-wow-delay="1.5s">
 						<i class="material-icons prefix">
 							email
 						</i>
 						<input type="email" >
 						<label class="active" for="email">Email</label>
 					</div>
-					<div class="input-field col s6 wow rotateInDownLeft" style="text-align: center;" data-wow-delay="1.5s">
+					<div class="input-field col s12 m6 l6 xl6 wow rotateInDownLeft" data-wow-delay="1.5s">
 						<i class="material-icons prefix">
 							person
 						</i>
 						<input type="text" >
-						<label class="active" for="username">UserName</label>
+						<label class="active" for="username">User Name</label>
 					</div>
-					<div class="input-field col s6 wow rotateInDownLeft" style="text-align: center;" data-wow-delay="1.6s">
+					<div class="input-field col s12 m6 l6 xl6 wow rotateInDownLeft" data-wow-delay="1.6s">
 						<i class="material-icons prefix">
 							edit
 						</i>
@@ -99,9 +99,14 @@
 					</div>
 					
 				</div>
-				<button class="btn blue z-depth-5 center-align col m4" id="signup">Sign Up </button>
-
-				<button class="btn red z-depth-5 col m4 waves-effect waves-light" id="google">Google </button><br><br>
+        <div class="row">
+        <div class="col s12 m6 l6 xl6">
+				<button class="btn blue z-depth-5 center col s12 waves-effect waves-light">Sign Up </button>
+        </div>
+        <div class="col s12 m6 l6 xl6">
+				<button class="btn red z-depth-5 center col s12 waves-effect waves-light">Google </button>
+        </div>
+        </div>
 				
 			</form>
 
@@ -142,6 +147,7 @@
                     </button>
                 </form>
               </div>
+              </div>
             </div>
           </div>
           <hr/>
@@ -165,7 +171,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
     <script src="./js/init.js"></script>
     <script src="js/formanimate.js"></script>
-    <script src="js/slider.js"></script>
+    <!-- <script src="js/slider.js"></script> -->
     <script src="js/wow.min.js"></script>
     
               <!-- custom script edited on 12th April,18(@DeepPurohit) -->
@@ -179,13 +185,13 @@
                 const menu = document.querySelector('.sidenav');
                 M.Sidenav.init(menu, {});
               //image slider
-                const slider = document.querySelector('.slider');
-                M.Slider.init(slider, {
-                  indicators: false,
-                  height: 500,
-                  transition: 500,
-                  interval: 6000
-                });
+                // const slider = document.querySelector('.slider');
+                // M.Slider.init(slider, {
+                //   indicators: false,
+                //   height: 500,
+                //   transition: 500,
+                //   interval: 6000
+                // });
               </script>
 
 </body>

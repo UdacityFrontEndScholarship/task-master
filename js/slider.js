@@ -15,4 +15,6 @@ setInterval(function() {
 function loader()
 {
     document.getElementById("loader").style.display = "none";
+    $("body").removeClass("blur")
 }
+

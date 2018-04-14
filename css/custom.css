@@ -4,6 +4,13 @@ body{
 
 #logo{
     padding-left: 20px;
+    width: 209px;
+    font-size: 20px;
+    position: relative;
+    float: left;
+    text-align: center;
+    transform:  none;
+    left:  unset;
 }
 
 #start:hover{
@@ -70,5 +77,15 @@ font-size: 41px;
     margin: 0px !important;
 }
 .footer-copyright{
-    background-color: #313131 !important;
+    
+background-color: #313131 !important;
+}
+.sidenav{
+    max-width: 215px;
+}
+
+@media screen and (max-width:990px){
+    #logo {
+        width: calc(100% - 65px);
+    }
 }

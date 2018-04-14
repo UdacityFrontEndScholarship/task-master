@@ -1,64 +1,29 @@
-body {
+body{
     overflow-x: hidden;
 }
 
-html {
-    width: 100%;
-}
-
-/*One page Template*/
-#intro, #why, #contact {
-    height: 100vh;
-    width: 100%;
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-.slider {
-    height: 100vh !important;
-}
-
-/*Hide Scrollbar*/
-::-webkit-scrollbar {
-    width: 0 !important; /* remove scrollbar space */
-    background: transparent !important; /* optional: just make scrollbar invisible */
-}
-
-/*Font size for paragraph of Intro and Why*/
-.infoFont {
-    font-size: 3vh;
-}
-
-/* Hide the carousal Indicators*/
-.indicators {
-    display: none !important;
-}
-
-#logo {
+#logo{
     padding-left: 20px;
 }
 
-#start:hover {
+#start:hover{
     background: #00cfff !important;
 }
 
-.fade {
-    opacity: 0.8;
+.fade{
+    opacity:0.8;
     border-radius: 20px;
-
+   
 }
-
-.fade:nth-child(3) {
+.fade:nth-child(3){
     margin-top: -30px;
 }
-
 label {
-    margin: -4px 0;
+  margin: -4px 0;
 }
-
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+    
+ input[type=number]::-webkit-inner-spin-button, 
+ input[type=number]::-webkit-outer-spin-button { 
+ -webkit-appearance: none; 
+ margin: 0; 
 }
-

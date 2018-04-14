@@ -1,3 +1,15 @@
+section {
+    height: 100vh;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/*Hide Scrollbar*/
+::-webkit-scrollbar {
+    width: 0 !important; /* remove scrollbar space */
+    background: transparent !important; /* optional: just make scrollbar invisible */
+}
 
 .down-arrow {
     width: 100%;
@@ -31,7 +43,6 @@
     }
 }
 
-/*Social Icons*/
 .social li {
     display: inline;
 
@@ -50,7 +61,6 @@
     text-align: center;
 }
 
-/*Navbar*/
 .black ul {
     position: absolute;
     margin-left: 920px;

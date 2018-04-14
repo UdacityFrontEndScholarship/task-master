@@ -1,41 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <!--webapp title-->
-  <title>TaskMaster </title>
-  <!--meta tags-->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <!--remote stylesheets linkage-->
-  <!-- for icons -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-  <!--additional stylesheets-->
-  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
-  <link href="./css/init.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/form.css">
-  <link href="css/imageSlider.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/custom.css">
-  <link rel="stylesheet" href="css/loader.css">
-  <link rel="stylesheet" href="css/nav_n_btn.css">
-</head>
+  <head>
+    <!--webapp title-->
+    <title>TaskMaster </title>
+    <!--meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--remote stylesheets linkage-->
+    <!-- for icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <!--additional stylesheets-->
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link href="./css/init.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+    <link href="css/imageSlider.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/nav_n_btn.css">
+  </head>
 
-<body onload="loader()">
-  <!-- Loading screen edited on @Aditya Sharma -->
-  <div id="loader"></div>
-
-  <!-- navigation bar edited on 12 April,18(@DeepPurohit) -->
-  <div class="navbar-fixed">
-    <nav class="black">
-      <!--<div class="nav-wrapper container">
+  <body onload="loader()" class="blur">
+    <!-- Loading screen added by @Aditya Sharma -->
+    <div id="loader"></div>
+    
+    <!-- navigation bar edited on 12 April,18(@DeepPurohit) -->
+    <div class="navbar-fixed">
+      <nav class="black">
+          <!--<div class="nav-wrapper container">
               <a href="#" class="brand-logo">TASKMASTER</a>
               <ul id="nav-mobile" class="right hide-on-med-and-down section table-of-contents">
                   <li><a href="index.html">HOME</a></li>
@@ -43,121 +42,38 @@
                   <li><a class="scrollspy" href="#why">WHY TASKMASTER?</a></li>
               </ul>
           </div>-->
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo" id="logo">TASKMASTER</a>
-        <a href="#" data-target="mobile-nav" class="sidenav-trigger">
-          <i class="material-icons">menu</i>
-          <ul class="right hide-on-med-and-down">
-            <li>
-              <a href="index.html">HOME</a>
-            </li>
-            <li>
-              <a class="scrollspy" href="#intro">INTRODUCTION</a>
-            </li>
-            <li>
-              <a class="scrollspy" href="#why">WHY TASKMASTER?</a>
-            </li>
-            <li>
-              <a class="scrollspy" href="#contact">CONTACT</a>
-            </li>
-          </ul>
-        </a>
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo" id="logo"><i class="fas fa-tasks"></i> TASKMASTER</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+              <ul class="right hide-on-med-and-down">
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a class="scrollspy" href="#intro">INTRODUCTION</a></li>
+                  <li><a class="scrollspy" href="#why">WHY TASKMASTER?</a></li>
+                  <li><a class="scrollspy" href="#contact">CONTACT</a></li>
+              </ul>
+            </a>
+          </div>  
+      </nav>
+    </div>
+    <ul class="sidenav grey darken-2" id="mobile-nav">
+      <li><a class="white-text" href="index.html">HOME</a></li>
+      <li><a class="scrollspy white-text" href="#intro">INTRODUCTION</a></li>
+      <li><a class="scrollspy white-text" href="#why">WHY TASKMASTER?</a></li>
+      <li><a class="scrollspy white-text" href="#contact">CONTACT</a></li>
+    </ul>
+
+
+   
+   
+    <!--added image slider web view by @AdityaSharma-->
+    
+    <div id="slideshow">
+      <div >
+        <img src="https://thenypost.files.wordpress.com/2014/08/shutterstock_172037909.jpg">
       </div>
-    </nav>
-  </div>
-  <ul class="sidenav grey darken-2" id="mobile-nav">
-    <li>
-      <a class="white-text" href="index.html">HOME</a>
-    </li>
-    <li>
-      <a class="scrollspy white-text" href="#intro">INTRODUCTION</a>
-    </li>
-    <li>
-      <a class="scrollspy white-text" href="#why">WHY TASKMASTER?</a>
-    </li>
-    <li>
-      <a class="scrollspy white-text" href="#contact">CONTACT</a>
-    </li>
-  </ul>
-
-
-
-
-  <!--added image slider web view by @AdityaSharma-->
-
-  <div id="slideshow">
-    <div>
-      <img src="https://thenypost.files.wordpress.com/2014/08/shutterstock_172037909.jpg">
-    </div>
-    <div>
-      <img src="https://toggl.com/time-management-tips/images/time-management-tips-toggl-00083821b98f22b3bcd7120cd3bcd738.jpg">
-    </div>
-    <div>
-      <img src="http://vivente.com.au/wp-content/uploads/2015/06/work-life-balance-e1433993527107.jpg">
-    </div>
-  </div>
-
-  <div class="test">
-    <h3>Task Master
-      <h5>One Solution For Work Management Problems</h5>
-    </h3>
-
-  </div>
-  <div class="tes">
-    <a id="start" href="#intro" class="teal waves-effect waves-light btn">Get Started</a>
-  </div>
-  <!--Slider -->
-  <section class="slider">
-    <div class="container">
-      <ul class="slides">
-        <li>
-          <img src="https://thenypost.files.wordpress.com/2014/08/shutterstock_172037909.jpg" />
-          <div class="caption center-align">
-            <h2 class="orange-text white fade">Can't Manage Work?</h2>
-            <h4 class=" yellow-text fade grey darken-2 hide-on-small-only">A One Stop Solution to Keep your goals on track</h4>
-          </div>
-        </li>
-        <li>
-          <img src="https://toggl.com/time-management-tips/images/time-management-tips-toggl-00083821b98f22b3bcd7120cd3bcd738.jpg">
-          <div class="caption left-align">
-            <h2 class="red-text white fade">Easy To Use</h2>
-            <h4 class="yellow-text fade grey darken-5 hide-on-small-only">List Your All Day To-Dos</h4>
-          </div>
-        </li>
-        <li>
-          <img src="http://vivente.com.au/wp-content/uploads/2015/06/work-life-balance-e1433993527107.jpg">
-          <div class="caption center-align">
-            <h2 class="blue-text white lighten-4 fade">Complete Your Work In Time</h2>
-            <h4 class="yellow-text fade grey hide-on-small-only">Managing time becomes EASY</h4>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="section center wow fadeInUp chl" data-wow-delay="0.2s" style="margin-top: -30px">
-    <h3 class="blue-text lighten-2">Task Master
-      <h5>One Solution For Work Management Problems</h5>
-    </h3>
-    <a id="start" href="#intro" class="teal waves-effect waves-light btn">Get Started</a>
-  </section>
-
-
-  <!-- Intro Section -->
-
-  <section id="intro" class="center-align card-panel hoverable section scrollspy wow fadeInLeft" data-wow-delay="0.1s">
-    <div class="container">
-      <div class="row">
-        <div class="col m12">
-          <h2>Introduction</h2>
-          <p class="">TaskManager is a one place solution for all your TO-DO Lists and goals in one place.Give color
-            to your goals, attach files, set priorities and do much more. Our website also has an alarm
-            popup feature that will remind you that your time is up to complete a goal.
-          </p>
-          <p class="">This app will help you to take stock of your situation, keep distractions away and focus more
-            on your goals.
-          </p>
-        </div>
+      <div >
+        <img src="https://www.autoxloo.com/wp-content/uploads/2016/05/easybutton.jpg">
       </div>
     </div>
   </section>
@@ -301,7 +217,39 @@
       interval: 6000
     });
 
-  </script>
-</body>
+    </script>
 
+          <hr/>
+          <div class="footer-copyright">
+            <div class="container center">
+            Copyright © 2018 TaskMaster
+            </div>
+          </div>
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
+    <script src="./js/init.js"></script>
+    <script src="js/formanimate.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/wow.min.js"></script>
+              <!-- custom script edited on 12th April,18(@DeepPurohit) -->
+              <script>
+              new WOW().init();
+              //adding scrolling style
+              const ss = document.querySelectorAll('.scrollspy');
+              M.ScrollSpy.init(ss, {}); 
+            
+              //mobile-navbar
+                const menu = document.querySelector('.sidenav');
+                M.Sidenav.init(menu, {});
+              //image slider
+                const slider = document.querySelector('.slider');
+                M.Slider.init(slider, {
+                  indicators: false,
+                  height: 500,
+                  transition: 500,
+                  interval: 6000
+                });
+              </script>
+  </body>
 </html>

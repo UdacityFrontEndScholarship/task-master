@@ -1,4 +1,3 @@
-/*
 body {
       display: flex;
       min-height: 100vh;
@@ -11,7 +10,7 @@ section {
 
 #form-block {
     display: inline-block;
-    padding: 32px 48px 0px 48px;
+    padding: 32px 10px 0px 10px;
     border: 1px solid #eee;
     margin-top: 1em;
 }
@@ -27,32 +26,4 @@ section {
 .choice {
     margin: 0.5em;
     font-size: 1.5em;
-}
-*/
-
-/*
-Login Form CSS edited on 14 April,18(@vattytrivedi)
-*/
-.login-container {
-  display: flex;
-  position: relative;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100%;
-}
-
-.container .row {
-  margin: 0 auto;
-}
-
-#particles-js{
-  width: 100%;
-  height: 100vh;
-  background-color: black;
-  background-image: url('../img/bgImg2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -100;
-  position: absolute;
 }

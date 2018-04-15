@@ -1,0 +1,29 @@
+body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+}
+
+section {
+  flex: 1 0 auto;
+}
+
+#form-block {
+    display: inline-block;
+    padding: 32px 10px 0px 10px;
+    border: 1px solid #eee;
+    margin-top: 1em;
+}
+
+#box {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%,-50%);
+  max-width: 90%
+}
+
+.choice {
+    margin: 0.5em;
+    font-size: 1.5em;
+}

@@ -11,7 +11,7 @@ input{
     font-family: 'Raleway',san-serif;
     font-weight: bold;
     font-size: 20px !important;
-    
+
     /*text-align: center;*/
 }
 .material-icons{
@@ -22,12 +22,12 @@ input{
 button{
     font-family: 'Raleway',san-serif;
     /*margin-left: 390px;*/
+
     }
 
 .row{
     /*padding-left: 20px;*/
     margin: 20px;
-
 }
 .input-field{
     text-align: center;

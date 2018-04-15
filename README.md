@@ -1,5 +1,24 @@
 <img src="https://image.ibb.co/kkGpRc/Task_Master.png" alt="Task Master" border="10">
 
+<a href="https://udacityfrontendscholarship.github.io/task-master/"><b>Home Page</b></a>
+<br>
+<a href="https://udacityfrontendscholarship.github.io/task-master/login.html"><b>Login Page</b></a>
+<br>
+<a href="https://udacityfrontendscholarship.github.io/task-master/signup.html"><b>Signup Page</b></a>
+
+# Current Status
+
+- HomePage,Login, Signup Page is Designed . (Thanks to collective effort) Whatever bug remains will be squashed later.
+# Next Up
+
+- User Account Page(Shashank Working on it) 
+
+# What you can do?
+
+- Fork this repo, understand the code, from 13.04.2018 Evening to 15.04.2018 midnight, you can expect huge number of issues you can work on.Whatever work has to be done, you can find it in the issues tab. If you want to work on something by you own, raise an issue, WAIT FOR COLLABORATORS to APPROVE it, then go ahead with you code. 
+
+
+
 # Usage
 This is an online goal setting app where the number of goals and tasks to be done are written down and includes various additional features. 
 
@@ -40,7 +59,7 @@ Other modifications can be open-ended and suggestions are welcome for improving 
 <b>LOGIN / SIGNUP PAGE</b> - This page contains the login (for the existing users) or sign-up (for the new users) option. Signing in via Google is also supported. There is also a button to share about this app on Facebook. It includes a live background with video or canvas elements. 
 
 
-<b>USER DASHBOARD</b> - This page basically would be divided into three columns with a lot of interactivity. The leftmost column will include the list of upcoming goals along with deadlines. The rightmost column includes the list of prioritized goals which can be displayed as a pop-up to the browser whenever a user opens up his/her browser. The middle column consists of a section for creating the goal itself with several buttons as follows:
+<b>USER DASHBOARD</b> - This page basically would be divided into three columns with a lot of interactivity. The leftmost column will include the list of upcoming goals along with deadlines. The rightmost column includes the list of prioritized goals which can be displayed as a pop-up to the browser whenever a user opens up his/her browser. The middle column consists of a section for creating the goal itself with several buttons as follows: 
  
     Calendar Tool - This tool will set the date on which the reminder will come up as a popup.
 

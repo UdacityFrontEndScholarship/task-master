@@ -1,0 +1,69 @@
+
+
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    margin-bottom: 50px;
+    
+
+}
+
+#slideshow > div {
+    position: absolute;
+
+    bottom: 3px;
+}
+
+#slideshow img {
+    width: 100%;
+    height: 100%;
+}
+
+.test {
+    position: absolute;
+    padding: 70px;
+    width: 500px;
+    margin: auto;
+    height: 100px;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 97px;
+}
+
+.tes
+{
+
+ position: absolute;
+ padding: 70px;
+ width: 500px;
+ margin: auto;
+ height: 100px;
+ top: 0;
+ right: 0;
+ left: 0;
+ color: white;
+ margin-top: 310px;
+ text-align: center;
+ font-size: 97px;
+}
+.test h3,h5
+{
+    font-size: 40px;
+}
+
+.test h5
+{
+    background: rgba(54, 25, 25, .5);
+}
+
+.test h3
+{
+    color: black;
+}

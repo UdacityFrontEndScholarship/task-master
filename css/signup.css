@@ -4,6 +4,7 @@
 body{
     font-family: 'Raleway',san-serif;
     background-image: url(../img/signup_bg.jpg);
+    position: center;
     }
 
 
@@ -11,7 +12,7 @@ input{
     font-family: 'Raleway',san-serif;
     font-weight: bold;
     font-size: 20px !important;
-
+    
     /*text-align: center;*/
 }
 .material-icons{
@@ -22,12 +23,12 @@ input{
 button{
     font-family: 'Raleway',san-serif;
     /*margin-left: 390px;*/
-
     }
 
 .row{
     /*padding-left: 20px;*/
     margin: 20px;
+
 }
 .input-field{
     text-align: center;
@@ -40,6 +41,19 @@ button{
     transform: translate(50%,-50%);
     max-width: 90%;
 }
-
-
+.grey-darken-4-text{
+    font-weight: 800;
+}
+hr{
+    color: pink;
+}
+.right{
+    margin-right: 20px; 
+}
+hr {
+    border: none;
+    height: 2px;
+    color: #f61067;
+    background-color: #f61067; 
+}
 

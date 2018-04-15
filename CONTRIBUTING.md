@@ -1,7 +1,7 @@
 # How do I Contribute?
 1. Fork the repository
 2. Clone it to your local system
-3. Identify which issue you want to work upon,**SEARCH IN THE ISSUES SECTION IF THAT ISSUE IS ALREADY ASSIGED TO SOMEONE. IF NOT, THEN UPLOAD WHAT YOU WANT TO DO AS AN ISSUE**. And then perform changes based on that issue only 
+3. Identify which issue you want to work upon,**SEARCH IN THE ISSUES SECTION IF THAT ISSUE IS ALREADY ASSIGNED TO SOMEONE. IF NOT, THEN UPLOAD WHAT YOU WANT TO DO AS AN ISSUE**. And then perform changes based on that issue only 
 4. Commit your changes and include a clear commit message that is very specific about the issue you've worked upon/resolved
 5. Try and resolve separate issues in different commits
 6. Send a Pull Request
@@ -24,8 +24,10 @@ Anyone can contribute to our open source project, so feel free to do it. But mak
 3. While solving an issue you must make one comment saying that you are working on that issue so that we can avoid any conflict.
 4. While making a PR make sure you reference your issue id (#1, #2 etc.) in the commit message or title.
 4. Make sure you squash your commit if there are more than 2 commits in your Pull Request. In case of difficulties feel free to ask for any assistance.
-5. While making any Pull Request for the UI make sure you attach one screenshot showing the final result or the bug which you have solved.
+5. While making any Pull Request for the UI make sure you attach one screenshot & one link to your version's site showing the final result or the bug which you have solved.
 6. While creating any issue make sure you mention all the procedures required to generate that bug/error and have one brief description about that bug.
 7. Last but not the least, ALWAYS follow standard coding practices, naming conventions and the regular document object model (DOM).
+
+**NOTE:- _Failing to follow the guidelines properly may result closing the Pull Request_**
 <br>
 <b>The TaskMaster Team</b>

@@ -12,7 +12,7 @@
 - HomePage,Login, Signup Page is Designed . (Thanks to collective effort) Whatever bug remains will be squashed later.
 # Next Up
 
-- User Account Page(Shashank Working on it) 
+- User Account Page/Dashboard(Shashank Working on it) 
 
 # What you can do?
 

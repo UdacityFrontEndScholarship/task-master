@@ -3,50 +3,57 @@
 
 body{
     font-family: 'Raleway',san-serif;
-    
-    
-}
+    background-image: url(../img/signup_bg.jpg);
+    position: center;
+    }
 
-form{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+
 input{
     font-family: 'Raleway',san-serif;
     font-weight: bold;
     font-size: 20px !important;
-    color: white;
+    
     /*text-align: center;*/
 }
 .material-icons{
-    color: orange;
+    
     position: relative;
     /*top: 10px;*/
 }
 button{
     font-family: 'Raleway',san-serif;
     /*margin-left: 390px;*/
-    margin-bottom: 25px;
-
-}
+    }
 
 .row{
     /*padding-left: 20px;*/
-    margin-top: 30px;
-    
+    margin: 20px;
+
 }
 .input-field{
     text-align: center;
 }
 
-#google{
-    margin-left: 100px;
+.edit{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    max-width: 90%;
 }
-#signup{
-    margin-left: 100px;
+.grey-darken-4-text{
+    font-weight: 800;
 }
-.container{
-    margin-bottom:30px;
+hr{
+    color: pink;
 }
-
+.right{
+    margin-right: 20px; 
+}
+hr {
+    border: none;
+    height: 2px;
+    color: #f61067;
+    background-color: #f61067; 
+}
 

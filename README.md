@@ -17,8 +17,8 @@
 * [Background](#Background)
 * [Color Palette](#ColorPalette)
 * [Key Features](#KeyFeatures)
-* [Probable Front End Work](#ProbableFrontEndWork)
-* [Probable Back End Work](#ProbableBackEndWork)
+   * [Probable Front End Work](#ProbableFrontEndWork)
+   * [Probable Back End Work](#ProbableBackEndWork)
 * [Features in detail](#Featuresindetail)
 * [New to this? Maybe this can help](#Newtothis?Maybethiscanhelp)
 

@@ -30,7 +30,8 @@ Anyone can contribute to our open source project, so feel free to do it. But mak
 
 
 
-<b>Example of Right and Wrong Approach.</b>
+
+<b><i>Example of Right and Wrong Approach.</i></b>
 
 
 Suppose we raise a bug that page is not being responsive. What does it mean?

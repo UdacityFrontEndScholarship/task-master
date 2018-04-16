@@ -1,3 +1,5 @@
+<img src="https://image.ibb.co/kkGpRc/Task_Master.png" alt="Task Master" border="10">
+
 [![GitHub issues](https://img.shields.io/github/issues/UdacityFrontEndScholarship/task-master.svg)](https://github.com/UdacityFrontEndScholarship/task-master/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/UdacityFrontEndScholarship/task-master.svg)](https://github.com/UdacityFrontEndScholarship/task-master/pulls)
 [![GitHub forks](https://img.shields.io/github/forks/UdacityFrontEndScholarship/task-master.svg?style=social&label=Fork)](https://github.com/UdacityFrontEndScholarship/task-master/network)
@@ -5,7 +7,6 @@
 [![GitHub watchers](https://img.shields.io/github/watchers/UdacityFrontEndScholarship/task-master.svg?style=social&label=Watch)](https://github.com/UdacityFrontEndScholarship/task-master/watchers)
 [![GitHub contributors](https://img.shields.io/github/contributors/UdacityFrontEndScholarship/task-master.svg)](https://github.com/UdacityFrontEndScholarship/task-master/graphs/contributors)
 
-<img src="https://image.ibb.co/kkGpRc/Task_Master.png" alt="Task Master" border="10">
 
 # Current Pages 
 <a href="https://udacityfrontendscholarship.github.io/task-master/"><b>Home Page</b></a>

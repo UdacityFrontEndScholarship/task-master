@@ -8,7 +8,7 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/UdacityFrontEndScholarship/task-master.svg)](https://github.com/UdacityFrontEndScholarship/task-master/graphs/contributors)
 
 
-# Current Pages 
+# Current Live Pages 
 <a href="https://udacityfrontendscholarship.github.io/task-master/"><b>Home Page</b></a>
 <br>
 <a href="https://udacityfrontendscholarship.github.io/task-master/login.html"><b>Login Page</b></a>

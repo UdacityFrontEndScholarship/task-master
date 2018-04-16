@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 body {
       display: flex;
       min-height: 100vh;
       flex-direction: column;
+      font-family: 'Raleway',san-serif;
+      background: url('../img/formbg.jpg') no-repeat center fixed;
+      background-size: cover;
+}
+
+.right{
+    margin-right: 20px;
 }
 
 section {
@@ -13,6 +22,13 @@ section {
     padding: 32px 10px 0px 10px;
     border: 1px solid #eee;
     margin-top: 1em;
+    box-shadow: 0.1em 0.1em 1em white;
+    width: 50%;
+}
+
+h5 {
+    font-size: 1.5em;
+    font-weight: 900;
 }
 
 #box {
@@ -20,10 +36,68 @@ section {
   top: 50%;
   right: 50%;
   transform: translate(50%,-50%);
-  max-width: 90%
+  max-width: 95%;
+  opacity: 0.95;
+}
+
+input {
+    outline: none;
 }
 
 .choice {
     margin: 0.5em;
-    font-size: 1.5em;
+    font-size: 1.2em;
+}
+
+button {
+    margin: 1em;
+}
+
+span > * {
+    display: inline-block;
+}
+
+span a {
+    color: white;
+}
+
+a:hover {
+    font-weight: 900;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-weight: 900;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: teal;
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+    #form-block {
+      width: 70%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+    #form-block {
+      width: 85%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    #form-block {
+      width: 95%;
+    }
+}
+
+@media (max-width: 500px) {
+    #form-block {
+      width: 100%;
+    }
 }

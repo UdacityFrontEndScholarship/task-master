@@ -41,6 +41,8 @@ TaskMaster is an opensource software created with the help of Udacity scholars i
  
  
  <a href="https://coolors.co/export/png/030303-fbf5f3-f5cce8-f61067-2ca58d">Some Funky colors</a>
+ 
+ Of the second link, the teal , both shades of pink will be used for border/buttons only. 
   
 # Key Features
 

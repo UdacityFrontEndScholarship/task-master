@@ -9,7 +9,19 @@
 
 # Table of Contents
 
-* [Current Live Pages](#Current Live Pages)
+* [Current Live Pages](#CurrentLivePages)
+* [Current Status](#CurrentStatus)
+* [Next Up](#NextUp)
+* [What you can do?](#What you can do?)
+* [Usage](#Usage)
+* [Background](#Background)
+* [Color Palette](#ColorPalette)
+* [Key Features](#KeyFeatures)
+* [Probable Front End Work](#ProbableFrontEndWork)
+* [Probable Back End Work](#ProbableBackEndWork)
+* [Features in detail](#Featuresindetail)
+* [New to this? Maybe this can help](#Newtothis?Maybethiscanhelp)
+
 
 
 # Current Live Pages 

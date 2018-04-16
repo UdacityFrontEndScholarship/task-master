@@ -1,3 +1,10 @@
+[![GitHub issues](https://img.shields.io/github/issues/UdacityFrontEndScholarship/task-master.svg)](https://github.com/UdacityFrontEndScholarship/task-master/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/UdacityFrontEndScholarship/task-master.svg)](https://github.com/UdacityFrontEndScholarship/task-master/pulls)
+[![GitHub forks](https://img.shields.io/github/forks/UdacityFrontEndScholarship/task-master.svg?style=social&label=Fork)](https://github.com/UdacityFrontEndScholarship/task-master/network)
+[![GitHub stars](https://img.shields.io/github/stars/UdacityFrontEndScholarship/task-master.svg?style=social&label=Stars)](https://github.com/UdacityFrontEndScholarship/task-master/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/UdacityFrontEndScholarship/task-master.svg?style=social&label=Watch)](https://github.com/UdacityFrontEndScholarship/task-master/watchers)
+[![GitHub contributors](https://img.shields.io/github/contributors/UdacityFrontEndScholarship/task-master.svg)](https://github.com/UdacityFrontEndScholarship/task-master/graphs/contributors)
+
 <img src="https://image.ibb.co/kkGpRc/Task_Master.png" alt="Task Master" border="10">
 
 # Current Pages 

@@ -9,7 +9,7 @@
 
 # Table of Contents
 
-* [Current Live Pages](#currentlivepages)
+* <a href="#1">Current Live Pages</a>
 * [Current Status](#currentstatus)
 * [Next Up](#nextUp)
 * [What you can do?](#Whatyoucando?)
@@ -24,7 +24,7 @@
 
 
 
-## Current Live Pages 
+# <a name="1" href="#1"> Current Live Pages </a>
 <a href="https://udacityfrontendscholarship.github.io/task-master/"><b>Home Page</b></a>
 <br>
 <a href="https://udacityfrontendscholarship.github.io/task-master/login.html"><b>Login Page</b></a>

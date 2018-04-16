@@ -33,6 +33,12 @@ This is an online goal setting app where the number of goals and tasks to be don
 
 # Background
 TaskMaster is an opensource software created with the help of Udacity scholars in front end web development. This software is made with a hope and a vision that the traditional way of setting everyday TO-DO's and goals should be replaced with a more advanced version for the modern digitized era.
+
+
+# Color Palette 
+
+ <a href="https://ibb.co/bRDd2S">Shades of Primary colors</a>
+ <a href="https://coolors.co/export/png/030303-fbf5f3-f5cce8-f61067-2ca58d">Some Funky colors</a>
   
 # Key Features
 

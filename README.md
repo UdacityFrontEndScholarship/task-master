@@ -24,34 +24,34 @@
 
 
 
-# Current Live Pages 
+## Current Live Pages 
 <a href="https://udacityfrontendscholarship.github.io/task-master/"><b>Home Page</b></a>
 <br>
 <a href="https://udacityfrontendscholarship.github.io/task-master/login.html"><b>Login Page</b></a>
 <br>
 <a href="https://udacityfrontendscholarship.github.io/task-master/signup.html"><b>Signup Page</b></a>
 
-# Current Status
+## Current Status
 
 - HomePage,Login, Signup Page is Designed . (Thanks to collective effort) Whatever bug remains will be squashed later.
-# Next Up
+## Next Up
 
 - User Account Page/Dashboard(Shashank Working on it) 
 
-# What you can do?
+## What you can do?
 
 - Fork this repo, understand the code. Whatever work has to be done, you can find it in the issues tab. If you want to work on something by you own, raise an issue, WAIT FOR COLLABORATORS to APPROVE it, then go ahead with you code. 
 
 
 
-# Usage
+## Usage
 This is an online goal setting app where the number of goals and tasks to be done are written down and includes various additional features. 
 
-# Background
+## Background
 TaskMaster is an opensource software created with the help of Udacity scholars in front end web development. This software is made with a hope and a vision that the traditional way of setting everyday TO-DO's and goals should be replaced with a more advanced version for the modern digitized era.
 
 
-# Color Palette 
+## Color Palette 
 
  <a href="https://ibb.co/bRDd2S">Shades of Primary colors</a>
  
@@ -60,10 +60,10 @@ TaskMaster is an opensource software created with the help of Udacity scholars i
  
  Of the second link, the teal , both shades of pink will be used for border/buttons only. 
   
-# Key Features
+## Key Features
 
 
-## Probable Front End Work
+### Probable Front End Work
 
  - Home page/landing page setup 
  - Activating and linking the different sites from the home page
@@ -76,7 +76,7 @@ TaskMaster is an opensource software created with the help of Udacity scholars i
  - Designing the alarm feature (along with popups)
  - Implementing the notification of upcoming goal deadlines and important goals feed
 
-## Probable Back End Work
+### Probable Back End Work
 
 - Getting the Contact Me form in the landing(home) page to actually be able to contact someone
 - Getting the Login with Google feature to actually work
@@ -85,7 +85,7 @@ TaskMaster is an opensource software created with the help of Udacity scholars i
 - Devise a system to prioritize your goals
 - Using different colors for different priority of goals
 
-# Features in detail
+## Features in detail
 
 
 <b>HOMEPAGE</b> - This page contains three sections viz. Home, Introduction & Why TaskMaster? on the navigation bar and clicking any one of them would trigger a smooth scrolling down the home page. These three sections fit into the first page of the web app. As stated in the mockup pdf there should be a ‘Tick’ in Home which when clicked on, starts an animation explaining what TaskMaster is all about. Below this, a button entitled ‘Get Started’ enables a user to visit the Login/Sign-up page. Lastly, on the footer various media links like Quora, LinkedIn can be provided. 
@@ -112,7 +112,7 @@ Other modifications can be open-ended and suggestions are welcome for improving 
 Only the first page would include a Contact Us section which can be accessed by clicking on it as shown in the mockup pdf.
 
 
-# New to this? Maybe this can help
+## New to this? Maybe this can help
   
    - <a href="https://gist.github.com/Rajrox97/02e3b2e3c6ef8a356106b65ad02e183a">Getting the hang of the code</a>
    - <a href="https://gist.github.com/Rajrox97/af2508ec2523d85bc43f1eb080ce5985">MUST READ THIS BEFORE YOU COMMIT</a>

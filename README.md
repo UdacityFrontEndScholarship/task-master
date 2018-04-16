@@ -12,7 +12,7 @@
 * [Current Live Pages](#CurrentLivePages)
 * [Current Status](#CurrentStatus)
 * [Next Up](#NextUp)
-* [What you can do?](#What you can do?)
+* [What you can do?](#Whatyoucando?)
 * [Usage](#Usage)
 * [Background](#Background)
 * [Color Palette](#ColorPalette)

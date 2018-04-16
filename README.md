@@ -9,9 +9,9 @@
 
 # Table of Contents
 
-* [Current Live Pages](#CurrentLivePages)
-* [Current Status](#CurrentStatus)
-* [Next Up](#NextUp)
+* [Current Live Pages](#currentlivepages)
+* [Current Status](#currentstatus)
+* [Next Up](#nextUp)
 * [What you can do?](#Whatyoucando?)
 * [Usage](#Usage)
 * [Background](#Background)

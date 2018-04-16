@@ -7,6 +7,10 @@
 [![GitHub watchers](https://img.shields.io/github/watchers/UdacityFrontEndScholarship/task-master.svg?style=social&label=Watch)](https://github.com/UdacityFrontEndScholarship/task-master/watchers)
 [![GitHub contributors](https://img.shields.io/github/contributors/UdacityFrontEndScholarship/task-master.svg)](https://github.com/UdacityFrontEndScholarship/task-master/graphs/contributors)
 
+# Table of Contents
+
+* [Current Live Pages](#Current Live Pages)
+
 
 # Current Live Pages 
 <a href="https://udacityfrontendscholarship.github.io/task-master/"><b>Home Page</b></a>

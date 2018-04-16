@@ -5,7 +5,7 @@ body {
       min-height: 100vh;
       flex-direction: column;
       font-family: 'Raleway',san-serif;
-      background: url('../img/formbg.jpg') no-repeat center fixed;
+      background: url(../img/formbg.jpg) no-repeat center fixed;
       background-size: cover;
 }
 

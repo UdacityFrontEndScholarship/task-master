@@ -38,6 +38,8 @@ TaskMaster is an opensource software created with the help of Udacity scholars i
 # Color Palette 
 
  <a href="https://ibb.co/bRDd2S">Shades of Primary colors</a>
+ 
+ 
  <a href="https://coolors.co/export/png/030303-fbf5f3-f5cce8-f61067-2ca58d">Some Funky colors</a>
   
 # Key Features

@@ -28,6 +28,26 @@ Anyone can contribute to our open source project, so feel free to do it. But mak
 6. While creating any issue make sure you mention all the procedures required to generate that bug/error and have one brief description about that bug.
 7. Last but not the least, ALWAYS follow standard coding practices, naming conventions and the regular document object model (DOM).
 
+
+
+Example of Right and Wrong Approach.
+
+
+Suppose we raise a bug that page is not being responsive. What does it mean?
+
+  We like the design. Do not change the design.
+  
+  
+      WRONG APPROACH: For example: You don't like the fonts, you change it?
+      CORRECT APPROACH: Our page is not being responsive, you fix it, with all the initial design, fonts,
+                        and colors.
+
+      WRONG APPROACH: You want to add a feature, you just add it.
+      CORRECT APPROACH: You want to add a feature, you ask the moderators if they want that, host the
+      files in your github repo and submit github pages here in the comments below. After we review,
+      you can send a PR request, and we will definitely accept it. :) Cheers !!
+      
+      
 **NOTE:- _Failing to follow the guidelines properly may result closing the Pull Request_**
 <br>
 <b>The TaskMaster Team</b>

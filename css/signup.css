@@ -2,9 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family-Lobster+two|Raleway');
 
 body{
+    height: 100vh;
+    width: 100%;
     font-family: 'Raleway',san-serif;
     background-image: url(../img/signup_bg.jpg);
-    position: center;
+    background-size: cover;
+    /*position: center;*/
+    z-index: 5;
     }
 
 
@@ -12,22 +16,33 @@ input{
     font-family: 'Raleway',san-serif;
     font-weight: bold;
     font-size: 20px !important;
-    
+
     /*text-align: center;*/
 }
 .material-icons{
-    
+
     position: relative;
     /*top: 10px;*/
 }
+
+footer{
+    bottom: 0;
+}
+
 button{
     font-family: 'Raleway',san-serif;
     /*margin-left: 390px;*/
     }
 
+#particles-js{
+    height: 100%;
+    width:100%;
+    top:0%;
+    position: absolute;
+}
 .row{
     /*padding-left: 20px;*/
-    margin: 20px;
+    /*margin: 20px;*/
 
 }
 .input-field{
@@ -36,11 +51,12 @@ button{
 
 .edit{
     position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%,-50%);
-    max-width: 90%;
+    /*top: 50%;*/
+    /*right: 50%;*/
+    /*transform: translate(50%,-50%);*/
+    max-width: 100%;
 }
+
 .grey-darken-4-text{
     font-weight: 800;
 }
@@ -48,12 +64,26 @@ hr{
     color: pink;
 }
 .right{
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 hr {
     border: none;
     height: 2px;
     color: #f61067;
-    background-color: #f61067; 
+    background-color: #f61067;
 }
 
+.card-panel{
+    /*position: relative;*/
+    z-index: 20 !important;
+}
+
+.foot{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.input-field{
+  margin-bottom: 0 !important;
+}

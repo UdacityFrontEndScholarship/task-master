@@ -23,7 +23,11 @@
     <link rel="stylesheet" type="text/css" href="css/signup.css">
 
 </head>
-<body class="#79fbe7 lime lighten-5 ">
+<body class="#79fbe7 lime lighten-5">
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
 	<!--header -->
 	<div class="navbar-fixed">
       <nav class="black">
@@ -41,20 +45,23 @@
               <i class="material-icons">menu</i>
               <ul class="right hide-on-med-and-down">
                   <li><a href="index.html">HOME</a></li>
-                  
+
               </ul>
             </a>
-          </div>  
+          </div>
       </nav>
     </div>
     <ul class="sidenav grey darken-2" id="mobile-nav">
       <li><a class="white-text" href="index.html">HOME</a></li>
-      
+
     </ul>
+
 	<!-- registration form -->
-			<div class="container ">
-		
-		<div class="row card-panel hoverable  #757575 wow fadeInRight edit" data-wow-delay="0.8s" >
+			<div class="row">
+        <div class="col offset-s1 s10 offset-m2 m8 offset-l3 l6">
+
+		<div class="row card-panel hoverable  #757575 wow fadeInRight" data-wow-delay="0.8s" >
+      <div class="col s12">
 			<form class="col s12 z-depth-5  white wow fadeInLeft " data-wow-delay="1.2s">
 				<br>
 				<div class="row ">
@@ -62,35 +69,35 @@
 						<i class="material-icons prefix">
 							account_circle
 						</i>
-						<input type="text" class="black-text validate">
-						<label class="active" for="firstname ">First Name</label>
+						<input type="text" id="firstname" class="black-text validate">
+						<label class="active"  for="firstname">First Name</label>
 					</div>
 					<div class="input-field col s12 m6 l6 xl6 wow fadeInLeft"  data-wow-delay="1.4s">
 						<i class="material-icons prefix">
 							account_circle
 						</i>
-						<input type="text" class="black-text validate">
-						<label class="active" for="firstname">Last Name</label>
+						<input type="text" id="lastname" class="black-text validate">
+						<label class="active" for="lastname">Last Name</label>
 					</div>
 					<div class="input-field col s12 m6 l6 xl6 wow fadeInLeft"  data-wow-delay="1.5s">
 						<i class="material-icons prefix">
 							email
 						</i>
-						<input type="email" class="black-text validate">
+						<input type="email" id="email" class="black-text validate">
 						<label class="active" for="email">Email</label>
 					</div>
 					<div class="input-field col s12 m6 l6 xl6 wow fadeInLeft" data-wow-delay="1.5s">
 						<i class="material-icons prefix">
 							person
 						</i>
-						<input type="text" class="black-text  validate">
+						<input type="text" id="username" class="black-text  validate">
 						<label class="active" for="username">User Name</label>
 					</div>
 					<div class="input-field col s12 m6 l6 xl6 wow fadeInLeft" data-wow-delay="1.6s">
 						<i class="material-icons prefix">
 							lock
 						</i>
-						<input type="password" class="black-text validate">
+						<input type="password" id="password" class="black-text validate">
 						<label class="active" for="password">Password</label>
 					</div>
 					<div class="input-field col s12 m6 l6 x16 wow fadeInLeft" data-wow-delay="1.6s">
@@ -107,22 +114,26 @@
           </div>
         </div>
 			</form>
+      </div>
 		</div>
+        </div>
 	</div>
-  
-  <!-- particles.js container -->
-  <div id="particles-js"></div>
-  
-	<!--- footer-->
+
+
+
+  <!--- footer-->
+
+  <div class="foot">
 	      <footer>
           <hr style="font-weight: 800">
           <div class="footer-copyright">
             <div class="container center grey-darken-4-text ">
             Copyright © 2018 TaskMaster
-            
+
             </div>
           </div>
         </footer>
+  </div>
 
 	<!--scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -131,14 +142,14 @@
     <script src="js/formanimate.js"></script>
     <!-- <script src="js/slider.js"></script> -->
     <script src="js/wow.min.js"></script>
-    
+
               <!-- custom script edited on 12th April,18(@DeepPurohit) -->
               <script>
               new WOW().init();
               //adding scrolling style
               const ss = document.querySelectorAll('.scrollspy');
-              M.ScrollSpy.init(ss, {}); 
-            
+              M.ScrollSpy.init(ss, {});
+
               //mobile-navbar
                 const menu = document.querySelector('.sidenav');
                 M.Sidenav.init(menu, {});

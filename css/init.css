@@ -11,3 +11,9 @@ nav {
 .pacifico {
   font-family: Pacifico, Helvetica, Arial, sans-serif;
 }
+.nav-wrapper ul li a:hover{
+    
+   border-bottom: 10px  lawngreen solid;
+   font-size: 18px;
+
+}

@@ -60,10 +60,35 @@
 
 .test h5
 {
-    background: rgba(54, 25, 25, .5);
+    background: rgba(54, 25, 25, .8);
 }
 
 .test h3
 {
     color: black;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+@media all and (min-width: 1100px) {
+
+    #slideshow,.test,.down-arrow {display: block;}
+    .slider,.chl {display: none;} 
+}
+
+@media all and (max-width: 1028px) {
+
+    #slideshow,.test,.down-arrow,.tes {display: none;}
+    .slider {display: block;} 
+
+}
+
+@media all and (max-width: 479px) {
+
+    #slideshow,.test,.down-arrow,.tes {display: none;}
+    .slider {display: block;} 
+}
+
+#slideshow
+{
+    margin-top: 5px;
 }

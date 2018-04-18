@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<nav class="black z-depth-0" style="opacity: 0.7;">
+    <div class="nav-wrapper">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="#">My Accounts</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="col s12 black" style="opacity: 0.7;min-height: 200px;width: 100%;position:absolute;">
+</div>
+
+<ul class="sidenav" id="mobile-demo">
+    <li><a href="#">My Accounts</a></li>
+    <li><a href="#">Logout</a></li>
+</ul>
+<div class="row">
+    <div class="col s12 m4">
+        <div class="card">
+            <div class="card-content teal white-text">
+                <i class="material-icons right">close</i>
+                <span class="new badge right" data-badge-caption="">7:30</span>
+                <span class="card-title">Task 1</span>
+                <span>Random Assignment 1</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content deep-orange white-text">
+                <i class="material-icons right">close</i>
+                <span class="new badge right deep-orange lighten-1" data-badge-caption="">9:30</span>
+                <span class="card-title">Task 2</span>
+                <span>Random Assignment 2</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content green white-text">
+                <i class="material-icons right">close</i>
+                <span class="new badge right green lighten-1" data-badge-caption="">10:30</span>
+                <span class="card-title">Task 3</span>
+                <span>Random Assignment 3</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content brown white-text">
+                <i class="material-icons right">close</i>
+                <span class="new badge right brown lighten-1" data-badge-caption="">10:45</span>
+                <span class="card-title">Task 4</span>
+                <span>Random Assignment 4</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content black white-text">
+                <i class="material-icons right">close</i>
+                <span class="new badge right grey darken-4" data-badge-caption="">11:25</span>
+                <span class="card-title">Task 5</span>
+                <span>Random Assignment 5</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content purple white-text">
+                <i class="material-icons right">close</i>
+                <span class="new badge right purple lighten-1" data-badge-caption="">11:25</span>
+                <span class="card-title">Task 6</span>
+                <span>Random Assignment 6</span>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m8">
+        <div class="card">
+            <div class="card-content white">
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea" data-length="80"></textarea>
+                                <label for="textarea1">Your Goals</label>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="col s12">
+                        <i class="material-icons small">date_range</i>
+                        <i class="material-icons small">add_alarm</i>
+                        <i class="material-icons small">low_priority</i>
+                        <i class="material-icons small">attachment</i>
+                        <button class="btn waves-effect waves-light right" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content red white-text">
+                <span class="card-title">Some extra random cards</span>
+                <span>More analytical information can be shown</span>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $('.sidenav').sidenav();
+    });
+    $(document).ready(function () {
+        $('textarea#textarea1').characterCounter();
+    });
+</script>
+</body>
+</html>

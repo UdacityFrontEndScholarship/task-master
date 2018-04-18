@@ -2,58 +2,94 @@
 @import url('https://fonts.googleapis.com/css?family-Lobster+two|Raleway');
 
 body{
+    height: 100vh;
+    width: 100%;
     font-family: 'Raleway',san-serif;
-    background-image: url(../img/signup_bg.jpg);
-    position: center;
-    }
+    background: url(../img/formbg.jpg) no-repeat center fixed;
+    background-size: cover;
+    /*position: center;*/
+    z-index: 5;
+}
 
+section {
+  flex: 1 0 auto;
+}
 
 input{
     font-family: 'Raleway',san-serif;
     font-weight: bold;
     font-size: 20px !important;
-    
     /*text-align: center;*/
 }
+
 .material-icons{
-    
     position: relative;
     /*top: 10px;*/
 }
+
 button{
     font-family: 'Raleway',san-serif;
     /*margin-left: 390px;*/
-    }
+}
+
+#particles-js{
+    height: 100%;
+    width:100%;
+    top:0%;
+    position: absolute;
+}
 
 .row{
     /*padding-left: 20px;*/
-    margin: 20px;
-
+    /*margin: 20px;*/
 }
+
 .input-field{
     text-align: center;
 }
 
 .edit{
     position: absolute;
+    /*top: 50%;*/
+    /*right: 50%;*/
+    /*transform: translate(50%,-50%);*/
+    max-width: 100%;
+}
+
+#box {
+    /*position: relative;*/
+    z-index: 20 !important;
+    position: absolute;
     top: 50%;
     right: 50%;
     transform: translate(50%,-50%);
-    max-width: 90%;
-}
-.grey-darken-4-text{
-    font-weight: 800;
-}
-hr{
-    color: pink;
-}
-.right{
-    margin-right: 20px; 
-}
-hr {
-    border: none;
-    height: 2px;
-    color: #f61067;
-    background-color: #f61067; 
+    max-width: 95%;
+    opacity: 0.95;
 }
 
+form {
+    box-shadow: 0em 0em 3em black;
+    transition-property: box-shadow;
+    transition-duration: 1s;
+}
+
+form:hover {
+    box-shadow: 0em 0em 1em black;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-weight: 900;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: teal;
+}
+
+.input-field{
+  margin-bottom: 0 !important;
+}

@@ -3,7 +3,7 @@
 
 <head>
     <!--webapp title-->
-    <title>TaskMaster </title>
+    <title>TaskMaster</title>
     <!--meta tags-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -28,6 +28,8 @@
 </head>
 
 <body>
+
+    <!--header-->
     <div class="navbar-fixed">
       <nav class="black">
           <div class="nav-wrapper">
@@ -48,16 +50,18 @@
 <!--login form code-->
     <section class="center-align">
         <div id="box">
-          <div class="z-depth-5 white lighten-4 row" id="form-block">
+          <div class="z-depth-5 white row" id="form-block">
               <h5 class="grey-text darken-4">Login into your account</h5>
             <form  method="post">
               <div class='row'>
                 <div class='input-field col s12'>
-                  <label for='email'>Enter your email</label>
+                  <i class="material-icons prefix">email</i>
+                  <label for='email'>Email</label>
                   <input class='validate' type='email' name='email' id='email' required/>
                 </div>
                 <div class='input-field col s12'>
-                  <label for='password'>Enter your password</label>
+                  <i class="material-icons prefix">lock</i>
+                  <label for='password'>Password</label>
                   <input class='validate' type='password' name='password' id='password' required/>
                 </div>
                 <div class="col s12">

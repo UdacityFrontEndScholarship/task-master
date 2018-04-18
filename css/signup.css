@@ -63,8 +63,8 @@ button{
     top: 50%;
     right: 50%;
     transform: translate(50%,-50%);
-    max-width: 95%;
     opacity: 0.95;
+    margin: 0 auto;
 }
 
 form {
@@ -92,4 +92,22 @@ hr{
 
 .input-field{
   margin-bottom: 0 !important;
+}
+
+@media (max-width: 750px) {
+    #box{
+        width: 65%;
+    }
+}
+
+@media (max-width: 500px) {
+    #box{
+        width: 80%;
+    }
+}
+
+@media (max-width: 375px) {
+    #box{
+        width: 90%;
+    }
 }

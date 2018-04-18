@@ -30,6 +30,7 @@
 <a href="https://udacityfrontendscholarship.github.io/task-master/login.html"><b>Login Page</b></a>
 <br>
 <a href="https://udacityfrontendscholarship.github.io/task-master/signup.html"><b>Signup Page</b></a>
+<br>
 <a href="https://udacityfrontendscholarship.github.io/task-master/profile.html"><b>User Dashboard</b></a>
 
 # <a name="2" href="#2"> Current Status </a>

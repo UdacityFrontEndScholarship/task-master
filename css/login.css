@@ -42,7 +42,6 @@ h5 {
   top: 50%;
   right: 50%;
   transform: translate(50%,-50%);
-  max-width: 95%;
   opacity: 0.95;
 }
 
@@ -105,5 +104,14 @@ hr{
 @media (max-width: 500px) {
     #form-block {
       width: 100%;
+    }
+    #box{
+        width: 80%;
+    }
+}
+
+@media (max-width: 375px) {
+    #box{
+        width: 90%;
     }
 }

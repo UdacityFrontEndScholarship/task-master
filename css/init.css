@@ -13,7 +13,8 @@ nav {
 }
 .nav-wrapper ul li a:hover{
     
-   border-bottom: 10px  lawngreen solid;
-   font-size: 18px;
+    color: black;
+    background-color: white; 
+    font-size: 18px;
 
 }

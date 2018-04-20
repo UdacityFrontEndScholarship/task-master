@@ -1,0 +1,22 @@
+.row{
+	margin-bottom: 0px;
+}
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.card .card-content {
+	padding: 15px;
+}
+.card .card-action {
+	padding: 15px;
+}
+span.badge{
+	margin-left: 6px;
+}
+.icon{
+	padding-left: 5px;
+}
+h5{
+	margin: 0;
+}

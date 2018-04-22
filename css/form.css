@@ -50,3 +50,8 @@
 i.icon-white {
     color: white;
 }
+.resp-submit{
+  font-size: 1.75vw;
+  text-align: left;
+  overflow: hidden;
+}

@@ -11,8 +11,10 @@
   color: #737373;
 }
 .contact h2{
-  color: white;
-  margin: 20px 0 20px
+  color: black;
+  margin-left: 20px;
+  /*margin: 20px 0 20px;*/
+  font-weight: lighter;
 }
 
 .contact span{
@@ -21,16 +23,13 @@
 
 .contact .btn{
 
-  border-radius: 2px;
-  /*width: 100%;*/
+  border-radius: 0;
   font-size: 15px;
-
-  background-color: #4f5050 !important;
-  /*background-color: #00e676 !important;*/
+  background-color: #00e676 !important;
   color: #fff;
 }
 .contact .btn:hover{
-  background-color: black !important;
+  background-color: teal !important;
   color: #fff !important;
 }
 .fa-user,.fa-phone{

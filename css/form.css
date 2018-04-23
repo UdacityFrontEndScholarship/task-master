@@ -24,7 +24,7 @@
   border-radius: 0;
   width: 100%;
   font-size: 15px;
-  background-color: #00e676 !important;
+  background-color: teal !important;
   color: #fff;
 }
 .contact .btn:hover{
@@ -49,4 +49,9 @@
 }
 i.icon-white {
     color: white;
+}
+.resp-submit{
+  font-size: 1.75vw;
+  text-align: left;
+  overflow: hidden;
 }

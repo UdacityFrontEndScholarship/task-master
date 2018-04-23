@@ -62,14 +62,12 @@ canvas {
 
 /* ---- particles.js container ---- */
 
-#particles-js{
-  width: 100%;
-  height: 100%;
-  background-color: none;
-  background-image: url('');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 #if

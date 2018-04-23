@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
-      display: flex;
-      min-height: 100vh;
-      flex-direction: column;
       font-family: 'Raleway',san-serif;
       background: url(../img/formbg.jpg) no-repeat center fixed;
       background-size: cover;
@@ -13,8 +10,31 @@ body {
     margin-right: 20px;
 }
 
-section {
-  flex: 1 0 auto;
+.flex-container {
+  min-height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .flex-container {
+    min-height: calc(100vh - 56px);
+  }
+}
+
+.login-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px 0 2px;
+}
+
+#box {
+  max-width: 400px;
+  width: 90vw;
+  margin: 0 auto;
+  opacity: 0.95;
 }
 
 #form-block {
@@ -23,7 +43,6 @@ section {
     border: 1px solid #eee;
     margin-top: 1em;
     box-shadow: 0em 0em 3em black;
-    width: 50%;
     transition-property: box-shadow;
     transition-duration: 1s;
 }
@@ -37,14 +56,6 @@ h5 {
     font-weight: 900;
 }
 
-#box {
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  transform: translate(50%,-50%);
-  max-width: 95%;
-  opacity: 0.95;
-}
 
 input {
     outline: none;
@@ -72,39 +83,14 @@ a:hover {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     font-weight: 900;
+    padding-bottom: 5px;
+    z-index: 1;
 }
 
 hr{
     border: none;
     height: 2px;
     background-color: teal;
-}
-
-@media (min-width: 700px) and (max-width: 1000px) {
-    #form-block {
-      width: 70%;
-    }
-}
-
-@media (min-width: 600px) and (max-width: 700px) {
-    #form-block {
-      width: 85%;
-    }
-}
-
-@media (min-width: 500px) and (max-width: 600px) {
-    #form-block {
-      width: 95%;
-    }
-}
-
-@media (max-width: 500px) {
-    #form-block {
-      width: 100%;
-      margin-top: 50px;
-    }
 }

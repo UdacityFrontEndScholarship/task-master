@@ -32,6 +32,10 @@
 <body onload="loader()" class="blur">
   <!-- Loading screen edited on @Aditya Sharma -->
   <div id="loader"></div>
+
+  <!-- particles.js container -->
+  <div id="particles-js"></div>
+
     <!--header-->
     <div class="navbar-fixed">
       <nav class="black">
@@ -50,8 +54,10 @@
       <li><a class="white-text" href="index.html">HOME</a></li>
     </ul>
 
-<!--login form code-->
-    <section class="center-align">
+    <div class="flex-container">
+      
+      <!--login form code-->
+      <section class="center-align login-section">
         <div id="box">
           <div class="z-depth-5 white row" id="form-block">
               <h5 class="grey-text darken-4">Login into your account</h5>
@@ -86,20 +92,20 @@
               <span>Not a member yet? <a href="signup.html">Create account</a></span>
           </div>
         </div>
-    </section>
+      </section>
 
-  <!--footer-->
-    <footer>
-      <hr style="font-weight: 800">
-      <div class="footer-copyright">
-        <div class="container center grey-darken-4-text ">
-        Copyright © 2018 TaskMaster
+      <!--footer-->
+      <footer>
+        <hr style="font-weight: 800">
+        <div class="footer-copyright">
+          <div class="container center grey-darken-4-text ">
+          Copyright © 2018 TaskMaster
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
 
-    <!-- particles.js container -->
-<div id="particles-js"></div>
+    </div> 
+    <!-- End flex-container -->
 
     <!-- scripts -->
     <script src="js/particles.js"></script>

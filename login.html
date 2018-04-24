@@ -22,12 +22,19 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/form.css">
     <link href="css/imageSlider.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/loader.css">
     <link rel="stylesheet" media="screen" href="css/style.css">
     <link rel="stylesheet" href="css/login.css">
 </head>
 
-<body>
+<body onload="loader()" class="blur">
+  <!-- Loading screen edited on @Aditya Sharma -->
+  <div id="loader"></div>
+
+  <!-- particles.js container -->
+  <div id="particles-js"></div>
 
     <!--header-->
     <div class="navbar-fixed">
@@ -47,8 +54,10 @@
       <li><a class="white-text" href="index.html">HOME</a></li>
     </ul>
 
-<!--login form code-->
-    <section class="center-align">
+    <div class="flex-container">
+      
+      <!--login form code-->
+      <section class="center-align login-section">
         <div id="box">
           <div class="z-depth-5 white row" id="form-block">
               <h5 class="grey-text darken-4">Login into your account</h5>
@@ -56,13 +65,13 @@
               <div class='row'>
                 <div class='input-field col s12'>
                   <i class="material-icons prefix">email</i>
-                  <label for='email'>Email</label>
-                  <input class='validate' type='email' name='email' id='email' required/>
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
                 </div>
                 <div class='input-field col s12'>
                   <i class="material-icons prefix">lock</i>
-                  <label for='password'>Password</label>
-                  <input class='validate' type='password' name='password' id='password' required/>
+                  <input id="password" type="password" class="validate">
+                  <label for="password">Password</label>
                 </div>
                 <div class="col s12">
                 <label style='float: right;'>
@@ -83,20 +92,20 @@
               <span>Not a member yet? <a href="signup.html">Create account</a></span>
           </div>
         </div>
-    </section>
+      </section>
 
-  <!--footer-->
-    <footer>
-      <hr style="font-weight: 800">
-      <div class="footer-copyright">
-        <div class="container center grey-darken-4-text ">
-        Copyright © 2018 TaskMaster
+      <!--footer-->
+      <footer>
+        <hr style="font-weight: 800">
+        <div class="footer-copyright">
+          <div class="container center grey-darken-4-text ">
+          Copyright © 2018 TaskMaster
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
 
-    <!-- particles.js container -->
-<div id="particles-js"></div>
+    </div> 
+    <!-- End flex-container -->
 
     <!-- scripts -->
     <script src="js/particles.js"></script>
@@ -108,7 +117,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
     <script src="./js/init.js"></script>
     <!-- <script src="js/formanimate.js"></script> -->
-    <!-- <script src="js/slider.js"></script> -->
+    <script src="js/slider.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/login.js"></script>
 </body>

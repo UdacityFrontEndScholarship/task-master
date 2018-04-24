@@ -20,3 +20,20 @@ span.badge{
 h5{
 	margin: 0;
 }
+/*Profile card style code*/
+
+.profile-card {
+	width: 100%;
+}
+.profile-photo {
+	border: 1px solid white;
+	border-radius: 50%;
+	margin: 20px;
+}
+.user-name-div {
+	position: absolute;
+	left: 300px;
+	top: 10px;
+	font-size: 40px;
+	font-weight: bold;
+}

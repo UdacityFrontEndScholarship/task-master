@@ -1,0 +1,52 @@
+
+.modal { 
+	max-height: 85% !important ; 
+	width: 70% !important ; 
+	opacity: .9 !important;
+	background-color: grey;
+
+}
+.card{
+	transition: 0.5s;
+	background:#eee;
+	margin:15px;
+	border:2px solid #8C8833;
+	
+
+}
+.card:hover{
+	color: #c2185b;
+}
+.card:hover{
+	transform: scale(1.03);
+	background:#fff;
+}
+.edit{
+	margin-bottom: 20px;
+}
+.circle{
+	border-radius: 50%;
+	width: 150px;
+	margin-top: -50px;
+	border:2px solid teal;
+}
+h6{
+	font-weight: 500;
+}
+.flex{
+	display:flex;
+	margin: 5px;
+
+}
+.row ul li a{
+	padding: -2 18px;
+	margin: 2px;
+	font-size: 15px;
+
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+

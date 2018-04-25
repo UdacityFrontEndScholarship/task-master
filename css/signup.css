@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family-Lobster+two|Raleway');
 
 body{
-    height: 100vh;
-    width: 100%;
     font-family: 'Raleway',san-serif;
     background: url(../img/formbg.jpg) no-repeat center fixed;
     background-size: cover;
@@ -11,8 +9,18 @@ body{
     z-index: 5;
 }
 
-section {
-  flex: 1 0 auto;
+.flex-container {
+  min-height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30px;
 }
 
 input{
@@ -32,16 +40,12 @@ button{
     /*margin-left: 390px;*/
 }
 
-#particles-js{
-    height: 100%;
-    width:100%;
-    top:0%;
-    position: absolute;
-}
-
-.row{
-    /*padding-left: 20px;*/
-    /*margin: 20px;*/
+#particles-js {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .input-field{
@@ -57,13 +61,7 @@ button{
 }
 
 #box {
-    /*position: relative;*/
     z-index: 20 !important;
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%,-50%);
-    max-width: 95%;
     opacity: 0.95;
 }
 
@@ -78,10 +76,11 @@ form:hover {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
+    padding-bottom: 5px;
     font-weight: 900;
+    font-weight: 900;
+    z-index: 1;
 }
 
 hr{

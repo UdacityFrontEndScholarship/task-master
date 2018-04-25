@@ -1,0 +1,51 @@
+.row{
+	margin-bottom: 0px;
+}
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.card .card-content {
+	padding: 15px;
+}
+.card .card-action {
+	padding: 15px;
+}
+span.badge{
+	margin-left: 6px;
+}
+.icon{
+	padding-left: 5px;
+}
+h5{
+	margin: 0;
+}
+/*Profile card style code*/
+
+.profile-card {
+	width: 100%;
+}
+.profile-photo {
+	border: 1px solid white;
+	border-radius: 50%;
+	margin: 20px;
+}
+.user-name-div {
+	position: absolute;
+	left: 300px;
+	top: 10px;
+	font-size: 40px;
+	font-weight: bold;
+}
+.upload-photo {
+	border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+	cursor: pointer;
+}
+input[type="file"] {
+	display: none;
+}
+.upload-file-div {
+	margin-left: 75px;
+}

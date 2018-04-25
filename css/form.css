@@ -22,7 +22,7 @@
 .contact .btn{
 
   border-radius: 0;
-  width: 100%;
+  max-width: 150px;
   font-size: 15px;
   background-color: #00e676 !important;
   color: #fff;

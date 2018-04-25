@@ -37,3 +37,15 @@ h5{
 	font-size: 40px;
 	font-weight: bold;
 }
+.upload-photo {
+	border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+	cursor: pointer;
+}
+input[type="file"] {
+	display: none;
+}
+.upload-file-div {
+	margin-left: 75px;
+}

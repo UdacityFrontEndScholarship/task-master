@@ -6,12 +6,18 @@
     <title>TaskMaster </title>
     <!--meta tags-->
     <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="footer, address, phone, icons" />
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
     <!--remote stylesheets linkage-->
     <!-- for icons -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -26,6 +32,12 @@
     <link href="css/imageSlider.css" rel="stylesheet">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/loader.css">
+
+    <link rel="stylesheet" href="css/footer.css">
+  
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+ 
 
   </head>
 
@@ -185,11 +197,9 @@
                     <textarea rows="4" id="area" class=" white materialize-textarea" ></textarea>
                     <label for="area">Feedback</label>
                   </div>
-                  <span class="resp-submit">
-                  <button class="btn waves-effect waves-light wow fadeInUp teal" style="width:20%;min-width:125px" type="submit" name="action" data-wow-delay="1.8s">Submit
+                  <button class="btn waves-effect waves-light wow fadeInUp teal" type="submit" name="action" data-wow-delay="1.8s">Submit
                    <i class="material-icons right">send</i>
                   </button>
-                  </span>
                   <!--<button class="btn btn-lg wow fadeInUp" type="Submit" data-wow-delay="2s">Submit Your Message</button> -->
               </div>
 
@@ -200,46 +210,69 @@
 </div>
     </section>
     <!--footer-->
-   <footer class="page-footer grey darken-3">
-          <div class="container">
-            <div class="row">
-              <div class="col center s12 m4"><!--Added center class-->
-                <h4 class="white-text">Site Map</h4>
-                <ul><!--href link added-->
-                  <li><a class="teal-text scrollspy text-lighten-3" href="index.html">Home</a></li>
-                  <li><a class="teal-text scrollspy text-lighten-3" href="#intro">Introduction</a></li>
-                  <li><a class="teal-text scrollspy text-lighten-3" href="#why">Why TaskMaster</a></li>
 
-                </ul>
-              </div>
-              <div class="col l4 center s12 m4"><!--Added center class-->
-                <h4 class="white-text">Links</h4>
-                <ul>
-                  <li><a class="teal-text  text-lighten-3" href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
-                  <li><a class="teal-text  text-lighten-3" href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
-                  <li><a class="teal-text  text-lighten-3" href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
-                  <li><a class="teal-text  text-lighten-3" href="#"><i class="fab fa-google-plus"></i> Google Plus</a></li>
-                </ul>
-              </div>
-              <div class="col s12 center m4"> <!--Changing display of Mail Us 12th April/18-->
-                <h4 class="white-text">Mail us</h4>
-                <form>
-                  <input type="email" >
-                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                    <i class="material-icons right">send</i>
-                    </button>
-                </form>
-              </div>
-            </div>
-          </div>
+      <footer class="footer-distributed">
 
-          <hr/>
-          <div class="footer-copyright">
-            <div class="container center">
-            Copyright © 2018 TaskMaster
-            </div>
-          </div>
-        </footer>
+      <div class="footer-left">
+
+        <h3>TaskMaster<span>.</span></h3>
+
+        <p class="footer-links">
+          <a href="#">Home</a>
+          ·
+          <a href="#">Blog</a>
+          ·
+          <a href="#">About</a>
+          ·
+          <a href="#">Faq</a>
+          ·
+          <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">TaskMaster &copy; 2018</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Revolution Street</span> Udacity, India</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+91 968 95XXXX</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@company.com">care@taskmaster.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>About the taskmaster</span>
+          This app will help you to take stock of your situation, keep distractions away and focus more on your goals.
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
     <script src="./js/init.js"></script>
@@ -249,3 +282,8 @@
     <script src="js/index.js"></script>
   </body>
 </html>
+
+
+
+
+

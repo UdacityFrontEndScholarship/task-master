@@ -1,23 +1,21 @@
 
 .modal { 
-	max-height: 85% !important ; 
-	width: 70% !important ; 
+	max-height: 90% !important ; 
+	width: 90% !important ; 
 	opacity: .9 !important;
 	background-color: grey;
 
 }
-.card{
+.hovering{
+
 	transition: 0.5s;
 	background:#eee;
 	margin:15px;
-	border:2px solid #8C8833;
-	
-
-}
-.card:hover{
+	}
+.hovering:hover{
 	color: #c2185b;
 }
-.card:hover{
+.hovering:hover{
 	transform: scale(1.03);
 	background:#fff;
 }
@@ -34,8 +32,9 @@ h6{
 	font-weight: 500;
 }
 .flex{
-	display:flex;
-	margin: 5px;
+	
+	position: relative;
+	display: inline-flex;
 
 }
 .row ul li a{
@@ -44,7 +43,7 @@ h6{
 	font-size: 15px;
 
 }
-hr{
+.coloring{
     border: none;
     height: 1px;
     background-color: black;

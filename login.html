@@ -3,7 +3,7 @@
 
 <head>
     <!--webapp title-->
-    <title>TaskMaster </title>
+    <title>TaskMaster</title>
     <!--meta tags-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,12 +22,21 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/form.css">
     <link href="css/imageSlider.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/loader.css">
     <link rel="stylesheet" media="screen" href="css/style.css">
     <link rel="stylesheet" href="css/login.css">
 </head>
 
-<body>
+<body onload="loader()" class="blur">
+  <!-- Loading screen edited on @Aditya Sharma -->
+  <div id="loader"></div>
+
+  <!-- particles.js container -->
+  <div id="particles-js"></div>
+
+    <!--header-->
     <div class="navbar-fixed">
       <nav class="black">
           <div class="nav-wrapper">
@@ -45,20 +54,24 @@
       <li><a class="white-text" href="index.html">HOME</a></li>
     </ul>
 
-<!--login form code-->
-    <section class="center-align">
+    <div class="flex-container">
+      
+      <!--login form code-->
+      <section class="center-align login-section">
         <div id="box">
-          <div class="z-depth-5 white lighten-4 row" id="form-block">
+          <div class="z-depth-5 white row" id="form-block">
               <h5 class="grey-text darken-4">Login into your account</h5>
             <form  method="post">
               <div class='row'>
                 <div class='input-field col s12'>
-                  <label for='email'>Enter your email</label>
-                  <input class='validate' type='email' name='email' id='email' required/>
+                  <i class="material-icons prefix">email</i>
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
                 </div>
                 <div class='input-field col s12'>
-                  <label for='password'>Enter your password</label>
-                  <input class='validate' type='password' name='password' id='password' required/>
+                  <i class="material-icons prefix">lock</i>
+                  <input id="password" type="password" class="validate">
+                  <label for="password">Password</label>
                 </div>
                 <div class="col s12">
                 <label style='float: right;'>
@@ -79,69 +92,33 @@
               <span>Not a member yet? <a href="signup.html">Create account</a></span>
           </div>
         </div>
-    </section>
+      </section>
 
-  <!--footer-->
-    <footer>
-      <hr style="font-weight: 800">
-      <div class="footer-copyright">
-        <div class="container center grey-darken-4-text ">
-        Copyright © 2018 TaskMaster
+      <!--footer-->
+      <footer>
+        <hr style="font-weight: 800">
+        <div class="footer-copyright">
+          <div class="container center grey-darken-4-text ">
+          Copyright © 2018 TaskMaster
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
 
-    <!-- particles.js container -->
-<div id="particles-js"></div>
+    </div> 
+    <!-- End flex-container -->
 
     <!-- scripts -->
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
     <!-- stats.js -->
     <script src="js/lib/stats.js"></script>
-    <script>
-        var count_particles, stats, update;
-        stats = new Stats;
-        stats.setMode(0);
-        stats.domElement.style.position = 'absolute';
-        stats.domElement.style.left = '0px';
-        stats.domElement.style.top = '0px';
-        document.body.appendChild(stats.domElement);
-        count_particles = document.querySelector('.js-count-particles');
-        update = function() {
-          stats.begin();
-          stats.end();
-          if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-            count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-          }
-          requestAnimationFrame(update);
-        };
-        requestAnimationFrame(update);
-    </script>
     <!--additional scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
     <script src="./js/init.js"></script>
-    <script src="js/formanimate.js"></script>
-    <!-- <script src="js/slider.js"></script> -->
+    <!-- <script src="js/formanimate.js"></script> -->
+    <script src="js/slider.js"></script>
     <script src="js/wow.min.js"></script>
-      <!-- custom script edited on 12th April,18(@DeepPurohit) -->
-      <script>
-          // new WOW().init();
-          //adding scrolling style
-          const ss = document.querySelectorAll('.scrollspy');
-          M.ScrollSpy.init(ss, {});
-          //mobile-navbar
-            const menu = document.querySelector('.sidenav');
-            M.Sidenav.init(menu, {});
-          //image slider
-            // const slider = document.querySelector('.slider');
-            // M.Slider.init(slider, {
-            //   indicators: false,
-            //   height: 500,
-            //   transition: 500,
-            //   interval: 6000
-            // });
-      </script>
+    <script src="js/login.js"></script>
 </body>
 </html>

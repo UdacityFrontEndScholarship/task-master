@@ -17,7 +17,6 @@ html{
 
 canvas {
   display: block;
-  vertical-align: bottom;
 }
 
 
@@ -46,6 +45,7 @@ canvas {
 #stats,
 .count-particles{
   -webkit-user-select: none;
+  user-select: none;
   margin-top: 5px;
   margin-left: 5px;
 }
@@ -62,12 +62,47 @@ canvas {
 
 /* ---- particles.js container ---- */
 
-#particles-js{
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#if
+{
+  width: 487px;
+  height: 275px;
+}
+
+#play
+{
+  width: 100px;
+}
+
+#slideshow
+{
+  margin-bottom: -8px;
+}
+
+.test h5
+{
+ font-size: 35px;
+}
+
+#int
+{
+  margin-bottom: 18px;
+}
+
+#whytab
+{
   width: 100%;
-  height: 100%;
-  background-color: none;
-  background-image: url('');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+}
+
+#tab1,#tab2,#tab3
+{
+  width: 33%;
+  float: left;
 }

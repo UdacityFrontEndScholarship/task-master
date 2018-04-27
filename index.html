@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -16,21 +16,23 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!--additional stylesheets-->
     <link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <link href="./css/init.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/video.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/form.css">
     <link href="css/imageSlider.css" rel="stylesheet">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/loader.css">
-    <link rel="stylesheet" href="css/nav_n_btn.css">
+
   </head>
 
-  <body onload="loader()">
+  <body onload="loader()" class="blur">
     <!-- Loading screen edited on @Aditya Sharma -->
     <div id="loader"></div>
-    
+
     <!-- navigation bar edited on 12 April,18(@DeepPurohit) -->
     <div class="navbar-fixed">
       <nav class="black">
@@ -53,7 +55,7 @@
                   <li><a class="scrollspy" href="#contact">CONTACT</a></li>
               </ul>
             </a>
-          </div>  
+          </div>
       </nav>
     </div>
     <ul class="sidenav grey darken-2" id="mobile-nav">
@@ -64,26 +66,30 @@
     </ul>
 
 
-   
-   
+
+
     <!--added image slider web view by @AdityaSharma-->
-    
+
     <div id="slideshow">
       <div >
-        <img src="https://thenypost.files.wordpress.com/2014/08/shutterstock_172037909.jpg">
+        <img src="img/back1.jpg">
       </div>
       <div >
-        <img src="https://www.autoxloo.com/wp-content/uploads/2016/05/easybutton.jpg">
+        <img src="img/back2.jpg">
       </div>
       <div >
-          <img src="http://vivente.com.au/wp-content/uploads/2015/06/work-life-balance-e1433993527107.jpg" >
+          <img src="img/back3.jpg" >
       </div>
     </div>
-    
+
     <div class="test">
-      <h3>Task Master <h5>One Solution For Work Management Problems</h5></h3>
-      
-       </div> <div class="tes"><a id="start" href="#intro" class="teal waves-effect waves-light btn">Get Started</a></div>
+      <h3>Tasks Made Easier!</h3>
+
+       </div> <div class="tes"><a id="start" href="login.html" class="teal darken-2 waves-effect waves-light btn-large">Get Started</a>  <div class="arrow">
+        <a href="#intro">
+          <img src="img/arrow.svg" class="sc"/>
+        </a>
+      </div></div>
      <!--Slider -->
     <section class="slider">
       <div class="container">
@@ -115,13 +121,12 @@
 
     <section class="section center wow fadeInUp chl" data-wow-delay="0.2s" style="margin-top: -30px">
         <h3 class="blue-text lighten-2">Task Master <h5>One Solution For Work Management Problems</h5></h3>
-        <a id="start" href="#intro" class="teal waves-effect waves-light btn">Get Started</a>
+        <a id="start" href="login.html" class="teal waves-effect waves-light btn">Get Started</a>
     </section>
-    
-    
+
+
     <!-- Intro Section -->
-    
-    <section id="intro" class="center-align card-panel hoverable section scrollspy wow fadeInLeft" data-wow-delay="0.1s">
+    <section id="intro" class="center-align  section scrollspy card wow fadeInLeft" data-wow-delay="0.1s">
       <div class="container">
         <div class="row">
           <div class="col m12">
@@ -132,9 +137,12 @@
             </p>
           </div>
         </div>
+        <!--Video Added-->
+        <div id="vid"></div><button id="play" class="btn"><i class="material-icons">play_circle_outline</i></button>
+        <button id="remove" class="btn"><i class="material-icons">cancel</i></button>
       </div>
     </section>
-    <section id="why" class="center-align card-panel hoverable section scrollspy wow fadeInRight" data-wow-delay="0.1s">
+    <section id="why" class="center-align section scrollspy wow fadeInRight card z-depth-1" data-wow-delay="0.1s">
        <div class="container">
          <div class="row">
            <div class="col m12">
@@ -142,11 +150,16 @@
              <p class="">In this digital age, where almost everything is going for digitization why use traditional TO-DO sticky notes to write down your goals? Our goals are imprinted in our minds if we can visualize them. We have a photo attachment feature exclusively for that purpose. Algorithms are changing every day so that people spend more time on their phones. Let's together conquer our goals with Taskmaster.
             </p>
            </div>
+           <div id="whytab">
+             <div id="tab1"><h4>Plan Your Work</h4>Increase Your Productivity<p><img src="img/productivity.png"></p></div>
+             <div id="tab2"><h4>Now Never Forget</h4>Task Master Will Remind You<p><img src="img/reminder.png"></p></div>
+             <div id="tab3"><h4>Goal Tracking</h4>Track Your Progress<p><img src="img/track.png"></p></div>
+            </div>
          </div>
        </div>
     </section>
     <!--contact form-->
-    <section class="section section-contact black scrollspy card-panel hoverable"
+    <section class="section section-contact black scrollspy z-depth-1">
         <div id="contact" class="contact ">
       <div class="container ">
         <h2 class=" wow fadeInUp center white-text" data-wow-delay="0.4s">Contact</h2>
@@ -163,7 +176,7 @@
                     <label for="email_address">Email Address</label>
                 </div>
                   <div class="input-field  wow fadeInUp" data-wow-delay="1.2s">
-                   <i class="material-icons prefix icon-white ">phone</i> 
+                   <i class="material-icons prefix icon-white ">phone</i>
                     <input  type="number" id="phone_number" class="validate">
                     <label for="phone_number">Phone Number</label>
                 </div>
@@ -172,17 +185,19 @@
                     <textarea rows="4" id="area" class=" white materialize-textarea" ></textarea>
                     <label for="area">Feedback</label>
                   </div>
-                  <button class="btn waves-effect waves-light wow fadeInUp teal" type="submit" name="action" data-wow-delay="1.8s">Submit
+                  <span class="resp-submit">
+                  <button class="btn waves-effect waves-light wow fadeInUp teal" style="width:20%;min-width:125px" type="submit" name="action" data-wow-delay="1.8s">Submit
                    <i class="material-icons right">send</i>
                   </button>
+                  </span>
                   <!--<button class="btn btn-lg wow fadeInUp" type="Submit" data-wow-delay="2s">Submit Your Message</button> -->
               </div>
-             
+
 
 
           </div>
-      </div>    
-</div> 
+      </div>
+</div>
     </section>
     <!--footer-->
    <footer class="page-footer grey darken-3">
@@ -194,7 +209,7 @@
                   <li><a class="teal-text scrollspy text-lighten-3" href="index.html">Home</a></li>
                   <li><a class="teal-text scrollspy text-lighten-3" href="#intro">Introduction</a></li>
                   <li><a class="teal-text scrollspy text-lighten-3" href="#why">Why TaskMaster</a></li>
-                  
+
                 </ul>
               </div>
               <div class="col l4 center s12 m4"><!--Added center class-->
@@ -228,27 +243,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
     <script src="./js/init.js"></script>
-    <script src="js/formanimate.js"></script>
+    <!-- <script src="js/formanimate.js"></script> -->
     <script src="js/slider.js"></script>
     <script src="js/wow.min.js"></script>
-              <!-- custom script edited on 12th April,18(@DeepPurohit) -->
-              <script>
-              new WOW().init();
-              //adding scrolling style
-              const ss = document.querySelectorAll('.scrollspy');
-              M.ScrollSpy.init(ss, {}); 
-            
-              //mobile-navbar
-                const menu = document.querySelector('.sidenav');
-                M.Sidenav.init(menu, {});
-              //image slider
-                const slider = document.querySelector('.slider');
-                M.Slider.init(slider, {
-                  indicators: false,
-                  height: 500,
-                  transition: 500,
-                  interval: 6000
-                });
-              </script>
+    <script src="js/index.js"></script>
   </body>
 </html>

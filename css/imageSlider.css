@@ -7,7 +7,7 @@
     height: 100vh;
     z-index: -1;
     margin-bottom: 50px;
-    
+
 
 }
 
@@ -39,7 +39,6 @@
 
 .tes
 {
-
  position: absolute;
  padding: 70px;
  width: 500px;
@@ -53,17 +52,35 @@
  text-align: center;
  font-size: 97px;
 }
-.test h3,h5
-{
-    font-size: 40px;
-}
-
-.test h5
-{
-    background: rgba(54, 25, 25, .5);
-}
 
 .test h3
 {
+    font-size: 0.5em;
     color: black;
+    background: rgba(255, 255, 255, 0.7);
+    font-family: 'Roboto', sans-serif;
+}
+
+@media all and (min-width: 1100px) {
+
+    #slideshow,.test,.down-arrow {display: block;}
+    .slider,.chl {display: none;}
+}
+
+@media all and (max-width: 1028px) {
+
+    #slideshow,.test,.down-arrow,.tes {display: none;}
+    .slider {display: block;}
+
+}
+
+@media all and (max-width: 479px) {
+
+    #slideshow,.test,.down-arrow,.tes {display: none;}
+    .slider {display: block;}
+}
+
+#slideshow
+{
+    margin-top: 5px;
 }

@@ -96,13 +96,3 @@ canvas {
   margin-bottom: 18px;
 }
 
-#whytab
-{
-  width: 100%;
-}
-
-#tab1,#tab2,#tab3
-{
-  width: 33%;
-  float: left;
-}

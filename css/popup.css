@@ -48,4 +48,8 @@ h6{
     height: 1px;
     background-color: black;
 }
+.text-decoration{
+	color: #424242;
+	font-weight: 500;
+}
 

@@ -5,7 +5,10 @@ body {
       background: url(../img/formbg.jpg) no-repeat center fixed;
       background-size: cover;
 }
-
+html
+{
+    overflow: hidden;
+}
 .right{
     margin-right: 20px;
 }

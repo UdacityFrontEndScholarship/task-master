@@ -1,0 +1,66 @@
+.nf
+{
+  background: black;
+  opacity: 0.9;
+  text-align: center;
+  
+  width: 100%;
+
+}
+
+html,body
+{
+    overflow-x: hidden;
+}
+
+.closeb
+{
+  margin-top: 15px;
+  margin-left: 20px;
+ width: 25px;
+ float: right;
+}
+
+.nf li
+{
+  padding: 15px;
+}
+
+#intro
+{
+    width: 100%;
+    padding-top: 75px;
+}
+
+.fi h2
+{
+    margin-top: -30px;
+    padding-bottom: 30px;
+}
+
+.wq iframe
+{
+    height:200px;
+    margin-left: -59px;
+    margin-bottom: 10px;
+    width:483px;
+}
+
+.qw
+{
+    background-image: url("../img/qwe.jpg");
+    background-repeat: no-repeat;
+    height:300px;
+        
+        background-position: center center;
+        
+
+}
+ .qw iframe
+ {
+     margin-left: 1px;
+     margin-top: 15px;
+     height: 280px;
+     position: relative;
+     width:383px;
+ }

@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="css/loader.css">
     <link rel="stylesheet" media="screen" href="css/style.css">
     <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/fix.css">
 </head>
 
 <body onload="loader()" class="blur">
@@ -42,7 +43,7 @@
           <div class="nav-wrapper">
             <a href="#" class="brand-logo" id="logo">TASKMASTER</a>
             <a href="#" data-target="mobile-nav" class="sidenav-trigger">
-              <i class="material-icons">menu</i>
+              <i class="material-icons mf">menu</i>
               <ul class="right hide-on-med-and-down">
                   <li><a href="index.html">HOME</a></li>
               </ul>
@@ -50,7 +51,8 @@
           </div>
       </nav>
     </div>
-    <ul class="sidenav grey darken-2" id="mobile-nav">
+    <ul class="sidenav nf" id="mobile-nav">
+        <li><a href="#"><img src="img/cancel.png" class="closeb"></a></li>
       <li><a class="white-text" href="index.html">HOME</a></li>
     </ul>
 
@@ -95,7 +97,7 @@
       </section>
 
       <!--footer-->
-      <footer>
+      <footer id="foot">
         <hr style="font-weight: 800">
         <div class="footer-copyright">
           <div class="container center grey-darken-4-text ">

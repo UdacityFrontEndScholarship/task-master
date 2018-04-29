@@ -34,10 +34,10 @@
 <a href="https://udacityfrontendscholarship.github.io/task-master/profile.html"><b>User Dashboard</b></a>
 
 # <a name="2" href="#2"> Current Status </a>
-- HomePage,Login, Signup Page, Dashboard is Designed . (Thanks to collective effort) Whatever bug remains is being squashed .
+- HomePage,Login, Signup Page is Designed . (Thanks to collective effort) Whatever bug remains will be squashed later.
 
 # <a name="3" href="#3"> Next Up </a>
-- Starting off Backend
+- User Account Page/Dashboard(Shashank Working on it) 
 
 # <a name="4" href="#4"> What you can do? </a>
 - Fork this repo, understand the code. Whatever work has to be done, you can find it in the issues tab. If you want to work on something by you own, raise an issue, WAIT FOR COLLABORATORS to APPROVE it, then go ahead with you code. 

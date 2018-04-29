@@ -41,9 +41,9 @@ html,body
 .wq iframe
 {
     height:200px;
-    margin-left: -59px;
+   
     margin-bottom: 10px;
-    width:483px;
+    width:100%;
 }
 
 .qw
@@ -51,16 +51,46 @@ html,body
     background-image: url("../img/qwe.jpg");
     background-repeat: no-repeat;
     height:300px;
-        
-        background-position: center center;
-        
-
+    background-position: center center; 
 }
  .qw iframe
  {
-     margin-left: 1px;
-     margin-top: 15px;
-     height: 280px;
+     margin-left: -0.05em;
+     margin-top: 38px;
+     height: 215px;
      position: relative;
-     width:383px;
+     width:384px;
+     transform: scaleY(1.13); 
+ }
+
+ #th
+ {
+     text-align: center; 
+ }
+
+ #th button
+ {
+     margin-bottom: 55px;
+ }
+
+ #ff
+ {  position: fixed;
+     bottom: 0;
+     width: 100%;
+     
+ }
+
+#tb/*,.se,body*/
+ {
+    background-color: #e1e1e1;
+ }
+
+ .hb
+ {
+     margin-right: 40px;
+ }
+
+ .nm
+ {
+     margin-right: -50px;
  }

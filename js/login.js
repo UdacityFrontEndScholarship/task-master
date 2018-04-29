@@ -24,3 +24,15 @@ update = function() {
   requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
+
+$(document).ready(function(){
+  var org = $(window).width()+$(window).height();
+  $(window).resize(function(){
+    if($(window).width()+$(window).height()!= org)
+    {
+      $("#foot").hide();
+    }
+    else{
+     $("#foot").show();
+    }
+  });});

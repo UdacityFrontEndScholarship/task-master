@@ -25,7 +25,7 @@ $(".sc").click(function() {
 });
 
 $("#play").click(function () {
-    $("#vid").append('<div id="new"><div><iframe id="if" src="video/taskmaster.mp4"></iframe></div></div>');
+    $("#vid").append('<div id="new"><div><iframe id="if" src="https://player.vimeo.com/video/266736894"></iframe></div></div>');
     $('#play').hide();
     $('#remove').show();
   });
@@ -36,3 +36,16 @@ $("#play").click(function () {
     $('#remove').hide();
     event.preventDefault();
 });
+
+
+$(".closeb").click(function() {
+    $('.nf').fadeOut();
+  });
+  
+  $(".closebb").click(function() {
+    $('.nf').fadeOut();
+  });
+  
+  $(".mf").click(function() {
+    $('.nf').fadeIn();
+  });

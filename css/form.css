@@ -42,6 +42,7 @@
 }
 #first_name,#email_address,#phone_number,#area{
   background-color: white;
+  padding-left: 10px;
 }
 
 #area{

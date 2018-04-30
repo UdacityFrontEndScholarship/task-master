@@ -48,19 +48,19 @@ html,body
 
 .qw
 {
-    background-image: url("../img/qwe.jpg");
+    background-image: url("../img/qwa.jpg");
     background-repeat: no-repeat;
-    height:300px;
+    height:350px;
     background-position: center center; 
 }
  .qw iframe
  {
-     margin-left: -0.05em;
-     margin-top: 38px;
+     margin-left: -0.15em;
+     margin-top: 61px;
      height: 215px;
      position: relative;
-     width:384px;
-     transform: scaleY(1.13); 
+     width:383px;
+     transform: scaleY(1.37) scaleX(1.23);
  }
 
  #th
@@ -94,3 +94,35 @@ html,body
  {
      margin-right: -50px;
  }
+
+ .wi
+ {
+    background-image: url("../img/phone.png");
+    background-repeat: no-repeat;
+    height:450px;
+    
+    background-position: 230px 45px;
+ }
+
+ .wi img
+ {
+     width:170px;
+     height: 300px;
+     margin-top:95px;
+     margin-left: 193px;
+     
+ }
+
+ .wc h2
+ {
+     
+     margin-top: 110px;
+     margin-left: -80px;
+ }
+
+ .wc p
+ {
+     margin-left: -120px;
+ }
+
+ 

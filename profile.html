@@ -261,9 +261,21 @@
                                 </div>
                             </form>
                             <div class="col s12">
-                                <i class="material-icons small">date_range</i>
-                                <i class="material-icons small">add_alarm</i>
-                                <i class="material-icons small">attachment</i>
+                                    <div class="input-field col s12 m6 l6 xl6">
+                                            <input type="date" name="">
+                                            <label for="">Deadline Date</label>
+                                          </div>
+                                          <div class="input-field col s12 m6 l6 xl6">
+                                            <input type="time" name="">
+                                            <label for="">Alarm time</label>
+                                          </div>
+                                          <div class="input-field col s12 m6 l6 xl6">
+                                            <span><label for="attachments[]" >Attachments</label></span>
+                                            <input type="file" multiple name="attachments[]">
+                                         </div>
+                                <!-- <i class="material-icons small">date_range</i>
+                                <i class="material-icons small">add_alarm</i> -->
+                                <!-- <i class="material-icons small">attachment</i> -->
                                 <button class="btn waves-effect waves-light right" type="submit" name="action">Submit
                                     <i class="material-icons right">send</i>
                                 </button>

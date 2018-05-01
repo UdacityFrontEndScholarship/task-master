@@ -15,3 +15,26 @@ M.Slider.init(slider, {
   interval: 6000
 });
 
+
+
+$(window).resize(function(){
+  if($(window).width()<500){
+   $('.tr').removeClass('wc');
+   $('.tp').removeClass('wi');
+   $('.tp').addClass('wiw');
+
+  }
+ });
+
+ $(window).resize(function(){
+  if($(window).width()>500){
+   $('.tp').removeClass('wiw');
+   
+   $('.tp').addClass('wi');
+   $('.tr').addClass('wc');
+
+
+  }
+ });
+ 
+ 

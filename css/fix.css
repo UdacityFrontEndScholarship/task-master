@@ -100,7 +100,6 @@ html,body
     background-image: url("../img/phone.png");
     background-repeat: no-repeat;
     height:450px;
-    
     background-position: 230px 45px;
  }
 
@@ -125,4 +124,20 @@ html,body
      margin-left: -120px;
  }
 
- 
+ .wiw
+ {
+    background-image: url("../img/phone.png");
+    background-repeat: no-repeat;
+    height:450px;
+    background-position: 63px center;
+    width: 500px;
+ }
+
+ .wiw img
+ {
+     width:170px;
+     height: 300px;
+     margin-top:73px;
+     margin-left: -170px;
+     
+ }

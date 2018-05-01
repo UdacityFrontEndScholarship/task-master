@@ -26,12 +26,14 @@
     <link href="css/imageSlider.css" rel="stylesheet">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/fix.css">
     <link rel="stylesheet" type="text/css" href="css/popup.css">
+
   </head>
 
-  <body onload="loader()" class="blur">
+  <body><!--onload="loader()"class="blur">-->
     <!-- Loading screen edited on @Aditya Sharma -->
-    <div id="loader"></div>
+    <!--<div id="loader"></div>-->
 
     <!-- navigation bar edited on 12 April,18(@DeepPurohit) -->
     <div class="navbar-fixed">
@@ -47,7 +49,7 @@
           <div class="nav-wrapper">
             <a href="#" class="brand-logo" id="logo">TASKMASTER</a>
             <a href="#" data-target="mobile-nav" class="sidenav-trigger">
-              <i class="material-icons">menu</i>
+              <i class="material-icons mf">menu</i>
               <ul class="right hide-on-med-and-down">
                   <li><a href="index.html">HOME</a></li>
                   <li><a class="scrollspy" href="#intro">INTRODUCTION</a></li>
@@ -58,11 +60,12 @@
           </div>
       </nav>
     </div>
-    <ul class="sidenav grey darken-2" id="mobile-nav">
-      <li><a class="white-text" href="index.html">HOME</a></li>
-      <li><a class="scrollspy white-text" href="#intro">INTRODUCTION</a></li>
-      <li><a class="scrollspy white-text" href="#why">WHY TASKMASTER?</a></li>
-      <li><a class="scrollspy white-text" href="#contact">CONTACT</a></li>
+    <ul class="sidenav nf" id="mobile-nav">
+        <li><a href="#"><img src="img/cancel.png" class="sidenav-close closeb"></a></li>
+      <li><a class="white-text sidenav-close" href="index.html">HOME</a></li>
+      <li><a class="scrollspy white-text sidenav-close" href="#intro">INTRODUCTION</a></li>
+      <li><a class="scrollspy white-text sidenav-close" href="#why">WHY TASKMASTER?</a></li>
+      <li><a class="scrollspy white-text sidenav-close" href="#contact">CONTACT</a></li>
     </ul>
 
 
@@ -127,20 +130,22 @@
 
     <!-- Intro Section -->
     <section id="intro" class="center-align  section scrollspy card wow fadeInLeft" data-wow-delay="0.1s">
-      <div class="container">
+      
         <div class="row">
-          <div class="col m12">
+          <div class="col s12 qw l6"><iframe src="https://player.vimeo.com/video/266736894" frameborder="0" allowfullscreen></iframe></div>
+          <div class="col s12 wq l6"><iframe src="https://player.vimeo.com/video/266736894" frameborder="0" allowfullscreen></iframe></div><div class="col s12 fi l6">
             <h2>Introduction</h2>
             <p class="">TaskManager is a one place solution for all your TO-DO Lists and goals in one place.Give color to your goals, attach files, set priorities and do much more. Our website also has an alarm popup feature that will remind you that your time is up to complete a goal.
             </p>
             <p class="">This app will help you to take stock of your situation, keep distractions away and focus more on your goals.
             </p>
           </div>
+          
         </div>
-        <!--Video Added-->
-        <div id="vid"></div><button id="play" class="btn"><i class="material-icons">play_circle_outline</i></button>
-        <button id="remove" class="btn"><i class="material-icons">cancel</i></button>
-      </div>
+       
+        
+     
+      
     </section>
     <section id="why" class="center-align section scrollspy wow fadeInRight card z-depth-1" data-wow-delay="0.1s">
        <div class="container">
@@ -159,7 +164,7 @@
        </div>
     </section>
     <!--contact form-->
-    <section class="Contact black">
+<section class="Contact black" id="contact">
     <div class="container">
     <h1 class="center-align white-text wow fadeInDown" data-wow-delay="0.8s">Contact</h1>
     <div class="row card-panel hoverable  ">
@@ -187,7 +192,6 @@
             <input type="email" class="black-text validate">
             <label class="active" for="email">Email</label>
           </div>
-          
           <div class=" wow fadeInUp input-field col s12 m12 center" data-wow-delay="1.3s">
                 <i class=" material-icons prefix icon-white ">feedback</i>
                 <textarea rows="4" id="area" class=" white materialize-textarea" ></textarea>
@@ -201,76 +205,65 @@
       </form>
     </div>
   </form>
-
   </div>
 </div>
+
 <!-- popup member -->
 
 <div id="modal1" class="modal">
-	<div class="modal-content">
+  <div class="modal-content">
       <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat right btn black white-text ">&#10006;</a>
-    	<h3 class="center-align text-decoration">MODERATORS</h3>
-		 <div class="container ">
-        	<div class="row">
-        	<hr>
-          	<div class="col s12 m6 13 center-align">
-				<div class="card  hovering" >
-              		<div class="card-content " >
-					<img class="circle" src="img/swapnil.jpg">
-		                <h6>SWAPNIL GAIKWAD</h6>
-		                <p></p>
-		                <hr>
-		                <ul class="flex">
-		                  <li><a class="waves-effect waves-light btn social grey"  href="#" ><i class="fab fa-github"></i></a><li>
-		                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-facebook"></i></a><li>
-		                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-linkedin"></i></a><li>
-		                </ul>
-              		</div>
-            	</div>
-          	</div>
+      <h3 class="center-align text-decoration">MODERATORS</h3>
+     <div class="container ">
+          <div class="row">
+          <hr>
+            <div class="col s12 m6 13 center-align">
+        <div class="card  hovering" >
+                  <div class="card-content " >
+              <h6>SWAPNIL GAIKWAD</h6>
+                    <p></p>
+                    <hr>
+                    <ul class="flex">
+                      <li><a class="waves-effect waves-light btn social grey" href="https://github.com/Swapnil2095" target="blank" ><i class="fab fa-github"></i></a><li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
           <div class="col s12 m6 13 center-align">
             <div class="card  hovering">
               <div class="card-content">
-                <img class="circle" src="img/rajrox.jpg">
                 <h6>RITURAJ BASU</h6>
                 <p></p>
                 <hr>
                 <ul class="flex">
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-github"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-facebook"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-linkedin"></i></a><li>
-				</ul>
+                  <li><a class="waves-effect waves-light btn social grey" href="https://github.com/Rajrox97" target="blank"><i class="fab fa-github"></i></a><li>
+                </ul>
               </div>
             </div>
           </div>
           <h3 class="center-align text-decoration">CO-MODS</h3>
+          <hr>
           <div class="col s12 m6 13 center-align">
-			  <div class="card hovering">
-              	<div class="card-content">
-	                <img class="circle" src="img/priyabrata.jpg">
-	                <h6>PRIYABRATA BISWAS</h6>
-	                <p></p>
-	                <hr>
-	                <ul class="flex">
-	                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-github"></i></a><li>
-	                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-facebook"></i></a><li>
-	                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-linkedin"></i></a><li>
-	               	</ul>
+        <div class="card hovering">
+                <div class="card-content">
+                  <h6>PRIYABRATA BISWAS</h6>
+                  <p></p>
+                  <hr>
+                  <ul class="flex">
+                    <li><a class="waves-effect waves-light btn social grey" href="https://github.com/pbiswas101" target="blank"><i class="fab fa-github"></i></a><li>
+                  </ul>
                 </div>
             </div>
           </div>
-          <hr>
           <div class="col s12 m6 13 center-align">
             <div class="card hovering">
               <div class="card-content">
-                <img class="circle" src="img/rajrox.jpg">
                 <h6>OM TRIPATHI</h6>
                 <p></p>
                 <hr>
                 <ul class="flex">
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-github"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-facebook"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-linkedin"></i></a><li>
+                  <li><a class="waves-effect waves-light btn social grey" href="https://github.com/omtripathi786" target="blank"><i class="fab fa-github"></i></a>
+                  <li>
                </ul>
               </div>
            </div>
@@ -278,14 +271,12 @@
           <div class="col s12 m6 13 center-align">
             <div class="card hovering">
               <div class="card-content">
-                <img class="circle" src="img/nimmo.jpg">
                 <h6>MADHURIMA CHAKRABORTY</h6>
                 <p></p>
                 <hr>
                 <ul class="flex">
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-github"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-facebook"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-linkedin"></i></a><li>
+                  <li><a class="waves-effect waves-light btn social grey" href="https://github.com/Nimmo1993" target="blank"><i class="fab fa-github"></i></a>
+                  <li> 
                </ul>
               </div>
            </div>
@@ -293,14 +284,12 @@
           <div class="col s12 m6 13 center-align">
             <div class="card hovering">
               <div class="card-content">
-                <img class="circle" src="img/shashank.jpg">
                 <h6>SHASHANK SHARMA</h6>
                 <p></p>
                 <hr>
                 <ul class="flex">
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-github"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-facebook"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-linkedin"></i></a><li>
+                  <li><a class="waves-effect waves-light btn social grey" href="https://github.com/shashank-sharma" target="blank"><i class="fab fa-github"></i></a>
+                  <li>
                 </ul>
               </div>
             </div>
@@ -308,14 +297,12 @@
           <div class="col s12 m6 13 center-align">
             <div class="card hovering">
               <div class="card-content">
-                <img class="circle" src="img/arindam.jpg">
                 <h6>ARINDAM RAY</h6>
                 <p></p>
                 <hr>
                 <ul class="flex">
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-github"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-facebook"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-linkedin"></i></a><li>
+                  <li><a class="waves-effect waves-light btn social grey" href="https://github.com/rayarindam2111" target="blank"><i class="fab fa-github"></i></a>
+                  <li>
                 </ul>
               </div>
             </div>
@@ -327,14 +314,12 @@
              <div class="col s12 m6 13 center-align">
             <div class="card hovering">
               <div class="card-content">
-                <img class="circle" src="img/sahkal.jpg">
                 <h6>SAHKAL PODDAR</h6>
                 <p></p>
                 <hr>
                 <ul class="flex">
-                  <li><a class="waves-effect waves-light btn social grey" href="https://github.com/sahkal"><i class="fab fa-github"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="https://www.facebook.com/shakalplanet"><i class="fab fa-facebook"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="https://www.linkedin.com/in/sahkal-poddar/"><i class="fab fa-linkedin"></i></a><li>
+                  <li><a class="waves-effect waves-light btn social grey" href="https://github.com/sahkal" target="blank"><i class="fab fa-github"></i></a>
+                  <li>
                  </ul>
               </div>
            </div>
@@ -342,14 +327,12 @@
           <div class="col s12 m6 13 center-align">
             <div class="card hovering">
               <div class="card-content">
-                <img class="circle" src="img/aditya.jpeg">
-                <h6>ADITYA SINGH</h6>
+                <h6>ADITYA SHARMA</h6>
                 <p></p>
                 <hr>
                 <ul class="flex">
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-github"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-facebook"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-linkedin"></i></a><li>
+                  <li><a class="waves-effect waves-light btn social grey" href="https://github.com/Adi-github" target="blank"><i class="fab fa-github"></i></a>
+                  <li>
                 </ul>
               </div>
             </div>
@@ -357,14 +340,12 @@
           <div class="col s12 m6 13 center-align ">
             <div class="card hovering">
               <div class="card-content">
-                <img class="circle" src="img/deep.jpeg">
                 <h6>DEEP PUROHIT</h6>
                 <p></p>
                 <hr>
                 <ul class="flex">
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-github"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-facebook"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-linkedin"></i></a><li>
+                  <li><a class="waves-effect waves-light btn social grey" href="https://github.com/DeepPurohit" target="blank"><i class="fab fa-github"></i></a>
+                  <li>
                 </ul>
               </div>
             </div>
@@ -372,14 +353,12 @@
           <div class="col s12 m6 13 center-align">
             <div class="card hovering">
               <div class="card-content">
-                <img class="circle" src="img/souro.jpg">
-                <h6>SOURAJIT PAUL</h6>
+               <h6>SOURAJIT PAUL</h6>
                 <p></p>
                 <hr>
                 <ul class="flex">
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-github"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-facebook"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-linkedin"></i></a><li>
+                  <li><a class="waves-effect waves-light btn social grey" href="https://github.com/souro18" target="blank"><i class="fab fa-github"></i></a>
+                  <li>
                 </ul>
               </div>
             </div>
@@ -387,27 +366,24 @@
           <div class="col s12 m6 13 center-align">
             <div class="card hovering">
               <div class="card-content">
-                <img class="circle" src="img/rajrox.jpg">
                 <h6>ANEESH KUMAR SINGH </h6>
                 <p></p>
                 <hr>
                 <ul class="flex">
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-github"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-facebook"></i></a><li>
-                  <li><a class="waves-effect waves-light btn social grey" href="#"><i class="fab fa-linkedin"></i></a><li>
+                  <li><a class="waves-effect waves-light btn social grey" href="https://github.com/user501254" target="blank"><i class="fab fa-github"></i></a>
+                  <li>
                 </ul>
               </div>
             </div>
           </div>
-		</div>
+       </div>
           <h3 class="center-align text-decoration">SPECIAL THANKS TO!</h3>
           <hr>
           <div class="row">
           <div class="col s12 m6 13 center-align">
             <div class="card hovering">
               <div class="card-content">
-                
-                <h6>YASH SARTANPARA</h6>
+               <h6>SURYA PRAMOD </h6>
                 <p></p>
                 <hr>
               </div>
@@ -506,7 +482,25 @@
           <div class="col s12 m6 13 center-align">
             <div class="card hovering">
               <div class="card-content">
-                <h6>SURYA PRAMOD </h6>
+                <h6>YASH SARTANPARA </h6>
+                <p></p>
+                <hr>
+              </div>
+           </div>
+          </div>
+          <div class="col s12 m6 13 center-align">
+            <div class="card hovering">
+              <div class="card-content">
+                <h6>PRATIK GADHIYA </h6>
+                <p></p>
+                <hr>
+              </div>
+           </div>
+          </div>
+          <div class="col s12 m6 13 center-align">
+            <div class="card hovering">
+              <div class="card-content">
+                <h6>AARTI GURJAR</h6>
                 <p></p>
                 <hr>
               </div>
@@ -549,9 +543,9 @@
               </div>
             </div>
           </div>
-		<div class=" col s12 m12 center edit">
- 				<button data-target="modal1" class="btn modal-trigger center ">Credits</button>
- 		</div>
+          <div class=" col s12 m12 center edit">
+        <button data-target="modal1" class="btn modal-trigger center ">Credits</button>
+          </div>
           <hr/>
           <div class="footer-copyright">
             <div class="container center">
@@ -560,6 +554,10 @@
           </div>
         </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
     <script src="./js/init.js"></script>
     <!-- <script src="js/formanimate.js"></script> -->

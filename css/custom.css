@@ -5,7 +5,19 @@ body{
 #logo{
     padding-left: 20px;
 }
+#logo:hover {
+    color: rgb(0, 255, 255);
+    transition: ease-in-out;
+    transition-delay: initial;
+    transition-duration: 0.3s;
+}
 
+#nav-links:hover {
+    color: rgb(0, 255, 255);
+}
+#copyRight:hover {
+    color: rgb(0, 255, 255);
+}
 #start {
     opacity: 0.7;
 }

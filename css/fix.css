@@ -141,3 +141,27 @@ html,body
      margin-left: -170px;
      
  }
+
+ .wiww
+ {
+    background-image: url("../img/phone.png");
+    background-repeat: no-repeat;
+    height:450px;
+    background-position: 163px center;
+    width: 500px;
+ }
+
+ .wiww img
+ {
+     width:170px;
+     height: 300px;
+     margin-top:73px;
+     margin-left: 169px;
+     
+ }
+
+ .tr,.vb
+ {
+     font-size: 20px;
+     font-family: 'Roboto Slab',serif;
+ }

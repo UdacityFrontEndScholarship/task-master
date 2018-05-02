@@ -22,6 +22,7 @@ $(window).resize(function(){
    $('.tr').removeClass('wc');
    $('.tp').removeClass('wi');
    $('.tp').addClass('wiw');
+   $('#whytab').hide();
 
   }
  });
@@ -36,5 +37,18 @@ $(window).resize(function(){
 
   }
  });
+
+
  
+ $(window).resize(function(){
+  if($(window).width()==1024){
+   $('.tp').removeClass('wiw');
+   $('.tp').removeClass('wi');
+   
+   $('.tp').addClass('wiww');
+   $('.tr').addClass('wc');
+
+
+  }
+ });
  

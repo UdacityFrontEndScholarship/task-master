@@ -41,26 +41,127 @@ html,body
 .wq iframe
 {
     height:200px;
-    margin-left: -59px;
+   
     margin-bottom: 10px;
-    width:483px;
+    width:100%;
 }
 
 .qw
 {
-    background-image: url("../img/qwe.jpg");
+    background-image: url("../img/qwa.jpg");
     background-repeat: no-repeat;
-    height:300px;
-        
-        background-position: center center;
-        
-
+    height:350px;
+    background-position: center center; 
 }
  .qw iframe
  {
-     margin-left: 1px;
-     margin-top: 15px;
-     height: 280px;
+     margin-left: -0.15em;
+     margin-top: 61px;
+     height: 215px;
      position: relative;
      width:383px;
+     transform: scaleY(1.37) scaleX(1.23);
+ }
+
+ #th
+ {
+     text-align: center; 
+ }
+
+ #th button
+ {
+     margin-bottom: 55px;
+ }
+
+ #ff
+ {  position: fixed;
+     bottom: 0;
+     width: 100%;
+     
+ }
+
+#tb/*,.se,body*/
+ {
+    background-color: #e1e1e1;
+ }
+
+ .hb
+ {
+     margin-right: 40px;
+ }
+
+ .nm
+ {
+     margin-right: -50px;
+ }
+
+ .wi
+ {
+    background-image: url("../img/phone.png");
+    background-repeat: no-repeat;
+    height:450px;
+    background-position: 230px 45px;
+ }
+
+ .wi img
+ {
+     width:170px;
+     height: 300px;
+     margin-top:95px;
+     margin-left: 193px;
+     
+ }
+
+ .wc h2
+ {
+     
+     margin-top: 110px;
+     margin-left: -80px;
+ }
+
+ .wc p
+ {
+     margin-left: -120px;
+ }
+
+ .wiw
+ {
+    background-image: url("../img/phone.png");
+    background-repeat: no-repeat;
+    height:450px;
+    background-position: 63px center;
+    width: 500px;
+ }
+
+ .wiw img
+ {
+     width:170px;
+     height: 300px;
+     margin-top:73px;
+     margin-left: -170px;
+     
+ }
+
+ .wiww
+ {
+    background-image: url("../img/phone.png");
+    background-repeat: no-repeat;
+    height:450px;
+    background-position: 163px center;
+    width: 500px;
+ }
+
+ .wiww img
+ {
+     width:170px;
+     height: 300px;
+     margin-top:73px;
+     margin-left: 169px;
+     
+ }
+
+ .tr,.vb
+ {
+     font-size: 20px;
+     font-family: 'Roboto Slab',serif;
  }

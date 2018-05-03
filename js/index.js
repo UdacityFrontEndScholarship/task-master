@@ -14,3 +14,41 @@ M.Slider.init(slider, {
   transition: 500,
   interval: 6000
 });
+
+
+
+$(window).resize(function(){
+  if($(window).width()<500){
+   $('.tr').removeClass('wc');
+   $('.tp').removeClass('wi');
+   $('.tp').addClass('wiw');
+   $('#whytab').hide();
+
+  }
+ });
+
+ $(window).resize(function(){
+  if($(window).width()>500){
+   $('.tp').removeClass('wiw');
+   
+   $('.tp').addClass('wi');
+   $('.tr').addClass('wc');
+
+
+  }
+ });
+
+
+ 
+ $(window).resize(function(){
+  if($(window).width()==1024){
+   $('.tp').removeClass('wiw');
+   $('.tp').removeClass('wi');
+   
+   $('.tp').addClass('wiww');
+   $('.tr').addClass('wc');
+
+
+  }
+ });
+ 

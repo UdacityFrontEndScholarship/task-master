@@ -20,3 +20,43 @@ span.badge{
 h5{
 	margin: 0;
 }
+/*Profile card style code*/
+
+.user-photo {
+	width: 80%;
+	max-width: 400px;
+	padding: 20px;
+  }
+  
+  .user-name {
+	font-size: 26px;
+	font-weight: bold;
+  }
+  
+  .user-info {
+	font-size: 18px;
+  }
+  
+  .add-task-title {
+	  font-size: 24px;
+	  font-weight: bold;
+	  padding: 10px;
+  }
+  .left-space {
+	  margin-left: 10px;
+  }
+  #fileupload-example-5 {
+	position: relative;
+	overflow: hidden;
+	left: 35px;
+  }
+  
+  #fileupload-example-5 input {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0.001;
+	}
+	

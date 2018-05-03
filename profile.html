@@ -191,9 +191,46 @@
             </div>
             <div class="col s12 m12 l8 xl8">
                 <div class="card hoverable">
+                        <div class="row">
+                                <div class="col s4 picture-div">
+                                  <div class="profile-card">
+                                    <div class="profile-photo">
+                                      <img class="user-photo" src="img/profile-photo.png" alt="">
+                                    </div>
+                                    <div class="container file-upload">
+                                      <button id="fileupload-example-5">
+                                        <input type="file">
+                                        <span>Choose</span>
+                                      </button>
+                                    </div>
+                    
+                                  </div>
+                                </div>
+                                <div class="col s8">
+                                  <div class="user-name-div">
+                                    <h2 class="user-name">
+                                      <i class="material-icons">account_circle</i>
+                                      <span class="left-space">John Doe</span>
+                                    </h2>
+                                    <h6 class="user-info">
+                                      <i class="material-icons">school</i>
+                                      <span class="left-space">Student</span>
+                                    </h6>
+                                    <h6 class="user-info">
+                                      <i class="material-icons">date_range</i>
+                                      <span class="left-space">Task Pending: 4</span>
+                                    </h6>
+                    
+                                  </div>
+                                </div>
+                              </div>
                     <div class="card-content white">
                         <div class="row">
                             <form class="col s12">
+                                    <div class="row left-align add-task-title">
+                                            <span class="left-space">Add New Task</span>
+                                            <i class="material-icons left-space">alarm_add</i>
+                                          </div>
                                 <div class="row">
                                     <div class="input-field col s12">
                                         <input type="text" name="task-title">
@@ -224,9 +261,21 @@
                                 </div>
                             </form>
                             <div class="col s12">
-                                <i class="material-icons small">date_range</i>
-                                <i class="material-icons small">add_alarm</i>
-                                <i class="material-icons small">attachment</i>
+                                    <div class="input-field col s12 m6 l6 xl6">
+                                            <input type="date" name="">
+                                            <label for="">Deadline Date</label>
+                                          </div>
+                                          <div class="input-field col s12 m6 l6 xl6">
+                                            <input type="time" name="">
+                                            <label for="">Alarm time</label>
+                                          </div>
+                                          <div class="input-field col s12 m6 l6 xl6">
+                                            <span><label for="attachments[]" >Attachments</label></span>
+                                            <input type="file" multiple name="attachments[]">
+                                         </div>
+                                <!-- <i class="material-icons small">date_range</i>
+                                <i class="material-icons small">add_alarm</i> -->
+                                <!-- <i class="material-icons small">attachment</i> -->
                                 <button class="btn waves-effect waves-light right" type="submit" name="action">Submit
                                     <i class="material-icons right">send</i>
                                 </button>

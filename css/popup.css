@@ -1,0 +1,45 @@
+
+.modal { 
+	max-height: 90% !important ; 
+	width: 90% !important ; 
+	opacity: .9 !important;
+	background-color: grey;
+
+}
+
+.hovering{
+	color: black;
+	transition: 0.5s;
+	background:#eee;
+	margin:15px;
+	}
+.hovering:hover{
+	color: teal;
+}
+.hovering:hover{
+	transform: scale(1.03);
+	background:#fff;
+}
+.edit{
+	margin-bottom: 20px;
+}
+h6{
+	font-weight: 500;
+}
+.flex{
+	
+	position: relative;
+	display: inline-flex;
+
+}
+
+.coloring{
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+
+.text-decoration{
+	color: #424242;
+	font-weight: 500;
+}

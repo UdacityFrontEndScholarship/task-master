@@ -1,19 +1,10 @@
 
 /* form css */
-.contact{
-  padding-top: 20px;
-  padding: 50px 0 80px;
-  text-align: center;
-  background-color: black;
+h1{
+  font-size: 90px;
 }
-.contact p{
-  padding-bottom: 80px;
-  color: #737373;
-}
-.contact h2{
-  color: white;
-  margin: 20px 0 20px
-}
+
+
 
 .contact span{
   border-radius: 0 !important;
@@ -27,26 +18,20 @@
   background-color: #00e676 !important;
   color: #fff;
 }
-.contact .btn:hover{
-  background-color: teal !important;
-  color: #fff !important;
-}
-.fa-user,.fa-phone{
-  font-size:50px;
-  margin: 7px;
-  color: red;
-}
-.fa-envelope-square{
-  font-size:50px;
-  margin: 4px;
-}
-#first_name,#email_address,#phone_number,#area{
-  background-color: white;
-}
+
 
 #area{
   /*margin-top: 80px;*/
 }
-i.icon-white {
-    color: white;
+
+.round{
+  border-radius: 10px;
+}
+form{
+  margin:auto;
+}
+
+.card-panel{
+  margin-bottom: 50px;
+  box-shadow: 1px 2px 2px #888888;
 }

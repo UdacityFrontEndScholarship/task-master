@@ -32,12 +32,16 @@
 <a href="https://udacityfrontendscholarship.github.io/task-master/signup.html"><b>Signup Page</b></a>
 <br>
 <a href="https://udacityfrontendscholarship.github.io/task-master/profile.html"><b>User Dashboard</b></a>
+<br>
+<a href="https://udacityfrontendscholarship.github.io/task-master/thankyou.html"><b>ThankYou Page</b></a>
 
 # <a name="2" href="#2"> Current Status </a>
-- HomePage,Login, Signup Page is Designed . (Thanks to collective effort) Whatever bug remains will be squashed later.
+- Home Page, Login Page, Signup Page, Profile Page has been designed (Thanks to collective effort)
+<br>
+Whatever bugs remain will be squashed later but for now I encourage everyone to test out all the features of the front-end if its working properly or not! You can open issues related to the technical bugs or errors in a code or factors about responsiveness but don't suggest any improvement as the design decision is final & we won't encourage any further changes!
 
 # <a name="3" href="#3"> Next Up </a>
-- User Account Page/Dashboard(Shashank Working on it) 
+- Back-End Implementation & Deployment
 
 # <a name="4" href="#4"> What you can do? </a>
 - Fork this repo, understand the code. Whatever work has to be done, you can find it in the issues tab. If you want to work on something by you own, raise an issue, WAIT FOR COLLABORATORS to APPROVE it, then go ahead with you code. 

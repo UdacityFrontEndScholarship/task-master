@@ -52,3 +52,8 @@ $(window).resize(function(){
   }
  });
  
+ $(".ba").click(function() {
+  $('html,body').animate({
+      scrollTop: $("#csd").offset().top},
+      'slow');
+});

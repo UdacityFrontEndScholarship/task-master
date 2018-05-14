@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+      font-family: 'Raleway',san-serif;
+      background: url(../img/formbg.jpg) no-repeat center fixed;
+      background-size: cover;
+}
+html
+{
+    overflow: hidden;
+}
+.right{
+    margin-right: 20px;
+}
+
+.flex-container {
+  min-height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .flex-container {
+    min-height: calc(100vh - 56px);
+  }
+}
+
+.login-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px 0 2px;
+}
+
+#box {
+  max-width: 400px;
+  width: 90vw;
+  margin: 0 auto;
+  opacity: 0.95;
+}
+
+#form-block {
+    display: inline-block;
+    padding: 32px 10px 0px 10px;
+    border: 1px solid #eee;
+    margin-top: 1em;
+    box-shadow: 0em 0em 3em black;
+    transition-property: box-shadow;
+    transition-duration: 1s;
+}
+
+#form-block:hover {
+    box-shadow: 0em 0em 1em black;
+}
+
+h5 {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+
+input {
+    outline: none;
+}
+
+.choice {
+    margin: 0.5em;
+    font-size: 1.2em;
+}
+
+button {
+    margin: 1em;
+}
+
+span > * {
+    display: inline-block;
+}
+
+span a {
+    color: white;
+}
+
+a:hover {
+    font-weight: 900;
+}
+
+footer {
+    width: 100%;
+    font-weight: 900;
+    padding-bottom: 5px;
+    z-index: 1;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: teal;
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family-Lobster+two|Raleway');
+
+body{
+    font-family: 'Raleway',san-serif;
+    background: url(../img/formbg.jpg) no-repeat center fixed;
+    background-size: cover;
+    /*position: center;*/
+    z-index: 5;
+}
+
+.flex-container {
+  min-height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+input{
+    font-family: 'Raleway',san-serif;
+    font-weight: bold;
+    font-size: 20px !important;
+    /*text-align: center;*/
+}
+
+.material-icons{
+    position: relative;
+    /*top: 10px;*/
+}
+
+button{
+    font-family: 'Raleway',san-serif;
+    /*margin-left: 390px;*/
+}
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.input-field{
+    text-align: center;
+}
+
+.edit{
+    position: absolute;
+    /*top: 50%;*/
+    /*right: 50%;*/
+    /*transform: translate(50%,-50%);*/
+    max-width: 100%;
+}
+
+#box {
+    z-index: 20 !important;
+    opacity: 0.95;
+}
+
+form {
+    box-shadow: 0em 0em 3em black;
+    transition-property: box-shadow;
+    transition-duration: 1s;
+}
+
+form:hover {
+    box-shadow: 0em 0em 1em black;
+}
+
+footer {
+    width: 100%;
+    padding-bottom: 5px;
+    font-weight: 900;
+    font-weight: 900;
+    z-index: 1;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: teal;
+}
+
+.input-field{
+  margin-bottom: 0 !important;
+}

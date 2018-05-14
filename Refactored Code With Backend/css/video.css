@@ -1,0 +1,42 @@
+
+#if
+{
+  width: 487px;
+  height: 275px;
+}
+
+#play
+{
+  width: 100px;
+}
+
+#slideshow
+{
+  margin-bottom: -8px;
+}
+
+.test h5
+{
+ font-size: 35px;
+}
+
+#intro h2
+{
+  padding-top: 25px;
+}
+
+#whytab
+{
+  width: 100%;
+}
+
+#tab1,#tab2,#tab3
+{
+  width: 33%;
+  float: left;
+}
+
+@media all and (max-width: 700px)
+{
+  #if{width: 100%;}
+}

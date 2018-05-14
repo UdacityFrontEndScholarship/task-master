@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--webapp title-->
+    <title>TaskMaster</title>
+    <!--meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--remote stylesheets linkage-->
+    <!-- for icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <!--additional stylesheets-->
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link href="./css/init.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="css/form.css"> -->
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
+</head>
+
+<body><!--onload="loader()"class="blur">-->
+  <!-- Loading screen edited on @Aditya Sharma -->
+  <!--<div id="loader"></div>-->
+
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+
+    <!--header -->
+    <div class="navbar-fixed">
+      <nav class="black">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo" id="logo">TASKMASTER</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+              <ul class="right hide-on-med-and-down">
+                  <li><a href="index.html">HOME</a></li>
+              </ul>
+            </a>
+          </div>
+      </nav>
+    </div>
+    <ul class="sidenav grey darken-2" id="mobile-nav">
+      <li><a class="white-text" href="index.html">HOME</a></li>
+    </ul>
+
+    <div class="flex-container">
+
+      <!-- registration form -->
+      <section class="row signup-section">
+        <div class="col offset-s1 s10 offset-m2 m8 offset-l3 l6">
+          <div class="row" id="box">
+            <div class="col s12">
+              <form class="col s12 z-depth-5 white lighten-5">
+                <div class="row ">
+                  <div class="input-field col s12 m6 l6 xl6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input type="text" id="firstname" class="black-text validate">
+                    <label class="active"  for="firstname">First Name</label>
+                  </div>
+                  <div class="input-field col s12 m6 l6 xl6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input type="text" id="lastname" class="black-text validate">
+                    <label class="active" for="lastname">Last Name</label>
+                  </div>
+                  <div class="input-field col s12 m6 l6 xl6">
+                    <i class="material-icons prefix">email</i>
+                    <input type="email" id="email" class="black-text validate">
+                    <label class="active" for="email">Email</label>
+                  </div>
+                  <div class="input-field col s12 m6 l6 xl6">
+                    <i class="material-icons prefix">person</i>
+                    <input type="text" id="username" class="black-text  validate">
+                    <label class="active" for="username">User Name</label>
+                  </div>
+                  <div class="input-field col s12 m6 l6 xl6">
+                    <i class="material-icons prefix">lock</i>
+                    <input type="password" id="password" class="black-text validate">
+                    <label class="active" for="password">Password</label>
+                    </div>
+                  <div class="input-field col s12 m6 l6 x16">
+                    <i class="material-icons prefix">lock</i>
+                    <input type="password" class="black-text  validate">
+                    <label class="active">Confirm Password</label>
+                  </div>
+                </div>
+                <div class="row ">
+                  <div class="col s16 m12 20 x16 ">
+                    <button class="btn grey darken-3 z-depth-5 center col s12 waves-effect waves-light" id="color">Sign Up</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--- footer-->
+      <footer>
+        <hr style="font-weight: 800">
+        <div class="footer-copyright">
+          <div class="container center grey-darken-4-text">
+          Copyright © 2018 TaskMaster
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    <!-- End flex-container -->
+
+    <!--scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
+    <script src="./js/init.js"></script>
+    <script src="js/slider.js"></script>
+    <!-- <script src="js/formanimate.js"></script> -->
+    <script src="js/wow.min.js"></script>
+    <!-- custom script edited on 12th April,18(@DeepPurohit) -->
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <!-- stats.js -->
+    <script src="js/lib/stats.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+</html>

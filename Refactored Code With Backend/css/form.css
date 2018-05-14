@@ -1,0 +1,37 @@
+
+/* form css */
+h1{
+  font-size: 90px;
+}
+
+
+
+.contact span{
+  border-radius: 0 !important;
+}
+
+.contact .btn{
+
+  border-radius: 0;
+  width: 100%;
+  font-size: 15px;
+  background-color: #00e676 !important;
+  color: #fff;
+}
+
+
+#area{
+  /*margin-top: 80px;*/
+}
+
+.round{
+  border-radius: 10px;
+}
+form{
+  margin:auto;
+}
+
+.card-panel{
+  margin-bottom: 50px;
+  box-shadow: 1px 2px 2px #888888;
+}

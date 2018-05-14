@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/profile.css">
+</head>
+<body>
+    <div class="navbar-fixed">
+      <nav class="black">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo" id="logo">TASKMASTER</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+              <ul class="right hide-on-med-and-down">
+                  <li><a href="index.html">HOME</a></li>
+              </ul>
+            </a>
+          </div>
+      </nav>
+    </div>
+    <ul class="sidenav grey darken-2" id="mobile-nav">
+      <li><a class="white-text" href="index.html">HOME</a></li>
+    </ul>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col s12 m12 l4 xl4 white ligthen-4"> 
+                    <p class="center upcoming-tasks">Upcoming tasks</p>
+                <div class="row side-nav fixed" id="scroll">
+                    <div id="modal2" class="modal">
+                            <div class="modal-content">
+                              <a class="right"><i class="material-icons teal-text icon modal-close">close</i></a>
+                              <h5>Edit Task</h5>
+                              <div class="container-fluid">
+                                <form>
+                                    <div class="row">
+                                        <div class="input-field col s12 m12 l12 xl12">
+                                          <input id="institute" type="text" class="validate">
+                                          <label for="institute">Title</label>
+                                        </div>
+                                        <div class="input-field col s12 m12 l12 xl12">
+                                          <textarea id="description" class="materialize-textarea"></textarea>
+                                          <label for="description">Description</label>
+                                        </div>
+                                        
+                                        <div class="input-field col s12 m6 l6 xl6">
+                                        <select>
+                                          <option value="" disabled selected>Choose your option</option>
+                                          <option value="1">HIGH</option>
+                                          <option value="2">MODERATE</option>
+                                          <option value="3">LOW</option>
+                                        </select>
+                                        <label>Task Priority</label>
+                                        </div>
+                                        <div class="input-field col s12 m6 l6 xl6">
+                                        <select>
+                                          <option value="" disabled selected>Choose your option</option>
+                                          <option value="1">Daily</option>
+                                          <option value="2">Weekly</option>
+                                          <option value="3">Monthly</option>
+                                        </select>
+                                        <label>Alarm Type</label>
+                                        </div>
+                                        <div class="input-field col s12 m6 l6 xl6">
+                                          <input type="date" name="">
+                                          <label for="">Deadline Date</label>
+                                        </div>
+                                        <div class="input-field col s12 m6 l6 xl6">
+                                          <input type="time" name="">
+                                          <label for="">Alarm time</label>
+                                        </div>
+                                    </div>
+                                    <div class="row center-align">
+                                        <button class="btn modal-close teal">Add<i class="material-icons right modal-close">send</i></button>
+                                    </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                    <div class="col s12">
+                    
+                    <div class="card">
+                        <div class="card-content grey darken-3">
+                            <a class="right"><i class="material-icons teal-text icon">close</i></a>
+                            <a href="#modal2" class="modal-trigger right"><i class="material-icons teal-text icon">create</i></a>
+                            
+                            <h6 class="card-title white-text">Title1</h6>
+                            <p class="white-text">Description about task</p>
+                        </div>
+                        <div class="card-action">
+                        <div class="row">
+                          <span class="new badge left" data-badge-caption="">11.08.2018</span>
+                          <span class="new badge left" data-badge-caption="">7:30AM</span>
+                          <span class="new badge left grey darken-3" data-badge-caption="">HIGH</span>
+                          <span class="new badge left" data-badge-caption="">Daily</span>
+                          <span class="left"><i class="material-icons small left teal-text icon">attachment</i></span>
+                          </div>
+                          <div class="row center">
+                            <div class="switch right">
+                                <label>Pending<input type="checkbox"><span class="lever"></span>Done</label>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col s12">
+                    
+                    <div class="card">
+                        <div class="card-content grey">
+                            <a class="right"><i class="material-icons teal-text icon">close</i></a>
+                            <a href="#modal2" class="modal-trigger right"><i class="material-icons teal-text icon">create</i></a>
+                            
+                            <h6 class="card-title">Title 2</h6>
+                            <p>Description about task</p>
+                        </div>
+                        <div class="card-action">
+                        <div class="row">
+                          <span class="new badge left" data-badge-caption="">11.08.2018</span>
+                          <span class="new badge left" data-badge-caption="">7:30AM</span>
+                          <span class="new badge left grey" data-badge-caption="">MEDIUM</span>
+                          <span class="new badge left" data-badge-caption="">Daily</span>
+                          <span class="left"><i class="material-icons small left teal-text icon">attachment</i></span>
+                          </div>
+                          <div class="row center">
+                            <div class="switch right">
+                                <label>Pending<input type="checkbox" checked><span class="lever"></span>Done</label>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col s12">
+                    
+                    <div class="card">
+                        <div class="card-content grey lighten-3">
+                            <a class="right"><i class="material-icons teal-text icon">close</i></a>
+                            <a href="#modal2" class="modal-trigger right"><i class="material-icons teal-text icon">create</i></a>
+                            
+                            <h6 class="card-title">Title 3</h6>
+                            <p>Description about task</p>
+                        </div>
+                        <div class="card-action">
+                        <div class="row">
+                          <span class="new badge left" data-badge-caption="">28.01.2019</span>
+                          <span class="new badge left" data-badge-caption="">2:10AM</span>
+                          <span class="new badge left grey lighten-2" data-badge-caption="">LOW</span>
+                          <span class="new badge left" data-badge-caption="">Monthly</span>
+                          <span class="left"><i class="material-icons small left teal-text icon">attachment</i></span>
+                          </div>
+                          <div class="row center">
+                            <div class="switch right">
+                                <label>Pending<input type="checkbox" checked><span class="lever"></span>Done</label>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col s12">
+                    
+                    <div class="card">
+                        <div class="card-content grey lighten-3">
+                            <a class="right"><i class="material-icons teal-text icon">close</i></a>
+                            <a href="#modal2" class="modal-trigger right"><i class="material-icons teal-text icon">create</i></a>
+                            
+                            <h6 class="card-title">Title 4</h6>
+                            <p>Description about task</p>
+                        </div>
+                        <div class="card-action">
+                        <div class="row">
+                          <span class="new badge left" data-badge-caption="">12.07.2018</span>
+                          <span class="new badge left" data-badge-caption="">9:30pM</span>
+                          <span class="new badge left grey lighten-2" data-badge-caption="">LOW</span>
+                          <span class="new badge left" data-badge-caption="">Weekly</span>
+                          <span class="left"><i class="material-icons small left teal-text icon">attachment</i></span>
+                          </div>
+                          <div class="row center">
+                            <div class="switch right">
+                                <label>Pending<input type="checkbox"><span class="lever"></span>Done</label>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    
+                    
+
+                </div>
+            </div>
+            <div class="col s12 m12 l8 xl8">
+                <div class="card hoverable">
+                        <div class="row">
+                                <div class="col s4 picture-div">
+                                  <div class="profile-card">
+                                    <div class="profile-photo">
+                                      <img class="user-photo" src="img/profile-photo.png" alt="">
+                                    </div>
+                                    <div class="container file-upload">
+                                      <button id="fileupload-example-5">
+                                        <input type="file">
+                                        <span>Choose</span>
+                                      </button>
+                                    </div>
+                    
+                                  </div>
+                                </div>
+                                <div class="col s8">
+                                  <div class="user-name-div">
+                                    <h2 class="user-name">
+                                      <i class="material-icons">account_circle</i>
+                                      <span class="left-space">John Doe</span>
+                                    </h2>
+                                    <h6 class="user-info">
+                                      <i class="material-icons">school</i>
+                                      <span class="left-space">Student</span>
+                                    </h6>
+                                    <h6 class="user-info">
+                                      <i class="material-icons">date_range</i>
+                                      <span class="left-space">Task Pending: 4</span>
+                                    </h6>
+                    
+                                  </div>
+                                </div>
+                              </div>
+                    <div class="card-content white">
+                        <div class="row">
+                            <form class="col s12">
+                                    <div class="row left-align add-task-title">
+                                            <span class="left-space">Add New Task</span>
+                                            <i class="material-icons left-space">alarm_add</i>
+                                          </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input type="text" name="task-title">
+                                        <label for="task-title">Task Title</label>
+                                    </div>
+                                    <div class="input-field col s12">
+                                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                        <label for="textarea1">Task Description</label>
+                                    </div>
+                                    <div class="input-field col s12 m6 l6 xl6">
+                                        <select>
+                                          <option value="" disabled selected>Choose your option</option>
+                                          <option value="1">HIGH</option>
+                                          <option value="2">MODERATE</option>
+                                          <option value="3">LOW</option>
+                                        </select>
+                                        <label>Task Priority</label>
+                                    </div>
+                                    <div class="input-field col s12 m6 l6 xl6">
+                                        <select>
+                                          <option value="" disabled selected>Choose your option</option>
+                                          <option value="1">Daily</option>
+                                          <option value="2">Weekly</option>
+                                          <option value="3">Monthly</option>
+                                        </select>
+                                        <label>Alarm Type</label>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="col s12">
+                                    <div class="input-field col s12 m6 l6 xl6">
+                                            <input type="date" name="">
+                                            <label for="">Deadline Date</label>
+                                          </div>
+                                          <div class="input-field col s12 m6 l6 xl6">
+                                            <input type="time" name="">
+                                            <label for="">Alarm time</label>
+                                          </div>
+                                          <div class="input-field col s12 m6 l6 xl6">
+                                            <span><label for="attachments[]" >Attachments</label></span>
+                                            <input type="file" multiple name="attachments[]">
+                                         </div>
+                                <!-- <i class="material-icons small">date_range</i>
+                                <i class="material-icons small">add_alarm</i> -->
+                                <!-- <i class="material-icons small">attachment</i> -->
+                                <button class="btn waves-effect waves-light right" type="submit" name="action">Submit
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="js/profile.js"></script>
+</body>
+</html>

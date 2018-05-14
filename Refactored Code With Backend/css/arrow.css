@@ -1,0 +1,33 @@
+
+
+.test,#slideshow
+{
+    z-index: -1;
+}
+
+
+@keyframes anin {
+    0% {
+
+        transform: translatey(5px);
+    }
+    50% {
+
+        transform: translatey(-20px);
+    }
+    100% {
+
+        transform: translatey(5px);
+    }
+}
+
+.arrow img
+{
+    margin-bottom: 50px;
+}
+.arrow {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    animation: anin 6s ease-in-out infinite;
+    }

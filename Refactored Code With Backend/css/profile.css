@@ -1,0 +1,72 @@
+.row{
+	margin-bottom: 0px;
+}
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.card .card-content {
+	padding: 15px;
+}
+.card .card-action {
+	padding: 15px;
+}
+span.badge{
+	margin-left: 6px;
+}
+.icon{
+	padding-left: 5px;
+}
+h5{
+	margin: 0;
+}
+
+
+.profile_pic{
+	width: 200px;
+	height: 200px;
+	border-radius: 400px;
+	margin-left: 20px;
+}
+
+.user-name {
+font-size: 26px;
+font-weight: bold;
+}
+
+.user-info {
+font-size: 18px;
+}
+
+.add-task-title {
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px;
+}
+.left-space {
+	margin-left: 10px;
+}
+#fileupload-example-5 {
+position: relative;
+overflow: hidden;
+left: 35px;
+}
+
+#fileupload-example-5 input {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+opacity: 0.001;
+}
+
+#scroll{
+overflow-y: auto;
+max-height: 650px;
+}
+
+.upcoming-tasks{
+	font-size: 16px;
+	text-transform: uppercase;
+}

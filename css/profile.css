@@ -21,10 +21,12 @@ h5{
 	margin: 0;
 }
 
-.user-photo {
-width: 80%;
-max-width: 400px;
-padding: 20px;
+
+.profile_pic{
+	width: 200px;
+	height: 200px;
+	border-radius: 400px;
+	margin-left: 20px;
 }
 
 .user-name {
